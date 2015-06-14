@@ -1,0 +1,44 @@
+body{width:1200px; margin: 0 auto; background:#F6F6F6; padding: 0} /*设置body总样式，宽度1200px，边距自适应*/
+a,p,div,input{font-family: 微软雅黑; font-size: 13px; text-align: center; text-decoration:none; color: #333333;}
+/*默认微软雅黑，浅黑色，13号字体，居中, 去掉下划线*/
+ul{list-style-type: none; line-height: 25px; width: 145px; margin: 0px; padding: 0px;}
+li{float: left; padding-right: 10px;}
+
+
+#header{height: 100px;} /*头部默认高度100*/
+.headline{height: 100px; width: 600px; float: left;} /*左边标题*/
+.headline_big{line-height: 72px; width: 270px; float: left; position: relative; top:14px;  text-align: right;}
+#header a{font-size: 72px; color: #86C349} /*设置标题链接字体大小*/
+.headline_small{line-height: 13px; width: 330px; float: right; position: relative; top:68px;}
+#header p{color: #86C349;}
+.control{height: 100px; width: 600px; float: right;} /*右边控制按钮*/
+.search{line-height: 40px; width: 410px; float: left; text-align: right;}
+input.text{width: 256px; height:25px; border: 0px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
+input.submit{position: relative; top:7px;}
+.login{line-height: 40px; width: 190px; float: right; color: #86C349; font-weight: bold;} /*设置粗体*/
+
+#topic{height: 100px;}
+.topic_name{line-height: 28px; width: 400px; font-size: 28px; font-weight: bold; position: relative; top: 36px; left: 400px;}
+.topic_time{line-height: 13px; width: 98px; font-size: 13px; position: relative; top: 25px; left: 820px;}
+
+#comment{height: 240px;}
+.pic{height: 240px; width: 420px; float: left;}
+.pic_rel{height: 200px; width: 200px; float: right; position: relative; right: 20px; top: 20px; background: red;}
+
+.introduce{height: 240px; width: 780px; float: left;}
+.dish_detail{height: 70px; width: 740px;}
+.dish_detail_name{line-height: 70px; width: 140px; float: left; text-align: left; font-size: 18px; color: #990000; font-weight: bold;}
+.dish_detail_info{height: 30px; width: 600px; float: left; position: relative; top: 30px;}
+.dish_detail_data{line-height: 15px; width: 90px; float: left; }
+.dish_detail_writer{line-height: 15px; width: 90px; float: left;}
+.dish_detail_good{height: 15px; width: 40px; float: left;}
+.dish_detail_good_icon{height: 15px; width: 15px; float: right; background: red;}
+.dish_detail_good_num{line-height: 15px; width: 10px; float: right;}
+.dish_detail_com{height: 15px; width: 40px; float: left;}
+.dish_detail_com_icon{height: 15px; width: 15px; float: right; background: yellow;}
+.dish_detail_com_num{line-height: 15px; width: 10px; float: right;}
+.dish_detail_col{height: 15px; width: 30px; float: left;}
+.dish_detail_col_icon{height: 15px; width: 15px; float: right; background: blue;}
+
+.dish_intro{height: 140px; width: 600px;}
+.dish_intro_p{height: 120px; width: 600px; text-align: left; font-size: 14px; color: #990000;}
