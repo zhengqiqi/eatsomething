@@ -1,0 +1,39 @@
+body{width:1200px; margin: 0 auto; background:#F6F6F6; padding: 0} /*设置body总样式，宽度1200px，边距自适应*/
+a,p,div,input{font-family: 微软雅黑; font-size: 13px; text-align: center; text-decoration:none; color: #333333;}
+/*默认微软雅黑，浅黑色，13号字体，居中, 去掉下划线*/
+ul{list-style-type: none; line-height: 25px; width: 145px; margin: 0px; padding: 0px;}
+li{float: left; padding-right: 10px;}
+
+
+#header{height: 100px;} /*头部默认高度100*/
+.headline{height: 100px; width: 600px; float: left;} /*左边标题*/
+.headline_big{line-height: 72px; width: 270px; float: left; position: relative; top:14px;  text-align: right;}
+#header a{font-size: 72px; color: #86C349} /*设置标题链接字体大小*/
+.headline_small{line-height: 13px; width: 330px; float: right; position: relative; top:68px;}
+#header p{color: #86C349;}
+.control{height: 100px; width: 600px; float: right;} /*右边控制按钮*/
+.search{line-height: 40px; width: 410px; float: left; text-align: right;}
+input.text{width: 256px; height:25px; border: 0px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
+input.submit{position: relative; top:7px;}
+.login{line-height: 40px; width: 190px; float: right; color: #86C349; font-weight: bold;} /*设置粗体*/
+
+#content{height: 350px;}  /*中间默认高度350*/
+.subject{height: 350px; width: 570px; float: left;} /*中间专题左浮动*/
+.subject_con{height: 350px; width: 480px; position: relative; left:60px; background: yellow;}
+.top5{height: 350px; width: 630px; float: right;;} /*中间每周前五名右浮动*/
+.top5_con{height: 350px; width: 560px; background: blue;}
+
+#list_index{height: 215px;} /*下面列表默认高度215*/
+.list_rel{height: 215px; width: 20%; float: left;} /*每个方块高215，占20%*/
+.list1{height: 185px; width: 80%; margin:0 auto; background: #FFDC2C; border-radius: 26px; position: relative; top:29px;} 
+/*设置相对宽度80%，圆角26px，相对定位，相对父div下降29px*/
+.list2{height: 185px; width: 80%; margin:0 auto; background: #8CD2ED; border-radius: 26px; position: relative; top:29px;}
+.list3{height: 185px; width: 80%; margin:0 auto; background: #FBBFC3; border-radius: 26px; position: relative; top:29px;}
+.list4{height: 185px; width: 80%; margin:0 auto; background: #8CD2ED; border-radius: 26px; position: relative; top:29px;}
+.list5{height: 185px; width: 80%; margin:0 auto; background: #FFDC2C; border-radius: 26px; position: relative; top:29px;}
+.list_head{height: 27px; width: 185px; position: relative; top: 15px; font-size: 20px;}
+.list_con{height: 25px; width: 185px; position: relative; top:25px;}
+.point{height: 10px; width: 10px; background: white; border-radius: 5px; float: left; position: relative; left:20px; top: 7.5px;}
+.list_con_line{height: 25px; width: 145px; float: left; position: relative; left:25px;}
+#list_index a:hover{color: #990000; font-weight: bold;}
+#list_index a:active{color: #990000; font-weight: bold;}
