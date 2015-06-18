@@ -16,3 +16,5 @@ input{font-family: 微软雅黑; font-size: 13px; text-align: left;  border: 1px
 input.text{width: 256px; height:25px; border: 0px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
 input.submit{position: relative; top:7px;}
 .login{line-height: 40px; width: 190px; float: right; color: #86C349; font-weight: bold;} /*设置粗体*/
+.text{color: silver}
+.text_focus{color: #333333}
