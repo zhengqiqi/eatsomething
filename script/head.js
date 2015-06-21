@@ -10,19 +10,23 @@ var headHtml = '<div id="header">'+
                 '<input type="image" src="images/index_submit.png" class="submit search-btn"/>'+
             '</form>'+
         '</span>'+
-        '<span class="login">登录</span>'+
+        '<select name="select' class="login">+
+        '<option value="username">username</option>'+
+        '<option value="public">to public</option>'+
+        '<option value="collect">I collect</option>'+
+        '<option value="cailan">my cailan</option>'+
+        '<option value="publiced">I publiced</option>'+
+        '</select>'+
     '</div>'+
 '</div>';
 
 $('html body').prepend(headHtml);
 
-$('html body input.text').focus(function(){
-    $('.text').val('');
-    $('.text').addClass('text_focus');
-})
-$('html body input.text').blur(function(){
-    if (this.value==""){
-    $('.text').val('糖醋排骨');
-    $('.text').addClass('text');
+$('#header input.text').focus(function(){
+    $(this).addClass('text_focus').val('');
+}).blur(function(){
+    var $this = $(this);
+    if ($this.val() ==""){
+        $this.val('糖醋排骨').removeClass('text_focus');
     }
 })
