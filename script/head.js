@@ -1,6 +1,6 @@
 var headHtml = '<div id="header">'+
     '<div class="headline">'+
-        '<div class="headline_big"><a href="#">御膳房</a></div>'+
+        '<div class="headline_big"><a href="#" class="headline_big_a">御膳房</a></div>'+
         '<div class="headline_small"><p>下厨不是件容易的事，每道菜都有它的脾气。</p></div>'+
     '</div>'+
     '<div class="control">'+
@@ -10,13 +10,27 @@ var headHtml = '<div id="header">'+
                 '<input type="image" src="images/index_submit.png" class="submit search-btn"/>'+
             '</form>'+
         '</span>'+
-        '<select name="select' class="login">+
-        '<option value="username">username</option>'+
-        '<option value="public">to public</option>'+
-        '<option value="collect">I collect</option>'+
-        '<option value="cailan">my cailan</option>'+
-        '<option value="publiced">I publiced</option>'+
-        '</select>'+
+        '<div class="login">'+
+        '<ul>'+
+            '<li>'+
+                '<a href="#" class="login" id="username">username</a>'+
+                '<ul>'+
+                    '<li>'+
+                        '<a href="#" class="login_hide">public</a>'+
+                    '</li>'+
+                    '<li>'+
+                        '<a href="#" class="login_hide">collect</a>'+
+                    '</li>'+
+                    '<li>'+
+                        '<a href="#" class="login_hide">cailan</a>'+
+                    '</li>'+
+                    '<li>'+
+                        '<a href="#" class="login_hide">publiced</a>'+
+                    '</li>'+
+                '</ul>'+
+            '</li>'+
+        '</ul>'+
+       '</div>'+
     '</div>'+
 '</div>';
 
@@ -29,4 +43,15 @@ $('#header input.text').focus(function(){
     if ($this.val() ==""){
         $this.val('糖醋排骨').removeClass('text_focus');
     }
+})
+
+$('#username').ready(function(){
+    $('.login_hide').hide();
+})
+
+$('#username').mouseover(function(){
+    $('.login_hide').show();
+})
+$('#username').mouseleave(function(){
+    $('.login_hide').hide();
 })
