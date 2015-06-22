@@ -1,4 +1,4 @@
-body{width:1200px; margin: 0 auto; background:#F6F6F6; padding: 0} /*设置body总样式，宽度1200px，边距自适应*/
+body{width:1200px; margin: 0 auto; background: #F6F6F6; padding: 0} /*设置body总样式，宽度1200px，边距自适应*/
 a,p,div{font-family: 微软雅黑; font-size: 13px; text-align: center; text-decoration:none; color: #333333;}
 /*默认微软雅黑，浅黑色，13号字体，居中, 去掉下划线*/
 ul{list-style-type: none; width: 145px; margin: 0px; padding: 0px;}
@@ -15,7 +15,7 @@ input{font-family: 微软雅黑; font-size: 13px; text-align: left;  border: 1px
 .search{line-height: 40px; width: 410px; float: left; text-align: right;}
 input.text{width: 256px; height:25px; border: 0px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
 input.submit{position: relative; top:7px;}
-.login{line-height: 25px; width: 190px; float: right; color: #86C349; font-weight: bold; font-size: 12px;} /*设置粗体*/
-.login_hide{line-height: 25px; width: 190px; float: right; color: #86C349; font-weight: bold; font-size: 12px;} /*设置粗体*/
+.login{line-height: 40px; width: 80px; float: left; color: #86C349; font-weight: bold; font-size: 13px;} /*设置粗体*/
+.login_hide_e{line-height: 25px; width: 80px; float: right; color: #86C349; font-weight: normal; font-size: 13px; position: relative; background: #F6F6F6;} /*设置粗体*/
 .text{color: silver}
 .text_focus{color: #333333}

@@ -13,19 +13,19 @@ var headHtml = '<div id="header">'+
         '<div class="login">'+
         '<ul>'+
             '<li>'+
-                '<a href="#" class="login" id="username">username</a>'+
-                '<ul>'+
+                '<a href="#" class="login" id="username">用户名</a>'+
+                '<ul class="login_hide">'+
                     '<li>'+
-                        '<a href="#" class="login_hide">public</a>'+
+                        '<a href="#" class="login_hide_e">我要发布</a>'+
                     '</li>'+
                     '<li>'+
-                        '<a href="#" class="login_hide">collect</a>'+
+                        '<a href="#" class="login_hide_e">我收藏的</a>'+
                     '</li>'+
                     '<li>'+
-                        '<a href="#" class="login_hide">cailan</a>'+
+                        '<a href="#" class="login_hide_e">我的小菜篮</a>'+
                     '</li>'+
                     '<li>'+
-                        '<a href="#" class="login_hide">publiced</a>'+
+                        '<a href="#" class="login_hide_e">我发布的</a>'+
                     '</li>'+
                 '</ul>'+
             '</li>'+
@@ -47,11 +47,11 @@ $('#header input.text').focus(function(){
 
 $('#username').ready(function(){
     $('.login_hide').hide();
-})
-
-$('#username').mouseover(function(){
+}).mouseover(function(){
     $('.login_hide').show();
 })
-$('#username').mouseleave(function(){
+
+$('.login_hide').mouseleave(function(){
     $('.login_hide').hide();
 })
+
