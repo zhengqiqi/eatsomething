@@ -10,27 +10,30 @@ var headHtml = '<div id="header">'+
                 '<input type="image" src="images/index_submit.png" class="submit search-btn"/>'+
             '</form>'+
         '</span>'+
-        '<div class="login">'+
-        '<ul>'+
-            '<li>'+
-                '<a href="#" class="login" id="username">用户名</a>'+
-                '<ul class="login_hide">'+
-                    '<li>'+
-                        '<a href="#" class="login_hide_e">我要发布</a>'+
-                    '</li>'+
-                    '<li>'+
-                        '<a href="#" class="login_hide_e">我收藏的</a>'+
-                    '</li>'+
-                    '<li>'+
-                        '<a href="#" class="login_hide_e">我的小菜篮</a>'+
-                    '</li>'+
-                    '<li>'+
-                        '<a href="#" class="login_hide_e">我发布的</a>'+
-                    '</li>'+
-                '</ul>'+
-            '</li>'+
-        '</ul>'+
+        '<div id="login_h" class="login">'+
+            '<ul>'+
+                '<li>'+
+                    '<a href="#" class="login">用户名</a>'+
+                    '<ul>'+
+                        '<li>'+
+                            '<a href="#" class="login_hide hide">我要发布</a>'+
+                        '</li>'+
+                        '<li>'+
+                            '<a href="#" class="login_hide hide">我收藏的</a>'+
+                        '</li>'+
+                        '<li>'+
+                            '<a href="#" class="login_hide hide">我的小菜篮</a>'+
+                        '</li>'+
+                        '<li>'+
+                            '<a href="#" class="login_hide hide">我发布的</a>'+
+                        '</li>'+
+                    '</ul>'+
+                '</li>'+
+            '</ul>'+
        '</div>'+
+        '<div>'+
+            '<a href="#" class="login">退出</a>'+
+        '</div>'+
     '</div>'+
 '</div>';
 
@@ -45,13 +48,9 @@ $('#header input.text').focus(function(){
     }
 })
 
-$('#username').ready(function(){
-    $('.login_hide').hide();
-}).mouseover(function(){
-    $('.login_hide').show();
-})
-
-$('.login_hide').mouseleave(function(){
-    $('.login_hide').hide();
+$('#login_h').mouseover(function(){
+    $('#login_h a.login_hide').removeClass('hide');
+}).mouseleave(function(){
+    $('#login_h a.login_hide').addClass('hide');
 })
 

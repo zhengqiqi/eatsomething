@@ -4,6 +4,7 @@ a,p,div{font-family: 微软雅黑; font-size: 13px; text-align: center; text-dec
 ul{list-style-type: none; width: 145px; margin: 0px; padding: 0px;}
 li{float: left; padding-right: 10px;}
 input{font-family: 微软雅黑; font-size: 13px; text-align: left;  border: 1px solid #E4E4E4;} /*设置边框*/
+.hide{display: none;}
 
 #header{height: 100px;} /*头部默认高度100*/
 .headline{height: 100px; width: 600px; float: left;} /*左边标题*/
@@ -13,9 +14,9 @@ input{font-family: 微软雅黑; font-size: 13px; text-align: left;  border: 1px
 #header p{color: #86C349;}
 .control{height: 100px; width: 600px; float: right;} /*右边控制按钮*/
 .search{line-height: 40px; width: 410px; float: left; text-align: right;}
-input.text{width: 256px; height:25px; border: 0px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
+input.text{width: 256px; height:25px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
 input.submit{position: relative; top:7px;}
 .login{line-height: 40px; width: 80px; float: left; color: #86C349; font-weight: bold; font-size: 13px;} /*设置粗体*/
-.login_hide_e{line-height: 25px; width: 80px; float: right; color: #86C349; font-weight: normal; font-size: 13px; position: relative; background: #F6F6F6;} /*设置粗体*/
+.login_hide{line-height: 25px; width: 80px; float: right; color: #86C349; font-weight: normal; font-size: 13px; position: relative; background: #F6F6F6;} /*设置粗体*/
 .text{color: silver}
 .text_focus{color: #333333}
