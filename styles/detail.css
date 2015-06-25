@@ -13,7 +13,7 @@
 .dish_detail_good_num{line-height: 30px; width: 10px; float: right;}
 .dish_detail_good_icon{height: 30px; width: 30px; float: right;}
 .dish_detail_com{height: 30px; width: 60px; float: left;}
-.dish_detail_com_icon{height: 30px; width: 30px; float: right; background: yellow;}
+.dish_detail_com_icon{height: 30px; width: 30px; float: right;}
 .dish_detail_com_num{line-height: 30px; width: 10px; float: right;}
 .dish_detail_col{height: 30px; width: 50px; float: left;}
 .dish_detail_col_icon{height: 30px; width: 30px; float: right; background: blue;}
@@ -43,4 +43,16 @@
 }
 .dish_detail_good_icon_heart:after{
     right: 0px; top: -7px;
+}
+
+/*编写五角星icon*/
+.dish_detail_com_icon_five{
+    position: relative; height: 0px; width: 0px;
+    border-right: 15px solid transparent; border-bottom: 10.5px solid red; border-left: 15px solid transparent;
+    -moz-transform: rotate(35deg); -webkit-transform: rotate(35deg); -ms-transform: rotate(35deg); -o-transform: rotate(35deg);
+}
+.dish_detail_com_icon_five:before{
+    position: absolute; height: 0; width: 0; top: -
+    border-bottom: 12px solid red; border-left: 4.5px solid transparent; border-right: 4.5px solid transparent;
+
 }

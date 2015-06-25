@@ -14,20 +14,22 @@ var headHtml = '<div id="header">'+
             '<ul>'+
                 '<li>'+
                     '<a href="#" class="login">用户名</a>'+
-                    '<ul>'+
-                        '<li>'+
-                            '<a href="#" class="login_hide hide">我要发布</a>'+
-                        '</li>'+
-                        '<li>'+
-                            '<a href="#" class="login_hide hide">我收藏的</a>'+
-                        '</li>'+
-                        '<li>'+
-                            '<a href="#" class="login_hide hide">我的小菜篮</a>'+
-                        '</li>'+
-                        '<li>'+
-                            '<a href="#" class="login_hide hide">我发布的</a>'+
-                        '</li>'+
-                    '</ul>'+
+                    '<div id="hide" class="hide">'+
+                        '<ul>'+
+                            '<li>'+
+                                '<a href="#" class="login_hide">我要发布</a>'+
+                            '</li>'+
+                            '<li>'+
+                                '<a href="#" class="login_hide">我收藏的</a>'+
+                            '</li>'+
+                            '<li>'+
+                                '<a href="#" class="login_hide">我的小菜篮</a>'+
+                            '</li>'+
+                            '<li>'+
+                                '<a href="#" class="login_hide">我发布的</a>'+
+                            '</li>'+
+                        '</ul>'+
+                    '</div>'+
                 '</li>'+
             '</ul>'+
        '</div>'+
@@ -49,8 +51,8 @@ $('#header input.text').focus(function(){
 })
 
 $('#login_h').mouseover(function(){
-    $('#login_h a.login_hide').removeClass('hide');
+    $('#hide').removeClass('hide');
 }).mouseleave(function(){
-    $('#login_h a.login_hide').addClass('hide');
+    $('#hide').addClass('hide');
 })
 
