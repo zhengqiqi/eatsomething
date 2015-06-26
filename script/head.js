@@ -11,10 +11,11 @@ var headHtml = '<div id="header">'+
             '</form>'+
         '</span>'+
         '<div id="login_h" class="login">'+
-            '<ul>'+
-                '<li>'+
-                    '<a href="#" class="login">用户名</a>'+
-                    '<div id="hide" class="hide">'+
+            '<span>'+
+                    '<div>'+
+                        '<a href="#" class="login">用户名</a>'+
+                    '</div>'+
+                    '<div id="login_hide" class="hide">'+
                         '<ul>'+
                             '<li>'+
                                 '<a href="#" class="login_hide">我要发布</a>'+
@@ -30,8 +31,7 @@ var headHtml = '<div id="header">'+
                             '</li>'+
                         '</ul>'+
                     '</div>'+
-                '</li>'+
-            '</ul>'+
+            '</span>'+
        '</div>'+
         '<div>'+
             '<a href="#" class="login">退出</a>'+
@@ -51,8 +51,8 @@ $('#header input.text').focus(function(){
 })
 
 $('#login_h').mouseover(function(){
-    $('#hide').removeClass('hide');
+    $('#login_hide').removeClass('hide');
 }).mouseleave(function(){
-    $('#hide').addClass('hide');
+    $('#login_hide').addClass('hide');
 })
 
