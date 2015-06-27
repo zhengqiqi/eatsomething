@@ -1,6 +1,6 @@
 var headHtml = '<div id="header">'+
     '<div class="headline">'+
-        '<div class="headline_big"><a href="#" class="headline_big_a">御膳房</a></div>'+
+        '<div class="headline_big"><a href="#" class="headline_big_a">做吃的</a></div>'+
         '<div class="headline_small"><p>下厨不是件容易的事，每道菜都有它的脾气。</p></div>'+
     '</div>'+
     '<div class="control">'+
