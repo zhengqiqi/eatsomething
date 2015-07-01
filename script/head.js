@@ -10,32 +10,32 @@ var headHtml = '<div id="header">'+
                 '<input type="image" src="images/index_submit.png" class="submit search-btn"/>'+
             '</form>'+
         '</span>'+
-        '<div id="login_h" class="login">'+
-            '<span>'+
-                    '<div>'+
-                        '<a href="#" class="login">用户名</a>'+
-                    '</div>'+
-                    '<div id="login_hide" class="hide">'+
-                        '<ul>'+
-                            '<li>'+
-                                '<a href="#" class="login_hide">我要发布</a>'+
-                            '</li>'+
-                            '<li>'+
-                                '<a href="#" class="login_hide">我收藏的</a>'+
-                            '</li>'+
-                            '<li>'+
-                                '<a href="#" class="login_hide">我的小菜篮</a>'+
-                            '</li>'+
-                            '<li>'+
-                                '<a href="#" class="login_hide">我发布的</a>'+
-                            '</li>'+
-                        '</ul>'+
-                    '</div>'+
-            '</span>'+
-       '</div>'+
-        '<div>'+
-            '<a href="#" class="login">退出</a>'+
-        '</div>'+
+                '<div id="login_h" class="login">'+
+                    '<span>'+
+                        '<div>'+
+                            '<a href="#" class="login">用户名</a>'+
+                        '</div>'+
+                        '<div id="login_hide" class="hide">'+
+                            '<ul>'+
+                                '<li>'+
+                                    '<a href="#" class="login_hide">我要发布</a>'+
+                                '</li>'+
+                                '<li>'+
+                                    '<a href="#" class="login_hide">我收藏的</a>'+
+                                '</li>'+
+                                '<li>'+
+                                    '<a href="#" class="login_hide">我的小菜篮</a>'+
+                                '</li>'+
+                                '<li>'+
+                                    '<a href="#" class="login_hide">我发布的</a>'+
+                                '</li>'+
+                            '</ul>'+
+                        '</div>'+
+                '</span>'+
+           '</div>'+
+            '<div>'+
+                '<a href="#" class="login login_out">退出</a>'+
+            '</div>'+
     '</div>'+
 '</div>';
 
