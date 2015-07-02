@@ -1,7 +1,7 @@
 #content{height: 350px;}  /*中间默认高度350*/
 .subject{height: 350px; width: 570px; float: left;} /*中间专题左浮动*/
 .subject_con{height: 350px; width: 480px; position: relative; left:60px; background: yellow;}
-.top5{height: 350px; width: 630px; float: right; position: relative;} /*中间每周前五名右浮动*/
+.top5{height: 350px; width: 630px; float: right;} /*中间每周前五名右浮动*/
 .top5_con{height: 350px; width: 560px; }
 .top5_p{line-height: 22px; width: 200px; position: absolute; top: 20px; left: 50px; font-size: 20px; font-weight: bold; color:white;}
 .top5_name{line-height: 22px; width: 200px; position: absolute; bottom: 30px; right: 40px; font-size: 16px; color:white;}
