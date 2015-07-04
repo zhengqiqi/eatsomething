@@ -6,6 +6,7 @@ li{float: left; padding-right: 10px;}
 input{font-family: 微软雅黑; font-size: 13px; text-align: left;  border: 1px solid #E4E4E4;} /*设置边框*/
 .hide{display: none;}
 
+/*头部*/
 #header{height: 100px;} /*头部默认高度100*/
 .headline{height: 100px; width: 600px; float: left;} /*左边标题*/
 .headline_big{line-height: 72px; width: 270px; float: left; position: relative; top:14px;  text-align: right;}
@@ -16,8 +17,45 @@ input{font-family: 微软雅黑; font-size: 13px; text-align: left;  border: 1px
 .search{line-height: 40px; width: 410px; float: left; text-align: right;}
 input.text{width: 256px; height:25px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
 input.submit{position: relative; top:7px;}
-.login{line-height: 40px; width: 80px; float: left; color: #86C349; font-weight: bold; font-size: 13px;} /*设置粗体*/
+.login{line-height: 40px; width: 80px; float: left; color: #86C349; font-weight: bold; font-size: 13px; z-index: 1000 !important;} /*设置粗体*/
 .login_out{text-align: left;}
-.login_hide{line-height: 25px; width: 80px; float: right; color: #86C349; font-weight: normal; position: relative; background: #F6F6F6;} /*设置粗体*/
+#login_hide {position: relative; z-index: 99999 !important;}
+#login_hide a {line-height: 25px; width: 80px; float: right; color: #86C349; font-weight: normal; position: relative; background: #F6F6F6;} /*设置粗体*/
 .text{color: silver}
 .text_focus{color: #333333}
+
+/*心形icon*/
+.icon-heart:hover{background: red;}
+.icon-heart.active{background: red;}
+.icon-heart{
+    position: relative; top: 9px; right:7px; height: 10px; width: 10px; float: right; background: pink;
+    -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg);
+}
+.icon-heart:before,.icon-heart:after{
+    position: absolute; width: 10px; height: 10px; content: ' '; background: inherit;
+    -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%;
+}
+.icon-heart:before{bottom: 0px; left: -7px;}
+.icon-heart:after{right: 0px; top: -7px;}
+
+/*五角星icon*/
+.icon-five:hover{border-bottom-color: red;}
+.icon-five.active{border-bottom-color: red;}
+.icon-five{
+   position: relative; top: 9px; left: 7px; display: block; color: rgb(196, 218, 6); width: 0px; height: 0px;
+   border-right:  10px solid transparent; border-bottom: 7px solid; border-left: 10px solid transparent; border-bottom-color: rgb(196, 218, 6);
+   -moz-transform: rotate(35deg); -webkit-transform: rotate(35deg); -ms-transform: rotate(35deg); -o-transform: rotate(35deg); transform: rotate(35deg);
+}
+.icon-five:before,.icon-five:after{
+   position: absolute; height: 0; width: 0; display: block; content: '';
+}
+.icon-five:before {
+    top: -4.5px; left: -6.5px;
+   border-bottom: 8px solid; border-left: 3px solid transparent; border-bottom-color: inherit; border-right: 3px solid transparent;
+   -webkit-transform: rotate(-35deg); -moz-transform: rotate(-35deg); -ms-transform: rotate(-35deg); -o-transform: rotate(-35deg); transform: rotate(-35deg);
+}
+.icon-five:after {
+   top: 0.3px; left: -10.5px;
+   border-right: 10px solid transparent; border-bottom: 7px solid; border-bottom-color: inherit; border-left: 10px solid transparent;
+   -webkit-transform: rotate(-70deg); -moz-transform: rotate(-70deg); -ms-transform: rotate(-70deg); -o-transform: rotate(-70deg); transform: rotate(-70deg);
+}

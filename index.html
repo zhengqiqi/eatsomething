@@ -3,9 +3,9 @@
 <html xmlns="http://www.w3.org/1991/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="styles/home.css" />
-    <link rel="stylesheet" type="text/css" href="styles/basic.css" />
-    <link rel="stylesheet" type="text/css" href="styles/unslider_t.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/basic.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/home.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/slideshows.css" />
     <title>Let's Eat</title>
 </head>
 <body>
@@ -14,24 +14,54 @@
             <div class="subject_con"></div>
         </div>
 
-    <div class="banner top5">
-        <ul>
-            <li><img src="images/top5_1.jpg" class="top5_con"/></li>
-            <li><img src="images/top5_2.jpg" class="top5_con"/></li>
-            <li><img src="images/top5_3.jpg" class="top5_con"/></li>
-        </ul>
-    </div>
+        <div class="ss2_wrapper">
+            <a href="#" class="slideshow_prev"><span>Previous</span></a>
+            <a href="#" class="slideshow_next"><span>Next</span></a>
 
-<!--
-        <div class="top5">
-            <a href="#">
-                <img src="images/top5_1.jpg" class="top5_con"/>
-            </a>
-            <span class="top5_p">本周排名前5美食</span>
-            <span class="top5_name">朴素纸杯蛋糕</span>
-            <span class="top5_auther">王石石石</span>
+            <div class="slideshow_paging"></div>
+            <div class="slideshow_box">
+                <div class="data"></div>
+            </div>
+
+            <div id="slideshow_2" class="slideshow">
+                <div class="slideshow_item">
+                    <div class="image"><a href="#"><img src="./images/top5_1.jpg" class="top5" /></a></div>
+                    <div class="data">
+                        <h4><a href="#">菜谱名字1</a></h4>
+                        <p>作者1</p>
+                    </div>
+                </div>
+                <div class="slideshow_item">
+                    <div class="image"><a href="#"><img src="./images/top5_2.jpg" class="top5" /></a></div>
+                    <div class="data">
+                        <h4><a href="#">菜谱名字2</a></h4>
+                        <p>作者2</p>
+                    </div>
+                </div>
+                <div class="slideshow_item">
+                    <div class="image"><a href="#"><img src="./images/top5_3.jpg" class="top5" /></a></div>
+                    <div class="data">
+                        <h4><a href="#">菜谱名字3</a></h4>
+                        <p>作者3</p>
+                    </div>
+                </div>
+                <div class="slideshow_item">
+                    <div class="image"><a href="#"><img src="./images/top5_4.jpg" class="top5" /></a></div>
+                    <div class="data">
+                        <h4><a href="#">菜谱名字4</a></h4>
+                        <p>作者4</p>
+                    </div>
+                </div>
+                <div class="slideshow_item">
+                    <div class="image"><a href="#"><img src="./images/top5_5.jpg" class="top5" /></a></div>
+                    <div class="data">
+                        <h4><a href="#">菜谱名字5</a></h4>
+                        <p>作者5</p>
+                    </div>
+                </div>
+            </div>
         </div>
--->
+
     </div>
     <div id="list_index">
         <div class="list_rel">
@@ -260,10 +290,11 @@
             </div>
         </div>
     </div>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="script/unslider/src/unslider.js"></script>
-
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="script/head.js"></script>
-    <script type="text/javascript" src="script/unslider_t.js"></script>
+    <script src="./script/slider/jquery.js"></script>
+    <script src="./script/slider/jquery.cycle.all.js"></script>
+    <script src="./script/slider/jquery.easing.1.3.js"></script>
+    <script src="./script/slider/slider.js"></script>
 </body>
 </html>

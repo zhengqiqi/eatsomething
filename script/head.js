@@ -18,16 +18,16 @@ var headHtml = '<div id="header">'+
                         '<div id="login_hide" class="hide">'+
                             '<ul>'+
                                 '<li>'+
-                                    '<a href="#" class="login_hide">我要发布</a>'+
+                                    '<a href="#">我要发布</a>'+
                                 '</li>'+
                                 '<li>'+
-                                    '<a href="#" class="login_hide">我收藏的</a>'+
+                                    '<a href="#">我收藏的</a>'+
                                 '</li>'+
                                 '<li>'+
-                                    '<a href="#" class="login_hide">我的小菜篮</a>'+
+                                    '<a href="#">我的小菜篮</a>'+
                                 '</li>'+
                                 '<li>'+
-                                    '<a href="#" class="login_hide">我发布的</a>'+
+                                    '<a href="#">我发布的</a>'+
                                 '</li>'+
                             '</ul>'+
                         '</div>'+

@@ -11,7 +11,6 @@
 .dish_detail_writer{line-height: 30px; width: 90px; float: left;}
 .dish_detail_good{height: 30px; width: 60px; float: left;}
 .dish_detail_good_num{line-height: 30px; width: 10px; float: right;}
-.dish_detail_good_icon{height: 30px; width: 30px; float: right;}
 .dish_detail_com{height: 30px; width: 60px; float: left;}
 .dish_detail_com_icon{height: 30px; width: 30px; float: right;}
 .dish_detail_com_num{line-height: 30px; width: 10px; float: right;}
@@ -29,38 +28,3 @@
 .dish_show_name{height: 40px; width: 80px; float: left; color: #990000; font-size: 18px; font-weight: bold;}
 .dish_show_pic{height: 400px; width: 400px; position: relative; top: 50px; left: 170px; right: 170px; background: green;}
 
-/*编写心形icon*/
-.dish_detail_good_icon_heart{
-    position: relative; top: 9px; right:7px; height: 10px; width: 10px; float: right; background: pink;
-    -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg);
-}
-.dish_detail_good_icon_heart:before,.dish_detail_good_icon_heart:after{
-    position: absolute; width: 10px; height: 10px; content: ' '; background: pink;
-    -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%;
-}
-.dish_detail_good_icon_heart:before{
-    bottom: 0px; left: -7px;
-}
-.dish_detail_good_icon_heart:after{
-    right: 0px; top: -7px;
-}
-
-/*编写五角星icon*/
-.dish_detail_col_icon_five{
-   position: relative; top: 9px; left: 7px; display: block; color: red; width: 0px; height: 0px;
-   border-right:  10px solid transparent; border-bottom: 7px solid red; border-left: 10px solid transparent;
-   -moz-transform: rotate(35deg); -webkit-transform: rotate(35deg); -ms-transform: rotate(35deg); -o-transform: rotate(35deg); transform: rotate(35deg);
-}
-.dish_detail_col_icon_five:before,.dish_detail_col_icon_five:after{
-   position: absolute; height: 0; width: 0; display: block; content: '';
-}
-.dish_detail_col_icon_five:before {
-    top: -4.5px; left: -6.5px;
-   border-bottom: 8px solid red; border-left: 3px solid transparent; border-right: 3px solid transparent;
-   -webkit-transform: rotate(-35deg); -moz-transform: rotate(-35deg); -ms-transform: rotate(-35deg); -o-transform: rotate(-35deg); transform: rotate(-35deg);
-}
-.dish_detail_col_icon_five:after {
-   top: 0.3px; left: -10.5px;
-   border-right: 10px solid transparent; border-bottom: 7px solid red; border-left: 10px solid transparent;
-   -webkit-transform: rotate(-70deg); -moz-transform: rotate(-70deg); -ms-transform: rotate(-70deg); -o-transform: rotate(-70deg); transform: rotate(-70deg);
-}
