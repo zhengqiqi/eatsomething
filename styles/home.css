@@ -1,7 +1,19 @@
 #content{height: 350px;}  /*中间默认高度350*/
 .subject{height: 350px; width: 570px; float: left;} /*中间专题左浮动*/
-.subject_con{height: 350px; width: 480px; position: relative; left:60px; background: yellow;}
-.top5{width: 560px; height: 350px; alt: "erreo!";}
+.subject_con{height: 350px; width: 480px; position: relative; left:60px; }
+.subject_con_frame{height: 320px; width:480px; position: relative; top: 27px; border: 2px solid #8CD2ED;}
+.subject_con_sub{line-height: 18px; width: 200px; position: absolute; top: 20px; left: 50px; background-color: #F6F6F6; }
+.subject_con_dish{height: 90px; width: 450px; }
+.dish-1{position: absolute; top: 45px; left: 15px; }
+.dish-2{position: absolute; top: 145px; left: 15px; }
+.dish-3{position: absolute; top: 245px; left: 15px; }
+.dish-pic{height: 90px; width: 90px; background-color: yellow; }
+.dish-detail{height: 90px; width: 320px; background-color: blue; }
+.dish-pic-left{position: absolute;}
+.dish-pic-right{position: absolute; right: 20px;}
+.dish-detail-left{position: absolute; right: 20px;}
+.dish-detail-right{position: absolute;}
+.top5{height: 350px; width: 560px;}
 
 #list_index{height: 215px;} /*下面列表默认高度215*/
 .list_rel{height: 215px; width: 20%; float: left;} /*每个方块高215，占20%*/
