@@ -5,6 +5,9 @@ ul{list-style-type: none; width: 145px; margin: 0px; padding: 0px;}
 li{float: left; padding-right: 10px;}
 input{font-family: 微软雅黑; font-size: 13px; text-align: left;  border: 1px solid #E4E4E4;} /*设置边框*/
 .hide{display: none;}
+.text-left{text-align: left;}
+.font-bold{font-weight: bold;}/*设置粗体*/
+.blue-frame{border: 2px solid #8CD2ED;}
 
 /*头部*/
 #header{height: 100px;} /*头部默认高度100*/
@@ -17,7 +20,7 @@ input{font-family: 微软雅黑; font-size: 13px; text-align: left;  border: 1px
 .search{line-height: 40px; width: 410px; float: left; text-align: right;}
 input.text{width: 256px; height:25px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
 input.submit{position: relative; top:7px;}
-.login{line-height: 40px; width: 80px; float: left; color: #86C349; font-weight: bold; font-size: 13px; z-index: 1000 !important;} /*设置粗体*/
+.login{line-height: 40px; width: 80px; float: left; color: #86C349; font-weight: bold; font-size: 13px; z-index: 1000 !important;} 
 .login_out{text-align: left;}
 #login_hide {position: relative; z-index: 99999 !important;}
 #login_hide a {line-height: 25px; width: 80px; float: right; color: #86C349; font-weight: normal; position: relative; background: #F6F6F6;} /*设置粗体*/
