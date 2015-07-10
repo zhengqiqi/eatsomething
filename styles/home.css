@@ -14,6 +14,9 @@
 .dish-detail-left{position: absolute; right: 20px;}
 .dish-detail-right{position: absolute;}
 .dish-sub{margin-top: 5px; margin-bottom: 5px;}
+.subject_con_in{line-height: 18px; width: 200px; position: absolute; right: 20px; bottom: 5px; background-color: #F6F6F6;}
+.subject_con_in a:hover{color: #990000; font-weight: bold;}
+.subject_con_in a:active{color: #990000; font-weight: bold;}
 .top5{height: 350px; width: 560px;}
 
 #list_index{height: 215px;} /*下面列表默认高度215*/
@@ -26,7 +29,7 @@
 .list5{height: 185px; width: 80%; margin:0 auto; background: #FFDC2C; border-radius: 26px; position: relative; top:29px;}
 .list_head{height: 27px; width: 185px; position: relative; top: 15px; font-size: 20px;}
 .list_con{height: 25px; width: 185px; position: relative; top:25px;}
-.point{height: 10px; width: 10px; background: white; border-radius: 5px; float: left; position: relative; left:20px; top: 7.5px;}
+.point{height: 10px; width: 10px; background: white; border-radius: 5px; float: left; position: relative; left:20px; top: 5px;}
 .list_con_line{height: 25px; width: 145px; float: left; position: relative; left:25px;}
 #list_index a:hover{color: #990000; font-weight: bold;}
 #list_index a:active{color: #990000; font-weight: bold;}

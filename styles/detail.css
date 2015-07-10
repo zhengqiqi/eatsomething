@@ -5,19 +5,19 @@
 .comment_rel{height: 300px; width: 380px; float: right; background: blue; position: relative; top: 30px; right: 20px;}
 
 #introduce{height: 920px; width: 740px; float: right;}
-.dish_name{line-height: 50px; width: 740px; text-align: left; font-size: 28px; color: #990000;}
+.dish_name{line-height: 50px; width: 740px; text-align: left; font-size: 28px;}
 .dish_detail{height: 30px; width: 740px;}
-.dish_detail_data{line-height: 30px; width: 90px; float: left;}
-.dish_detail_writer{line-height: 30px; width: 90px; float: left;}
+.dish_detail_data{line-height: 30px; width: 90px; float: left; color: #990000;}
+.dish_detail_writer{line-height: 30px; width: 90px; float: left; color: #990000;}
 .dish_detail_good{height: 30px; width: 60px; float: left;}
-.dish_detail_good_num{line-height: 30px; width: 10px; float: right;}
+.dish_detail_good_num{line-height: 30px; width: 10px; float: right; color: #990000;}
 .dish_detail_com{height: 30px; width: 60px; float: left;}
 .dish_detail_com_icon{height: 30px; width: 30px; float: right;}
-.dish_detail_com_num{line-height: 30px; width: 10px; float: right;}
+.dish_detail_com_num{line-height: 30px; width: 10px; float: right; color: #990000;}
 .dish_detail_col{height: 30px; width: 50px; float: left;}
 .dish_detail_col_icon{height: 30px; width: 30px; float: right;}
 .dish_intro{height: 140px; width: 740px;}
-.dish_intro_p{height: 120px; width: 690px; text-align: left; font-size: 14px; color: #990000; position: relative; top: 5px;}
+.dish_intro_p{height: 120px; width: 690px; text-align: left; font-size: 14px; position: relative; top: 5px;}
 .dish_mat{height: 150px; width: 740px; background: green;}
 .dish_step{height: 200px; width: 740px;}
 .dish_step_num{height: 50px; width: 30px; float: left; text-align: left; font-size: 18px; color: #990000;}
