@@ -2,8 +2,16 @@
 .pic{height: 260px; width: 450px;}
 .pic_rel{height: 250px; width: 400px;  position: relative; top: 9px; left: 25px; }
 .comment{height: 330px; width: 440px;}
-.comment_rel{height: 300px; width: 380px; position: relative; top: 30px; left: 60px;}
-.comment_rel_frame{height: 300px; width: 380px; position: relative; top: 27px;}
+.comment_rel{height: 320px; width: 380px; position: relative; top: 30px; left: 60px;}
+.comment_rel_frame{height: 320px; width: 380px; position: relative; top: 27px;}
+.comment_rel_sub{line-height: 25px; width: 50px; position: absolute; top: 16px; left: 50px; background-color: #F6F6F6; color: #8CD2ED; font-size: 15px;}
+.comment_rel_div{height: 280px; width: 360px; position: absolute; top: 40px; left: 10px;}
+.comment_rel_detail{height: 100px; width: 360px;}
+.comment_content{height: 75px; width: 360px; text-align: left;}
+.comment_img{height: 20px; width: 360px;}
+.comment_auther{height: 20px; width: 250px; float: left; text-align: right;}
+.comment_date{height: 20px; width: 100px; float: right;}
+.comment_line{width: 360px; border: 1px dashed #8CD2ED;}
 
 #introduce{height: 920px; width: 720px; float: right;}
 .dish_name{line-height: 50px; width: 740px; text-align: left; font-size: 28px;}
@@ -19,7 +27,11 @@
 .dish_detail_col_icon{height: 30px; width: 30px; float: right;}
 .dish_intro{height: 140px; width: 740px;}
 .dish_intro_p{height: 120px; width: 690px; text-align: left; font-size: 14px; position: relative; top: 5px;}
-.dish_mat{height: 150px; width: 690px; background: green;}
+.dish_mat{height: 150px; width: 690px;}
+.dish_mat_frame{height: 150px; width: 690px; position: relative; border-radius: 10px;}
+.dish_mat_sub{line-height: 25px; width: 50px; position: absolute; top: 16px; left: 50px; background-color: #F6F6F6; color: #8CD2ED; font-size: 15px;}
+.dish_mat_div{height: 130px; width: 390px; position: absolute; top: 40px; left: 10px;}
+
 .dish_step{height: 200px; width: 690px;}
 .dish_step_num{height: 50px; width: 30px; float: left; text-align: left; font-size: 18px; color: #990000;}
 .dish_step_pic{height: 170px; width: 272px; position: relative; top: 15px; left: 5px; float: left; background: yellow;}
