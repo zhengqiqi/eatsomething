@@ -14,7 +14,7 @@
 .dish-detail-left{position: absolute; right: 20px;}
 .dish-detail-right{position: absolute; left: 20px;}
 .dish-sub{margin-top: 5px; margin-bottom: 5px;}
-.back-change{background-color: #DDDDDD;}
+.back-change-index{background-color: #DDDDDD;}
 .top5{height: 350px; width: 560px;}
 
 #list_index{height: 215px;} /*下面列表默认高度215*/

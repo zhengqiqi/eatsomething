@@ -42,7 +42,9 @@ var headHtml = '<div id="header">'+
 $('html body').prepend(headHtml);
 
 $('#header input.text').focus(function(){
-    $(this).addClass('text_focus').val('');
+    if ($(this).val() == "糖醋排骨"){
+        $(this).addClass('text_focus').val('');
+    }
 }).blur(function(){
     var $this = $(this);
     if ($this.val() ==""){

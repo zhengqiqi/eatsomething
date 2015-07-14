@@ -4,22 +4,27 @@
 .comment{height: 330px; width: 440px;}
 .comment_rel{height: 320px; width: 380px; position: relative; top: 30px; left: 60px;}
 .comment_rel_frame{height: 400px; width: 380px; position: relative; top: 27px;}
-.comment_rel_sub{line-height: 25px; width: 50px; position: absolute; top: 16px; left: 50px; background-color: #F6F6F6; color: #8CD2ED; font-size: 15px;}
-.comment_rel_input{height: 50px; width: 360px; position: absolute; top: 40px; left: 10px; color: #333; outline-color: invert; }
+.comment_rel_sub{line-height: 25px; width: 50px; position: absolute; top: 16px; left: 50px; 
+    background-color: #F6F6F6; color: #8CD2ED; font-size: 15px;}
+.comment_rel_input{position: absolute; top: 40px; left: 10px; color: silver; outline-color: invert; border: 1px solid #DDDDDD;}
 .comment_rel_input:focus {
      border: 1px solid #fafafa;
     -webkit-box-shadow: 0px 0px 6px #007eff;
      -moz-box-shadow: 0px 0px 5px #007eff;
      box-shadow: 0px 0px 5px #007eff;
 }
-.comment_rel_btn{height: 18px; width: 60px; position: absolute; top: 100px; right: 20px;}
+.comment_rel_btn{height: 21px; width: 60px; position: absolute; top: 105px; right: 20px; 
+    border: none; background-color: #8CD2ED; color: white; text-align: center; border-radius: 3px;}
+.back-change-btn{color: #333;}
 .comment_rel_div{height: 280px; width: 360px; position: absolute; top: 130px; left: 10px;}
+.comment_rel_detail{height: 100px; width: 360px;}
 .comment_rel_detail{height: 100px; width: 360px;}
 .comment_content{height: 75px; width: 360px; text-align: left;}
 .comment_img{height: 20px; width: 360px;}
 .comment_auther{height: 20px; width: 100px; float: right; text-align: right;}
 .comment_date{height: 20px; width: 100px; float: right;}
-.comment_ans{height: 20px; width: 50px; float: right; color: #8CD2ED;}
+.comment_ans{height: 20px; width: 50px; float: right; color: #8CD2ED; border-radius: 3px;}
+.back-change-ans{background-color: #8CD2ED; color: white;}
 .comment_line{width: 360px; border: 1px dashed #8CD2ED;}
 
 #introduce{height: 920px; width: 720px; float: right;}
@@ -37,7 +42,7 @@
 .dish_intro{height: 140px; width: 740px;}
 .dish_intro_p{height: 120px; width: 690px; text-align: left; font-size: 14px; position: relative; top: 5px;}
 .dish_mat{height: 150px; width: 690px;}
-.dish_mat_frame{height: 150px; width: 690px; position: relative; border-radius: 10px;}
+.dish_mat_frame{height: 130px; width: 690px; position: relative; top: 15px; border-radius: 10px;}
 .dish_mat_sub{line-height: 25px; width: 50px; position: absolute; top: 16px; left: 50px; background-color: #F6F6F6; color: #8CD2ED; font-size: 15px;}
 .dish_mat_div{height: 130px; width: 390px; position: absolute; top: 40px; left: 10px;}
 
