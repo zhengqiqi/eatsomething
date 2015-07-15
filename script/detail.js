@@ -1,9 +1,10 @@
-$('#pic_comment .comment_rel_input').focus(function(){
-    if ($(this).val() == "说点什么呢？"){
-        $(this).addClass('text_focus').val('');
+var $commentInput = $('#pic_comment .comment_rel_input');
+$commentInput.focus(function(){
+    if ($commentInput.val() == "说点什么呢？"){
+        $commentInput.addClass('text_focus').val('');
     }
 }).blur(function(){
-    var $this = $(this);
+    var $this = $commentInput;
     if ($this.val() ==""){
         $this.val('说点什么呢？').removeClass('text_focus');
     }
@@ -21,9 +22,9 @@ $('#pic_comment .comment_ans').mouseover(function(){
     $(this).removeClass('back-change-ans');
 })
 
-$('#1 a.comment_ans').click(function(){
-    $('#pic_comment .comment_rel_input')
-    .val("回复@"+$('#1 a.comment_auther').text()+":")
+$('#pic_comment a.comment_ans').click(function(){
+    $commentInput.val("回复@"+$(this).siblings('.comment_auther').text()+":")
     .addClass('text_focus')
-    .focus(function(){ $(this).val($('#pic_comment .comment_rel_input').val()); })
+    .focus(function() {
+    })
 })
