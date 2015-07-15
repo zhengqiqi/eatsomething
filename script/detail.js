@@ -4,9 +4,8 @@ $commentInput.focus(function(){
         $commentInput.addClass('text_focus').val('');
     }
 }).blur(function(){
-    var $this = $commentInput;
-    if ($this.val() ==""){
-        $this.val('说点什么呢？').removeClass('text_focus');
+    if ($commentInput.val() ==""){
+        $commentInput.val('说点什么呢？').removeClass('text_focus');
     }
 })
 
