@@ -1,0 +1,10 @@
+#menu-div{height: 200px; width: 250px; float: left; }
+.menu{height: 180px; width: 150px; position: relative; top: 10px; left: 100px;}
+.menu-each{height: 30px; width: 140px;}
+.menu-each-hover{background-color: #8CD2ED}
+.point-div{height: 10px; width: 10px; background: #8CD2ED; border-radius: 5px; float: left; position: relative; top: 10px; left: 5px;}
+.point-div-hover{background: #F6F6F6;}
+.menu-li{line-height: 30px; width: 120px; text-align: left; position: relative; left: 10px;}
+.hide-menu{height: 60px; width: 120px; position: relative; top: 10px; left: 100px;}
+.menu-hide{line-height: 30px; width: 130px; text-align: left;}
+.hide-show a:hover{color: #8CD2ED}

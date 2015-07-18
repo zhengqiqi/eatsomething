@@ -1,6 +1,3 @@
-#topic{height: 100px;}
-.topic_name{line-height: 28px; width: 400px; font-size: 28px; font-weight: bold; position: relative; top: 36px; left: 400px;}
-
 #comment{height: 240px;}
 .pic{height: 240px; width: 420px; float: left;}
 .pic_rel{height: 200px; width: 200px; float: right; position: relative; right: 20px; top: 20px; background: red;}
