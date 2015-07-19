@@ -1,9 +1,9 @@
 var menuHtml = '<div class="menu">'+
       '<ul>'+
-        '<div class="menu-each class="menu-published">'+
+        '<div class="menu-each menu-published">'+
           '<div class="point-div"></div>'+
           '<li class="menu-li">'+
-            '<a href="#">我发布的菜</a>'+
+            '<a href="./published.html">我发布的菜</a>'+
           '</li>'+
         '</div>'+
         '<div class="menu-each">'+
@@ -16,16 +16,16 @@ var menuHtml = '<div class="menu">'+
             '</ul>'+
           '</li>'+
         '</div>'+
-        '<div class="menu-each">'+
+        '<div class="menu-each menu-collection">'+
           '<div class="point-div"></div>'+
           '<li class="menu-li">'+
-            '<a href="#">收藏列表</a>'+
+            '<a href="./collection.html">收藏列表</a>'+
           '</li>'+
         '</div>'+
-        '<div class="menu-each">'+
+        '<div class="menu-each menu-praise">'+
           '<div class="point-div"></div>'+
           '<li class="menu-li">'+
-            '<a href="#">我赞过的菜</a>'+
+            '<a href="./praise.html">我赞过的菜</a>'+
           '</li>'+
         '</div>'+
         '<div class="menu-each">'+
@@ -46,15 +46,19 @@ var menuHtml = '<div class="menu">'+
 $('#menu-div').prepend(menuHtml);
 
 $('#menu-div .menu-each').mouseover(function(){
-    $(this).addClass('menu-each-hover');
-    $(this).children('.point-div').addClass('point-div-hover');
+    var $this = $(this);
+    $this.addClass('menu-each-hover');
+    $this.children('.point-div').addClass('point-div-hover');
 }).mouseleave(function(){
-    $(this).removeClass('menu-each-hover');
-    $(this).children('.point-div').removeClass('point-div-hover');
+    var $this = $(this);
+    $this.removeClass('menu-each-hover');
+    $this.children('.point-div').removeClass('point-div-hover');
 });
 
 $('#menu-div .menu-li').mouseover(function(){
-    $(this).children('ul').removeClass('hide');
+    var $this = $(this);
+    $this.children('ul').removeClass('hide');
 }).mouseleave(function(){
-    $(this).children('ul').addClass('hide');
+    var $this = $(this);
+    $this.children('ul').addClass('hide');
 });
