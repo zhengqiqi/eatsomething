@@ -1,18 +1,20 @@
 var menuHtml = '<div class="menu">'+
       '<ul>'+
         '<div class="menu-each menu-published">'+
-          '<div class="point-div"></div>'+
-          '<li class="menu-li">'+
-            '<a href="./published.html">我发布的菜</a>'+
-          '</li>'+
+          '<a href="./published.html">'+
+            '<div class="point-div"></div>'+
+            '<li class="menu-li">'+
+              '<div>我发布的菜</div>'+
+            '</li>'+
+          '</a>'+
         '</div>'+
-        '<div class="menu-each">'+
+        '<div class="menu-each menu-comment">'+
           '<div class="point-div"></div>'+
           '<li class="menu-li">'+
             '<a href="#">评论们</a>'+
             '<ul class="hide hide-show">'+
-              '<li><a href="#">我收到的评论</a></li>'+
-              '<li><a href="#">我发布的评论</a></li>'+
+              '<a href="#"><li><div>我收到的评论</div></li></a>'+
+              '<a href="#"><li><div>我发布的评论</div></li></a>'+
             '</ul>'+
           '</li>'+
         '</div>'+
@@ -48,17 +50,17 @@ $('#menu-div').prepend(menuHtml);
 $('#menu-div .menu-each').mouseover(function(){
     var $this = $(this);
     $this.addClass('menu-each-hover');
-    $this.children('.point-div').addClass('point-div-hover');
+    $this.find('.point-div').addClass('point-div-hover');
 }).mouseleave(function(){
     var $this = $(this);
     $this.removeClass('menu-each-hover');
-    $this.children('.point-div').removeClass('point-div-hover');
+    $this.find('.point-div').removeClass('point-div-hover');
 });
 
-$('#menu-div .menu-li').mouseover(function(){
+$('#menu-div .menu-comment').mouseover(function(){
     var $this = $(this);
-    $this.children('ul').removeClass('hide');
+    $this.find('ul').removeClass('hide');
 }).mouseleave(function(){
     var $this = $(this);
-    $this.children('ul').addClass('hide');
+    $this.find('ul').addClass('hide');
 });
