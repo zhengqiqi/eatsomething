@@ -17,7 +17,12 @@
 .dish_detail_com_num{line-height: 30px; width: 10px; float: right; color: #990000;}
 .dish_detail_col{height: 30px; width: 30px; float: left;}
 .dish_detail_col_icon{height: 30px; width: 30px; float: right;}
-.dish_detail_del{line-height: 30px; width: 80px; background-color: #8CD2ED; float: right; border-radius: 5px;}
+.dish_detail_control{height: 35px; width: 165px; float: right;}
+.dish_detail_btn{line-height: 31px; width: 76px; background-color: #8CD2ED; border-radius: 5px; border: 2px solid #8CD2ED;}
+.dish_detail_del{float: right;}
+.dish_detail_edit{float: left;}
+.dish_detail_btn_hover{background-color: #F6F6F6;}
+
 
 .dish_intro{height: 140px; width: 600px;}
 .dish_intro_p{height: 120px; width: 600px; text-align: left; font-size: 14px;}

@@ -10,3 +10,10 @@ $('#menu-div .menu-published').prepend(function(){
     $this.addClass('menu-each-hover')
     $this.find('.point-div').addClass('point-div-hover')
 })
+
+$('#substance a.dish_detail_btn').mouseover(function(){
+    $(this).addClass('dish_detail_btn_hover');
+}).mouseleave(function(){
+    $(this).removeClass('dish_detail_btn_hover');
+});
+

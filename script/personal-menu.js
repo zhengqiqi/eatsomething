@@ -9,38 +9,46 @@ var menuHtml = '<div class="menu">'+
           '</a>'+
         '</div>'+
         '<div class="menu-each menu-comment">'+
-          '<div class="point-div"></div>'+
-          '<li class="menu-li">'+
-            '<a href="#">评论们</a>'+
-            '<ul class="hide hide-show">'+
-              '<a href="#"><li><div>我收到的评论</div></li></a>'+
-              '<a href="#"><li><div>我发布的评论</div></li></a>'+
-            '</ul>'+
-          '</li>'+
+            '<div class="point-div"></div>'+
+            '<li class="menu-li">'+
+              '<div>评论们</div>'+
+              '<ul class="hide hide-show">'+
+                '<a href="#"><li><div>我收到的评论</div></li></a>'+
+                '<a href="#"><li><div>我发布的评论</div></li></a>'+
+              '</ul>'+
+            '</li>'+
         '</div>'+
         '<div class="menu-each menu-collection">'+
-          '<div class="point-div"></div>'+
-          '<li class="menu-li">'+
-            '<a href="./collection.html">收藏列表</a>'+
-          '</li>'+
+          '<a href="./collection.html">'+
+            '<div class="point-div"></div>'+
+            '<li class="menu-li">'+
+              '<div>收藏列表</div>'+
+            '</li>'+
+          '</a>'+
         '</div>'+
         '<div class="menu-each menu-praise">'+
-          '<div class="point-div"></div>'+
-          '<li class="menu-li">'+
-            '<a href="./praise.html">我赞过的菜</a>'+
-          '</li>'+
+          '<a href="./praise.html">'+
+            '<div class="point-div"></div>'+
+            '<li class="menu-li">'+
+              '<div>我赞过的菜</div>'+
+            '</li>'+
+          '</a>'+
         '</div>'+
         '<div class="menu-each">'+
-          '<div class="point-div"></div>'+
-          '<li class="menu-li">'+
-            '<a href="#">我的菜篮子</a>'+
-          '</li>'+
+          '<a href="#">'+
+            '<div class="point-div"></div>'+
+            '<li class="menu-li">'+
+              '<div>我的菜篮子</div>'+
+            '</li>'+
+          '</a>'+
         '</div>'+
         '<div class="menu-each">'+
-          '<div class="point-div"></div>'+
-          '<li class="menu-li">'+
-            '<a href="#">我的信息我做主</a>'+
-          '</li>'+
+          '<a href="#">'+
+            '<div class="point-div"></div>'+
+            '<li class="menu-li">'+
+              '<div>我的信息我做主</div>'+
+            '</li>'+
+          '</a>'+
         '</div>'+
       '</ul>'+
     '</div>';

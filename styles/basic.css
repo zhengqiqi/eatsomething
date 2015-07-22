@@ -3,7 +3,7 @@ a,p,div{font-family: 微软雅黑; font-size: 13px; text-align: center; text-dec
 /*默认微软雅黑，浅黑色，13号字体，居中, 去掉下划线*/
 ul{list-style-type: none; width: 145px; margin: 0px; padding: 0px;}
 li{float: left; padding-right: 10px;}
-input{font-family: 微软雅黑; font-size: 13px; text-align: left;  border: 1px solid #E4E4E4;} /*设置边框*/
+input{font-family: 微软雅黑; font-size: 13px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
 .hide{display: none;}
 .text-left{text-align: left;}
 .font-bold{font-weight: bold;}/*设置粗体*/
