@@ -12,10 +12,10 @@ var menuHtml = '<div class="menu">'+
             '<div class="point-div"></div>'+
             '<li class="menu-li">'+
               '<div>评论们</div>'+
-              '<ul class="hide hide-show">'+
-                '<a href="#"><li><div>我收到的评论</div></li></a>'+
-                '<a href="#"><li><div>我发布的评论</div></li></a>'+
-              '</ul>'+
+              '<div class="hide hide-show">'+
+                '<a href="#"><div>-->我收到的评论</div></a>'+
+                '<a href="#"><div>-->我发布的评论</div></a>'+
+              '</div>'+
             '</li>'+
         '</div>'+
         '<div class="menu-each menu-collection">'+
@@ -35,7 +35,7 @@ var menuHtml = '<div class="menu">'+
           '</a>'+
         '</div>'+
         '<div class="menu-each">'+
-          '<a href="#">'+
+          '<a href="./basket.html">'+
             '<div class="point-div"></div>'+
             '<li class="menu-li">'+
               '<div>我的菜篮子</div>'+
@@ -67,8 +67,8 @@ $('#menu-div .menu-each').mouseover(function(){
 
 $('#menu-div .menu-comment').mouseover(function(){
     var $this = $(this);
-    $this.find('ul').removeClass('hide');
+    $this.find('.hide-show').removeClass('hide');
 }).mouseleave(function(){
     var $this = $(this);
-    $this.find('ul').addClass('hide');
+    $this.find('.hide-show').addClass('hide');
 });

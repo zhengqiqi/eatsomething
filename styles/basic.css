@@ -32,7 +32,7 @@ input.submit{position: relative; top:7px;}
 .icon-heart:hover{background: red;}
 .icon-heart.active{background: red;}
 .icon-heart{
-    position: relative; top: 9px; right:7px; height: 10px; width: 10px; float: right; background: pink;
+    position: relative; top: 9px; left:7px; height: 10px; width: 10px; float: left; background: pink;
     -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg);
 }
 .icon-heart:before,.icon-heart:after{
