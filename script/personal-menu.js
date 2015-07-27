@@ -11,7 +11,7 @@ var menuHtml = '<div class="menu">'+
         '<div class="menu-each menu-comment">'+
             '<div class="point-div"></div>'+
             '<li class="menu-li">'+
-              '<div>评论们</div>'+
+              '<div>评论</div>'+
               '<div class="hide hide-show">'+
                 '<a href="#"><div>-->我收到的评论</div></a>'+
                 '<a href="#"><div>-->我发布的评论</div></a>'+
@@ -39,14 +39,6 @@ var menuHtml = '<div class="menu">'+
             '<div class="point-div"></div>'+
             '<li class="menu-li">'+
               '<div>我的菜篮子</div>'+
-            '</li>'+
-          '</a>'+
-        '</div>'+
-        '<div class="menu-each">'+
-          '<a href="#">'+
-            '<div class="point-div"></div>'+
-            '<li class="menu-li">'+
-              '<div>我的信息我做主</div>'+
             '</li>'+
           '</a>'+
         '</div>'+

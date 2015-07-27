@@ -10,6 +10,7 @@ var headHtml = '<div id="header">'+
                 '<input type="image" src="images/index_submit.png" class="submit search-btn"/>'+
             '</form>'+
         '</span>'+
+        '<div class="control-block"></div>'+
                 '<div id="login_h" class="login">'+
                     '<span>'+
                         '<div>'+
@@ -21,21 +22,18 @@ var headHtml = '<div id="header">'+
                                     '<a href="#">我要发布</a>'+
                                 '</li>'+
                                 '<li>'+
-                                    '<a href="#">我收藏的</a>'+
-                                '</li>'+
-                                '<li>'+
                                     '<a href="#">我的小菜篮</a>'+
                                 '</li>'+
                                 '<li>'+
-                                    '<a href="#">我发布的</a>'+
+                                    '<a href="#">个人设置</a>'+
+                                '</li>'+
+                                '<li>'+
+                                    '<a href="#">退出</a>'+
                                 '</li>'+
                             '</ul>'+
                         '</div>'+
                 '</span>'+
            '</div>'+
-            '<div>'+
-                '<a href="#" class="login login_out">退出</a>'+
-            '</div>'+
     '</div>'+
 '</div>';
 

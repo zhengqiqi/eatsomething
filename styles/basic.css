@@ -20,8 +20,8 @@ input{font-family: 微软雅黑; font-size: 13px; text-align: left; border: 1px 
 .search{line-height: 40px; width: 410px; float: left; text-align: right;}
 input.text{width: 256px; height:25px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
 input.submit{position: relative; top:7px;}
-.login{line-height: 40px; width: 80px; float: left; color: #86C349; font-weight: bold; font-size: 13px; z-index: 1000 !important;} 
-.login_out{text-align: left;}
+.control-block{height: 40px; width: 20px;float: left;}
+.login{line-height: 40px; width: 80px; float: left; color: #86C349; font-weight: bold; font-size: 13px; z-index: 1000 !important;}
 #login_hide {position: relative; z-index: 99999 !important;}
 #login_hide a {line-height: 25px; width: 80px; float: right; color: #86C349; font-weight: normal; position: relative; background: #F6F6F6;} /*设置粗体*/
 #login_hide a:hover{background: #86C349; color: #F6F6F6}
