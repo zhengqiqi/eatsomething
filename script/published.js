@@ -8,6 +8,7 @@ $('#substance .dish_detail_del').click(function(){
 $('#menu-div .menu-published').prepend(function(){
     var $this = $(this);
     $this.addClass('menu-each-chick')
+    $this.find('.point-div').addClass('point-div-chick');
 })
 
 $('#substance a.dish_detail_btn').mouseover(function(){

@@ -50,11 +50,9 @@ $('#menu-div').prepend(menuHtml);
 $('#menu-div .menu-each').mouseover(function(){
     var $this = $(this);
     $this.addClass('menu-each-hover');
-    $this.find('.point-div').addClass('point-div-hover');
 }).mouseleave(function(){
     var $this = $(this);
     $this.removeClass('menu-each-hover');
-    $this.find('.point-div').removeClass('point-div-hover');
 });
 
 $('#menu-div .menu-comment').mouseover(function(){

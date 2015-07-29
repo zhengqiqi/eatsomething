@@ -1,13 +1,16 @@
-#substance{height: 1000px; width: 850px; float: left;}
-.comment{height: 240px;}
-.pic{height: 200px; width: 220px; float: left;}
-.pic_rel{height: 138px; width: 220px; position: relative; top:30px; }
+#substance{height: 1000px; width: 1020px; float: left;}
+.comment{height: 210px; width: 500px; float: left;}
+.comment-div{height: 200px; width: 480px; position:relative; top:5px; left: 10px; background-color: white;}
+.pic{height: 157px; width: 250px; float: left; position: relative; top: 23px; left: 10px;}
+.pic-rel{height: 157px; width: 250px; position: relative; }
+.dish-detail{height: 188px; width: 215px; float: right;}
+.dish-detail-name{line-height: 30px; width: 215px; position: relative; top: 5px; text-align: left; font-size: 18px; font-weight: bold;}
+.dish-detail-info{height: 135px; width: 215px; position: relative; top: 10px; text-align: left; color: #990000;}
+.dish-detail-data{line-height: 30px; width: 140px; float: left; text-align: left;}
+.dish-detail-cancel{line-height: 26px; width: 70px; float: right; background-color: #8CD2ED; border-radius: 5px; border: 2px solid #8CD2ED;}
+.dish-detail-cancel-hover{background-color: #F6F6F6;}
 
 .introduce{height: 240px; width: 580px; float: left; position: relative; left: 10px;}
-.dish_detail{height: 30px; width: 600px;}
-.dish_detail_name{line-height: 30px; width: 140px; float: left; text-align: left; font-size: 18px; font-weight: bold;}
-.dish_detail_info{height: 30px; width: 450px; float: left; position: relative;}
-.dish_detail_data{line-height: 30px; width: 90px; float: left; color: #990000;}
 .dish_detail_writer{line-height: 30px; width: 90px; float: left; color: #990000;}
 .dish_detail_good{height: 30px; width: 60px; float: left;}
 .dish_detail_good_icon{height: 30px; width: 30px; float: right;}
