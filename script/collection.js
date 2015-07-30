@@ -4,8 +4,7 @@ $('#substance .icon-five').prepend(function(){
 
 $('#menu-div .menu-collection').prepend(function(){
     var $this = $(this);
-    $this.addClass('menu-each-chick')
-    $this.find('.point-div').addClass('point-div-chick');
+    $this.addClass('menu-each-click')
 })
 
 $('#substance a.dish-detail-cancel').mouseover(function(){

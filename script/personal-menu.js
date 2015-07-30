@@ -1,26 +1,23 @@
 var menuHtml = '<div class="menu">'+
-      '<ul>'+
+      '<ul class="ul-class">'+
         '<div class="menu-each menu-published">'+
           '<a href="./published.html">'+
-            '<div class="point-div"></div>'+
             '<li class="menu-li">'+
               '<div>我发布的菜</div>'+
             '</li>'+
           '</a>'+
         '</div>'+
         '<div class="menu-each menu-comment">'+
-            '<div class="point-div"></div>'+
-            '<li class="menu-li">'+
+            '<a href="#" class="menu-li">'+
               '<div>评论</div>'+
-              '<div class="hide hide-show">'+
-                '<a href="#"><div>-->我收到的评论</div></a>'+
-                '<a href="#"><div>-->我发布的评论</div></a>'+
-              '</div>'+
-            '</li>'+
+              '<ul class="hide hide-show">'+
+                '<li class="menu-li">我收到的评论</li>'+
+                '<li class="menu-li">我发布的评论</li>'+
+              '</ul>'+
+            '</a>'+
         '</div>'+
         '<div class="menu-each menu-collection">'+
           '<a href="./collection.html">'+
-            '<div class="point-div"></div>'+
             '<li class="menu-li">'+
               '<div>收藏列表</div>'+
             '</li>'+
@@ -28,7 +25,6 @@ var menuHtml = '<div class="menu">'+
         '</div>'+
         '<div class="menu-each menu-praise">'+
           '<a href="./praise.html">'+
-            '<div class="point-div"></div>'+
             '<li class="menu-li">'+
               '<div>我赞过的菜</div>'+
             '</li>'+
@@ -36,7 +32,6 @@ var menuHtml = '<div class="menu">'+
         '</div>'+
         '<div class="menu-each">'+
           '<a href="./basket.html">'+
-            '<div class="point-div"></div>'+
             '<li class="menu-li">'+
               '<div>我的菜篮子</div>'+
             '</li>'+
