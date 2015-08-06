@@ -12,3 +12,9 @@ $('#substance a.dish-detail-cancel').mouseover(function(){
 }).mouseleave(function(){
     $(this).removeClass('dish-detail-cancel-hover');
 });
+
+$('#substance .comment-div').mouseover(function(){
+    $(this).find('.dish-detail-cancel').removeClass('hide');
+}).mouseleave(function(){
+    $(this).find('.dish-detail-cancel').addClass('hide');
+})

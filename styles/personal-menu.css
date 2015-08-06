@@ -1,12 +1,12 @@
 #menu-div{height: 200px; width: 180px; float: left; }
 .menu{height: 180px; width: 150px; position: relative; top: 10px; left: 30px;}
-.menu-each{height: 30px; width: 140px;}
+.menu-each{height: 30px; width: 140px; background-color: white;}
 .menu-each-hover{background-color: #D3D3D3;}
 .menu-each-click{background-color: #8CD2ED;}
 .menu-li{line-height: 30px; width: 120px; text-align: left; position: relative; left: 10px;}
 .menu-each div{text-align: left;}
 .menu-hide{line-height: 30px; width: 110px; text-align: left;}
 .hide-show{width: 130px; position: absolute; left: 60px; top: -45px; 
-    background-color: #F6F6F6; border: 2px solid #8CD2ED; z-index: 1000 !important; border-radius: 5px;}
-.hide-show li:hover{color: #D3D3D3;}
+    background-color: #F6F6F6; border: 2px solid #8CD2ED; z-index: 1000 !important; color: #737373;}
+.hide-show li:hover{color: black;}
 .ul-class{border: 2px solid #8CD2ED; width: 140px;}

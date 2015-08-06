@@ -1,18 +1,28 @@
-#collection-menu{height: 100px; width: 1020px; float: left; background-color: red;}
-
-
+#collection-menu{height: 80px; width: 1020px; float: left;}
+.collection-menu-div{height: 60px; width: 980px; float: left; position: relative; top: 10px; bottom: 10px; left: 10px; background-color: white; border: 2px solid #E3E3E3;}
+.menu-p{margin: 0; line-height: 24px; width: 100px; float: left; text-align: right; color: #737373; font-size: 13px;}
+.collection-menu-frame{height: 30px; width: 930px; float: left; position: relative; top: 5px;}
+.menu-div{height: 24px; width: 100px; float: left; position: relative; left: 10px;}
+.menu-a{line-height: 24px; width: 80px; float: left; text-align: left;}
+.menu-a:hover{color: #990000;}
 
 #substance{height: 1000px; width: 1020px; float: left;}
 .comment{height: 210px; width: 500px; float: left;}
 .comment-div{height: 200px; width: 480px; position:relative; top:5px; left: 10px; background-color: white;}
 .pic{height: 157px; width: 250px; float: left; position: relative; top: 23px; left: 10px;}
 .pic-rel{height: 157px; width: 250px; position: relative; }
-.dish-detail{height: 188px; width: 215px; float: right;}
-.dish-detail-name{line-height: 30px; width: 215px; position: relative; top: 5px; text-align: left; font-size: 18px; font-weight: bold;}
-.dish-detail-info{height: 135px; width: 215px; position: relative; top: 10px; text-align: left; color: #990000;}
-.dish-detail-data{line-height: 30px; width: 140px; float: left; text-align: left;}
-.dish-detail-cancel{line-height: 26px; width: 70px; float: right; background-color: #8CD2ED; border-radius: 5px; border: 2px solid #8CD2ED;}
-.dish-detail-cancel-hover{background-color: #F6F6F6;}
+.dish-detail{height: 157px; width: 215px; float: right; position: relative; top: 23px;}
+.dish-detail-name{line-height: 24px; width: 215px; position: relative; text-align: left;}
+.dish-detail-name a{ font-size: 20px;}
+.dish-detail-name a:hover{color: #990000;}
+/*.dish-detail-name a:hover{background-color: #8CD2ED;}*/
+.dish-detail-food{height: 110px; width: 215px; position: relative; top: 8px; }
+.food-main-p{margin: 0; line-height: 24px; width: 40px; float: left; text-align: left; color: #737373;}
+.food-main-info{line-height: 24px; width: 160px; float: left; text-align: left; color: #737373;}
+.dish-detail-data{line-height: 20px; width: 140px; float: left; text-align: left;}
+.dish-detail-cancel{line-height: 20px; width: 70px; float: right; color: #737373;}
+.dish-detail-cancel:hover{color: #990000;}
+/*.dish-detail-cancel:hover{background-color: #8CD2ED;}*/
 
 .introduce{height: 240px; width: 580px; float: left; position: relative; left: 10px;}
 .dish_detail_writer{line-height: 30px; width: 90px; float: left; color: #990000;}

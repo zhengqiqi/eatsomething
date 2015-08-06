@@ -1,4 +1,4 @@
-body{width:1200px; margin: 0 auto; background: #F6F6F6; padding: 0} /*设置body总样式，宽度1200px，边距自适应*/
+body{width:1200px; margin: 0 auto; background: #F2F2F2; padding: 0} /*设置body总样式，宽度1200px，边距自适应*/
 a,p,div{font-family: 微软雅黑; font-size: 13px; text-align: center; text-decoration:none; color: #333333;}
 /*默认微软雅黑，浅黑色，13号字体，居中, 去掉下划线*/
 ul{list-style-type: none; width: 145px; margin: 0px; padding: 0px;}

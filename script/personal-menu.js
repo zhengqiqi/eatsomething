@@ -57,3 +57,4 @@ $('#menu-div .menu-comment').mouseover(function(){
     var $this = $(this);
     $this.find('.hide-show').addClass('hide');
 });
+
