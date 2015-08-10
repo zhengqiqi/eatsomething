@@ -1,24 +1,22 @@
-#substance{height: 1000px; width: 850px; float: left;}
-.comment{height: 240px;}
-.pic{height: 200px; width: 220px; float: left;}
-.pic_rel{height: 138px; width: 220px; position: relative; top:30px; }
-
-.introduce{height: 240px; width: 580px; float: left; position: relative; left: 10px;}
-.dish_detail{height: 30px; width: 600px;}
-.dish_detail_name{line-height: 30px; width: 140px; float: left; text-align: left; font-size: 18px; font-weight: bold;}
-.dish_detail_info{height: 30px; width: 450px; float: left; position: relative;}
-.dish_detail_data{line-height: 30px; width: 90px; float: left; color: #990000;}
-.dish_detail_writer{line-height: 30px; width: 90px; float: left; color: #990000;}
-.dish_detail_good{height: 30px; width: 60px; float: left;}
+#substance{height: 1000px; width: 1020px; float: left;}
+.comment{height: 210px; width: 500px; float: left;}
+.comment-div{height: 200px; width: 480px; position:relative; top:5px; left: 10px; background-color: white;}
+.comment-div-hover{background-color: #F6F6F6;}
+.pic{height: 157px; width: 250px; float: left; position: relative; top: 23px; left: 10px;}
+.pic-rel{height: 157px; width: 250px; position: relative; }
+.dish-detail{height: 157px; width: 215px; float: right; position: relative; top: 23px;}
+.dish-detail-name{line-height: 24px; width: 215px; position: relative; text-align: left;}
+.dish-detail-name a{ font-size: 20px;}
+.dish-detail-name a:hover{color: #990000;}
+.dish-detail-info{height: 95px; width: 200px; position: relative; top: 8px; text-align: left; color: #737373}
+.dish-detail-inter{height: 30px; width: 200px; position: relative; top: 8px;}
+.dish_detail_good{height: 30px; width: 40px; float: left;}
 .dish_detail_good_icon{height: 30px; width: 30px; float: right;}
 .dish_detail_good_num{line-height: 30px; width: 10px; float: right; color: #990000;}
-.dish_detail_com{height: 30px; width: 60px; float: left;}
+.dish_detail_com{height: 30px; width: 60px; float: left; position: relative; left: 10px;}
 .dish_detail_com_icon{height: 30px; width: 30px; float: right;}
 .dish_detail_com_num{line-height: 30px; width: 10px; float: right; color: #990000;}
-.dish_detail_col{height: 30px; width: 30px; float: left;}
+.dish_detail_col{height: 30px; width: 30px; float: left; position: relative; left: 30px;}
 .dish_detail_col_icon{height: 30px; width: 30px; float: right;}
 .dish_detail_del{line-height: 30px; width: 80px; background-color: #8CD2ED; float: right; border-radius: 5px;}
-.icon-heart-on{background: red;}
-
-.dish_intro{height: 140px; width: 600px;}
-.dish_intro_p{height: 120px; width: 600px; text-align: left; font-size: 14px;}
+.icon-five-on{border-bottom-color: red;}

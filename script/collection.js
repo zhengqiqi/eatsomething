@@ -14,7 +14,12 @@ $('#substance a.dish-detail-cancel').mouseover(function(){
 });
 
 $('#substance .comment-div').mouseover(function(){
-    $(this).find('.dish-detail-cancel').removeClass('hide');
+    var $this = $(this);
+    $this.find('.dish-detail-cancel').removeClass('hide');
+    $this.addClass('comment-div-hover');
 }).mouseleave(function(){
-    $(this).find('.dish-detail-cancel').addClass('hide');
+    var $this = $(this);
+    $this.find('.dish-detail-cancel').addClass('hide');
+    $this.removeClass('comment-div-hover');
 })
+
