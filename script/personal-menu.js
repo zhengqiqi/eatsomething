@@ -30,7 +30,7 @@ var menuHtml = '<div class="menu">'+
             '</li>'+
           '</a>'+
         '</div>'+
-        '<div class="menu-each">'+
+        '<div class="menu-each menu-basket">'+
           '<a href="./basket.html">'+
             '<li class="menu-li">'+
               '<div>我的菜篮子</div>'+

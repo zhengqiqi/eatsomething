@@ -1,19 +1,33 @@
-#substance{height: 1000px; width: 850px; float: left;}
-.comment{height: 240px;}
-.pic{height: 200px; width: 220px; float: left;}
-.pic_rel{height: 138px; width: 220px; position: relative; top:30px; }
-
-.introduce{height: 240px; width: 580px; float: left; position: relative; left: 10px;}
-.dish_detail{height: 30px; width: 600px;}
-.dish_detail_name{line-height: 30px; width: 140px; float: left; text-align: left; font-size: 18px; font-weight: bold; position: relative; top: 25px; left: 10px;}
-.dish_detail_info{height: 30px; width: 450px; float: left; position: relative; top: 25px; left: 10px;}
-.dish_detail_data{line-height: 30px; width: 90px; float: left; color: #990000;}
-.dish_detail_writer{line-height: 30px; width: 90px; float: left; color: #990000;}
-
-.dish-mat{height: 80px; width: 690px; position: relative; top: 50px;}
-.dish-mat-main, .dish-mat-less{height: 40px; width: 650px; }
-.dish-mat-info-p{margin: 0; line-height: 24px; width: 60px; font-weight: bold; float: left;}
-.dish-mat-each{height: 20px; width: 140px; float: left; border-radius: 5px; position: relative;}
-.dish-mat-name{height: 20px; width: 60px; float: left; position: relative; text-align: right;}
-.dish-mat-num{height: 20px; width: 45px; float: left; position: relative; left: 10px; text-align: center;}
-.dish-mat-del{height: 16px; width: 16px; float: left; position: relative; left: 15px; top: 2px; background-color: #8CD2ED; border-radius: 8px;}
+#screen{
+    height: 50px; 
+    width: 900px; 
+    float: left; 
+    position: relative; top: 10px;
+}
+.screen-div{
+    height: 40px; 
+    width: 890px;
+    position: relative; left: 10px;
+}
+.screen-each{
+    line-height: 40px; 
+    width: 130px; 
+    text-align: center;
+}
+.screen-show{
+    border-top: #8CD2ED solid 2px; 
+    border-left: #8CD2ED solid 2px; 
+    border-right: #8CD2ED solid 2px; 
+    border-bottom: #F2F2F2 solid 2px;
+}
+.screen-unshow{
+    border-bottom: #8CD2ED solid 2px;
+}
+.screen-unshow:hover{
+    background-color: #D3D3D3;
+}
+.screen-empty{
+    height: 40px; 
+    width: 590px; 
+    border-bottom: #8CD2ED solid 2px;
+}
