@@ -1,6 +1,7 @@
 #substance{height: 1000px; width: 1020px; float: left;}
 .comment{height: 290px; width: 340px; float: left;}
 .comment-div{height: 280px; width: 330px; position: relative; top:10px; left: 5px; background-color: white;}
+.comment-div-hover{background-color: #F6F6F6;}
 .dish_detail{height: 30px; width: 300px;}
 .dish_detail_name{line-height: 30px; width: 200px; float: left; text-align: center; font-size: 18px; font-weight: bold;}
 .dish_detail_data{line-height: 30px; width: 100px; float: left; color: #990000;}

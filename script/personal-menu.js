@@ -8,13 +8,11 @@ var menuHtml = '<div class="menu">'+
           '</a>'+
         '</div>'+
         '<div class="menu-each menu-comment">'+
-            '<a href="#" class="menu-li">'+
+          '<a href="./comment-in.html">'+
+            '<li class="menu-li">'+
               '<div>评论</div>'+
-              '<ul class="hide hide-show">'+
-                '<li class="menu-li">我收到的评论</li>'+
-                '<li class="menu-li">我发布的评论</li>'+
-              '</ul>'+
-            '</a>'+
+            '</li>'+
+          '</a>'+
         '</div>'+
         '<div class="menu-each menu-collection">'+
           '<a href="./collection.html">'+
@@ -31,7 +29,7 @@ var menuHtml = '<div class="menu">'+
           '</a>'+
         '</div>'+
         '<div class="menu-each menu-basket">'+
-          '<a href="./basket.html">'+
+          '<a href="./basket-food.html">'+
             '<li class="menu-li">'+
               '<div>我的菜篮子</div>'+
             '</li>'+
@@ -50,11 +48,8 @@ $('#menu-div .menu-each').mouseover(function(){
     $this.removeClass('menu-each-hover');
 });
 
-$('#menu-div .menu-comment').mouseover(function(){
-    var $this = $(this);
-    $this.find('.hide-show').removeClass('hide');
+$('#substance .comment-div').mouseover(function(){
+    $(this).addClass('comment-div-hover');
 }).mouseleave(function(){
-    var $this = $(this);
-    $this.find('.hide-show').addClass('hide');
-});
-
+    $(this).removeClass('comment-div-hover');
+})

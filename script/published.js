@@ -16,3 +16,8 @@ $('#substance a.dish_detail_btn').mouseover(function(){
     $(this).removeClass('dish_detail_btn_hover');
 });
 
+$('#substance .comment-div').mouseover(function(){
+    $(this).addClass('comment-div-hover');
+}).mouseleave(function(){
+    $(this).removeClass('comment-div-hover');
+});

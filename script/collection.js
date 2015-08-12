@@ -23,3 +23,8 @@ $('#substance .comment-div').mouseover(function(){
     $this.removeClass('comment-div-hover');
 })
 
+$('#substance .comment-div').mouseover(function(){
+    $(this).addClass('comment-div-hover');
+}).mouseleave(function(){
+    $(this).removeClass('comment-div-hover');
+});

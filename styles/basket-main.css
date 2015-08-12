@@ -1,20 +1,12 @@
 #substance{height: 1000px; width: 900px; float: left;}
-.comment{height: 190px; width: 890px;}
-.comment-div{height: 180px; width: 890px; position: relative; left: 10px;top: 10px; background-color: white;}
-.pic{height: 170px; width: 220px; float: left;}
-.pic_rel{height: 138px; width: 220px; position: relative; top:30px; left: 10px;}
-
-.introduce{height: 170px; width: 580px; float: left; position: relative; left: 10px;}
-.dish_detail{height: 30px; width: 600px;}
-.dish_detail_name{line-height: 30px; width: 140px; float: left; text-align: left; font-size: 18px; font-weight: bold; position: relative; top: 25px; left: 10px;}
-.dish_detail_info{height: 30px; width: 450px; float: left; position: relative; top: 25px; left: 10px;}
-.dish_detail_data{line-height: 30px; width: 90px; float: left; color: #990000;}
-.dish_detail_writer{line-height: 30px; width: 90px; float: left; color: #990000;}
-
-.dish-mat{height: 80px; width: 690px; position: relative; top: 50px;}
-.dish-mat-main, .dish-mat-less{height: 40px; width: 650px; }
-.dish-mat-info-p{margin: 0; line-height: 24px; width: 60px; font-weight: bold; float: left;}
-.dish-mat-each{height: 20px; width: 140px; float: left; border-radius: 5px; position: relative;}
+.comment{height: 250px; width: 450px; float: left;}
+.comment-div{height: 240px; width: 430px; position: relative; left: 10px;top: 10px; background-color: white;}
+.comment-div-hover{background-color: #F6F6F6;}
+.comment-div-p{margin: 0px; line-height: 40px;}
+.comment-div-line{width: 370px; position: relative; left: 30px; border: #D3D3D3 solid 1px;}
+.comment-div-info{width: 370px; height: 180px; position: relative; left: 30px; top: 10px;}
+.dish-mat{height: 40px; width: 180px; float: left;}
+.dish-mat-each{height: 20px; width: 140px; float: left; border-radius: 5px; position: relative; top: 10px; left: 20px;}
 .dish-mat-name{height: 20px; width: 60px; float: left; position: relative; text-align: right;}
 .dish-mat-num{height: 20px; width: 45px; float: left; position: relative; left: 10px; text-align: center;}
 .dish-mat-del{height: 16px; width: 16px; float: left; position: relative; left: 15px; top: 2px; background-color: #8CD2ED; border-radius: 8px;}

@@ -1,7 +1,19 @@
 #substance{height: 1000px; width: 900px; float: left;}
-.comment{height: 190px; width: 890px;}
-.comment-div{height: 180px; width: 890px; position: relative; left: 10px;top: 10px; background-color: white;}
+.comment{height: 210px; width: 890px;}
+.comment-div{height: 200px; width: 890px; position: relative; left: 10px;top: 10px; background-color: white;}
 .comment-div-hover{background-color: #F6F6F6;}
+
+.comment-info{height: 180px; width: 600px; float: left; position: relative; left: 10px; top: 10px;}
+.comment-con{height: 130px; width: 600px; float: left;}
+.comment-photo{height: 110px; width: 80px; float: left; position: relative; top: 10px; left: 10px;}
+.comment-photo-rel{height: 80px; width: 80px; float: left;}
+.comment-auther{line-height: 20px; width: 150px; float: left; position: relative; top: 10px; left: 20px; text-align: left; font-weight: bold;}
+.comment-comment{line-height: 20px; width: 490px; float: left; position: relative; top: 15px; left: 20px; text-align: left;}
+.comment-date{line-height: 20px; width: 490px; float: left;  position: relative; top: 25px; left: 20px; text-align: left;}
+.comment-old{line-height: 20px; width: 490px; float: left; position: relative; top: 20px; left: 20px; text-align: left; background-color: #F2F2F2; color: #737373;}
+.comment-btn{height: 45px; width: 600px; float: left; position: relative; top: 5px; background-color: green;}
+.comment-food{height: 160px; width: 250px; float: left; position: relative; left: 20px; top: 10px; background-color: blue;}
+
 .pic{height: 170px; width: 220px; float: left;}
 .pic_rel{height: 138px; width: 220px; position: relative; top:30px; left: 10px;}
 
