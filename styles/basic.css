@@ -8,6 +8,7 @@ input{font-family: 微软雅黑; font-size: 13px; text-align: left; border: 1px 
 .text-left{text-align: left;}
 .font-bold{font-weight: bold;}/*设置粗体*/
 .blue-frame{border: 2px solid #8CD2ED;}
+.test{background-color: red;}
 
 /*头部*/
 #header{height: 100px;} /*头部默认高度100*/

@@ -3,8 +3,22 @@ $('#menu-div .menu-comment').prepend(function(){
     $this.addClass('menu-each-click')
 })
 
-$('#substance .comment-div').mouseover(function(){
-    $(this).addClass('comment-div-hover');
-}).mouseleave(function(){
-    $(this).removeClass('comment-div-hover');
-});
+$('#com .comment-re').click(function(){
+    var $com=$(this).parentsUntil('#com').siblings('.com-re');
+    $com.removeClass('hide');
+    $com.find('.com_re_input').removeClass('hide');
+    $com.find('.com_re_btn').removeClass('hide');
+})
+
+$('#com .com_re_input').focus(function(){
+    $(this).addClass('text_focus');
+}).blur(function(){
+    $(this).removeClass('text_focus');
+})
+
+$('#com .comment-re').click(function(){
+    $sub =$(this).parentsUntil('#com')
+    $sub.siblings('.com-re').find('.com_re_input').val("回复@"+$sub.find('.comment-auther').text()+":")
+    .addClass('text_focus')
+    $sub.siblings('.com-re').find('.com_re_input').focus()
+})

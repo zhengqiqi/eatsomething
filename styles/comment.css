@@ -1,6 +1,6 @@
 #substance{height: 1000px; width: 900px; float: left;}
 .comment{height: 190px; width: 890px;}
-.comment-div{height: 180px; width: 890px; position: relative; left: 10px;top: 10px; background-color: white;}
+.comment-div-com{height: 180px; width: 890px; position: relative; left: 10px;top: 10px; background-color: white;}
 .comment-div-hover{background-color: #F6F6F6;}
 
 .comment-info{height: 160px; width: 600px; float: left; position: relative; left: 10px; top: 10px;}
@@ -14,15 +14,14 @@
 .comment-date{line-height: 20px; width: 490px; float: left; position: relative; top: 15px; left: 20px; text-align: left;}
 .comment-btn{height: 40px; width: 600px; float: left;}
 .comment-link{line-height: 40px; width: 280px; float: left; position: relative; left: 5px; border-top: #F2F2F2 solid 2px; border-right: #F2F2F2 solid 2px;}
-.comment-link:hover{color: #990000;}
+.comment-link:hover, .comment-re:hover{color: #990000; background-color: #D3D3D3;}
 .comment-re{line-height: 40px; width: 280px; float: left; position: relative;  border-top: #F2F2F2 solid 2px;}
-.comment-re:hover{color: #990000;}
 .comment-food{height: 160px; width: 250px; float: left; position: relative; left: 20px; top: 10px;}
 .comment-food-rel{height: 160px; width: 250px; float: left;}
 
-#com-re{height: 60px; width: 600px; position: relative; left: 10px; background-color: red; }/*display: none;*/
-.com_re_input{position: relative; top: 40px; left: 10px; color: silver; outline-color: invert; border: 1px solid #DDDDDD;}
-.com_re_btn{height: 21px; width: 60px; position: relative; border: none; background-color: #8CD2ED; color: white; text-align: center; border-radius: 3px;}
+.com-re{height: 60px; width: 600px; position: relative; left: 10px; background-color: #DDDDDD; }/*display: none;*/
+.com_re_input{height: 40px; width: 500px; position: relative; top: 7px; outline-color: invert; border: 1px solid #DDDDDD;}
+.com_re_btn{height: 20px; width: 60px; position: relative; border: none; background-color: #8CD2ED; color: white; text-align: center; border-radius: 3px;}
 
 .pic{height: 170px; width: 220px; float: left;}
 .pic_rel{height: 138px; width: 220px; position: relative; top:30px; left: 10px;}
