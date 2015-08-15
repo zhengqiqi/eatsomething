@@ -1,0 +1,13 @@
+.comment{height: 210px; width: 500px; float: left;}
+.comment-div{height: 200px; width: 480px; position:relative; top:5px; left: 10px; background-color: white;}
+.comment-div-hover{background-color: #F6F6F6;}
+.pic{height: 157px; width: 250px; float: left; position: relative; top: 23px; left: 10px;}
+.pic-rel{height: 157px; width: 250px; position: relative; }
+.dish-detail{height: 157px; width: 215px; float: right; position: relative; top: 23px;}
+.dish-detail-name{line-height: 24px; width: 215px; position: relative; text-align: left;}
+.dish-detail-name a{ font-size: 20px;}
+.dish-detail-name a:hover{color: #990000;}
+.dish-detail-food{height: 110px; width: 215px; position: relative; top: 8px; }
+.dish-detail-data{line-height: 20px; width: 140px; float: left; text-align: left;}
+.food-main-p{margin: 0; line-height: 24px; width: 40px; float: left; text-align: left; color: #737373;}
+.food-main-info{line-height: 24px; width: 160px; float: left; text-align: left; color: #737373;}

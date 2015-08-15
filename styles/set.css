@@ -1,0 +1,4 @@
+#set-div{height: 1000px; width: 1000px; margin-left: auto; margin-right: auto; background-color: white;}
+.cooker-name{height: 50px; width: 900px; margin-left: auto; margin-right: auto; position: relative; top: 20px;}
+.cooker-name-p{line-height: 50px; width: 100px; text-align: right; font-weight: bold;}
+.cooker-name-input{height: 50px; width: 500px;}

@@ -1,0 +1,14 @@
+#head-div{height: 200px; width: 1000px; margin-left: auto; margin-right: auto;}
+.cooker-pic{height: 120px; width: 120px; margin-left: auto; margin-right: auto; position: relative; top: 30px;}
+.cooker-pic-rel{height: 120px; width: 120px;}
+.cooker-say{line-height: 30px; width: 1000px; position: relative; top: 30px; text-align: center;}
+
+#head-menu{height: 50px; width: 1000px; margin-left: auto; margin-right: auto; background-color: white;}
+.head-menu-div{height: 50px; width: 600px; margin-left: auto; margin-right: auto;}
+.head-each{height: 50px; width: 300px; float: left;}
+.head-each-p{line-height: 45px; width: 300px;}
+.head-each-on{font-weight: bold;}
+.head-each-line{width: 150px; margin-left: auto; margin-right: auto; border: 1px solid #8CD2ED;}
+.head-each-line-show{width: 150px; margin-left: auto; margin-right: auto; border: 1px solid #8CD2ED;}
+
+#substance{height: 1000px; width: 1000px; margin-left: auto; margin-right: auto;}
