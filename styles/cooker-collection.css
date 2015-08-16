@@ -1,5 +1,5 @@
-.comment{height: 210px; width: 500px; float: left;}
-.comment-div{height: 200px; width: 480px; position:relative; top:5px; left: 10px; background-color: white;}
+.comment{height: 210px; width: 510px; float: left;}
+.comment-div{height: 200px; width: 490px; position:relative; top:10px; left: 10px; background-color: white;}
 .comment-div-hover{background-color: #F6F6F6;}
 .pic{height: 157px; width: 250px; float: left; position: relative; top: 23px; left: 10px;}
 .pic-rel{height: 157px; width: 250px; position: relative; }

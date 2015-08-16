@@ -20,7 +20,13 @@
 .comment-food-rel{height: 160px; width: 250px; float: left;}
 
 .com-re{height: 60px; width: 600px; position: relative; left: 10px; background-color: #DDDDDD; }/*display: none;*/
-.com_re_input{height: 40px; width: 500px; position: relative; top: 7px; outline-color: invert; border: 1px solid #DDDDDD;}
+.com_re_input{height: 40px; width: 500px; position: relative; top: 7px; outline-color: invert; border: 1px solid #DDDDDD; outline-color: invert;}
+.com_re_input:focus {
+     border: 1px solid #fafafa;
+    -webkit-box-shadow: 0px 0px 6px #007eff;
+     -moz-box-shadow: 0px 0px 5px #007eff;
+     box-shadow: 0px 0px 5px #007eff;
+}
 .com_re_btn{height: 20px; width: 60px; position: relative; border: none; background-color: #8CD2ED; color: white; text-align: center;}
 
 .pic{height: 170px; width: 220px; float: left;}

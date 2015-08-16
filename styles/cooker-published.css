@@ -1,5 +1,5 @@
-.comment{height: 270px; width: 330px; float: left;}
-.comment-div{height: 260px; width: 320px; position: relative; top:10px; left: 10px; background-color: white;}
+.comment{height: 270px; width: 340px; float: left;}
+.comment-div{height: 260px; width: 320px; position: relative; top:10px; left: 10px; right: 10px; background-color: white;}
 .comment-div-hover{background-color: #F6F6F6;}
 .dish_detail{height: 30px; width: 300px;}
 .dish_detail_name{line-height: 30px; width: 200px; float: left; text-align: center; font-size: 18px; font-weight: bold;}

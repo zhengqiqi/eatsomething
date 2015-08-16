@@ -9,13 +9,34 @@
 </head>
 <body>
     <div id="set-div">
-        <div class="cooker-name">
-            <div class="cooker-name-p"></div>
-             <input type="name" value="cooker-name" class="cooker-name-input" />
-        </div>
+        <form action="#" method="post" class="set-form">
+            <div class="cooker-inputline">
+                <div class="cooker-p">昵称：</div>
+                 <input type="text" class="cooker-input-div cooker-name" value="username" />
+            </div>
+            <div class="cooker-inputarea">
+                <div class="cooker-p">个性签名：</div>
+                 <textarea type="text" class="cooker-textarea-div cooker-sign">做好吃的菜，哄自己开心！</textarea>
+            </div>
+            <div class="cooker-inputline">
+                <div class="cooker-p">更换密码：</div>
+                 <input type="password" class="cooker-input-div cooker-password" value="做好吃的菜，哄自己开心！" />
+            </div>
+            <div class="cooker-inputdiv">
+                <div class="cooker-p">更换头像：</div>
+                <div class="cooker-headpic-div">
+                     <input type="file" class="cooker-inputpic-div" /><br></br>
+                     <img src="./images/top5_1.jpg" class="cooker-headpic">
+                     <div class="cooker-headtip">（当前头像）</div>
+                </div>
+            </div>
+            <div class="submit-div">
+                <div class="submit-div-left">
+                    <input type="submit" class="submit-btn" value="保存"/>
+                </div>
+            </div>
+        </form>
     </div>
-
-
 
     <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
     <script language="javascript" type="text/javascript" src="script/head.js"></script>
