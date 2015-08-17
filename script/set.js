@@ -1,3 +1,19 @@
+var name=0
+var sign=0
+var password=0
+
+$('#set-div .cooker-name').blur(function(){
+    var $this = $(this)
+    if (this.value.length >0 && this.value.length < 21){
+        name=true;
+    }else{
+        $this.siblings('.errorMsg').remove();
+        var errorMsg = '*昵称需在1-20字之间.';
+        $this.parent().append('<div class="errorMsg">'+errorMsg+'</div>');
+    }
+})
+
+/*
 $('#set-div .cooker-name').blur(function(){
     var $this = $(this)
     if (this.value.length==""){
@@ -11,7 +27,7 @@ $('#set-div .cooker-name').blur(function(){
         $this.parent().append('<div class="errorMsg">'+errorMsg+'</div>');
     };
 })
-
+*/
 $('#set-div .cooker-sign').blur(function(){
     var $this = $(this)
     if (this.value==""){
@@ -39,3 +55,11 @@ $('#set-div .cooker-password').blur(function(){
         $this.parent().append('<div class="errorMsg">'+errorMsg+'</div>');
     };
 })
+
+$('#set-div .submit-btn').click(function(){
+    if (name){
+        $('form').submit();
+    }else{
+        return false;
+    }
+});
