@@ -25,6 +25,12 @@ textarea:focus {
 
 /*头部*/
 #header{height: 100px;} /*头部默认高度100*/
+.header-top{height: 30px; width: 1200px; border-bottom: 1px solid #D3D3D3; background-color: red}
+.header-top-div{height: 30px; width: 150px; float: right; position: relative; right: 70px;}
+.header-top-btn{line-height: 20px; width: 70px; float: left; position: relative; top: 5px;}
+.header-top-btn:hover{color: #86C349;}
+.header-top-btn-left{ border-left: 1px solid #D3D3D3; border-right: 1px solid #D3D3D3;}
+.header-top-btn-right{ border-right: 1px solid #D3D3D3;}
 .headline{height: 100px; width: 600px; float: left;} /*左边标题*/
 .headline_big{line-height: 72px; width: 270px; float: left; position: relative; top:14px;  text-align: right;}
 .headline_big_a{font-size: 72px; color: #86C349} /*设置标题链接字体大小*/
