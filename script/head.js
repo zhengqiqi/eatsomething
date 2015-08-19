@@ -1,4 +1,22 @@
-var headHtml = '<div id="header">'+
+var headHtml = 
+'<div id="header">'+
+    '<div id="header-top">'+
+        '<div class="header-top-div onlogin hide">'+
+            '<a href="javascript:;"><div class="header-top-btn header-top-btn-left">注册</div></a>'+
+            '<a href="javascript:;"><div class="header-top-btn header-top-btn-right">登陆</div></a>'+
+        '</div>'+
+        '<div class="header-top-div logined">'+
+            '<div><a href="javascript:;" class="header-top-btn header-top-btn-left header-top-name">用户名</a></div>'+
+            '<div><a href="javascript:;" class="header-top-btn header-top-btn-right">退出</a></div>'+
+            '<div class="header-top-name-hide hide">'+
+                '<ul>'+
+                    '<li><a href="javascript:;" class="header-top-hide-each">我要发布</a></li>'+
+                    '<li><a href="./published.html" class="header-top-hide-each">我的信息</a></li>'+
+                    '<li><a href="./set.html" class="header-top-hide-each">个人设置</a></li>'+
+                '</ul>'+
+            '</div>'+
+        '</div>'+
+    '</div>'+
     '<div class="headline">'+
         '<div class="headline_big"><a href="#" class="headline_big_a">做吃的</a></div>'+
         '<div class="headline_small"><p>下厨不是件容易的事，每道菜都有它的脾气。</p></div>'+
@@ -10,30 +28,6 @@ var headHtml = '<div id="header">'+
                 '<input type="image" src="images/index_submit.png" class="submit search-btn"/>'+
             '</form>'+
         '</span>'+
-        '<div class="control-block"></div>'+
-                '<div id="login_h" class="login">'+
-                    '<span>'+
-                        '<div>'+
-                            '<a href="#" class="login">用户名</a>'+
-                        '</div>'+
-                        '<div id="login_hide" class="hide">'+
-                            '<ul>'+
-                                '<li>'+
-                                    '<a href="#">我要发布</a>'+
-                                '</li>'+
-                                '<li>'+
-                                    '<a href="#">我的小菜篮</a>'+
-                                '</li>'+
-                                '<li>'+
-                                    '<a href="#">个人设置</a>'+
-                                '</li>'+
-                                '<li>'+
-                                    '<a href="#">退出</a>'+
-                                '</li>'+
-                            '</ul>'+
-                        '</div>'+
-                '</span>'+
-           '</div>'+
     '</div>'+
 '</div>';
 
@@ -56,3 +50,16 @@ $('#login_h').mouseover(function(){
     $('#login_hide').addClass('hide');
 })
 
+$('#header-top .header-top-btn').mouseover(function(){
+    $(this).addClass('header-top-btn-hover')
+}).mouseleave(function(){
+    $(this).removeClass('header-top-btn-hover')
+})
+
+$('#header-top .header-top-name').mouseover(function(){
+    $(this).parent().siblings('.header-top-name-hide').removeClass('hide');
+})
+
+$('#header-top .logined').mouseleave(function(){
+    $(this).children('.header-top-name-hide').addClass('hide')
+})
