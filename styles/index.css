@@ -2,7 +2,7 @@
 .subject{height: 350px; width: 570px; float: left;} /*中间专题左浮动*/
 .subject_con{height: 350px; width: 480px; position: relative; left:60px; }
 .subject_con_frame{height: 320px; width:480px; position: relative; top: 27px;}
-.subject_con_sub{line-height: 25px; width: 200px; position: absolute; top: 16px; left: 50px; background-color: #F6F6F6; }
+.subject_con_sub{line-height: 25px; width: 200px; position: absolute; top: 16px; left: 50px; background-color: #F2F2F2; }
 .subject_con_dish{height: 90px; width: 450px; left: 18px; }
 .dish-1{position: absolute; top: 50px; }
 .dish-2{position: absolute; top: 145px; }
@@ -17,7 +17,7 @@
 .back-change-index{background-color: #DDDDDD;}
 .top5{height: 350px; width: 560px;}
 
-#list_index{height: 215px;} /*下面列表默认高度215*/
+#list_index{height: 215px; width: 1200px; position: relative; top: 5px;} /*下面列表默认高度215*/
 .list_rel{height: 215px; width: 20%; float: left;} /*每个方块高215，占20%*/
 .list1{height: 185px; width: 80%; margin:0 auto; background: #FFDC2C; border-radius: 26px; position: relative; top:29px;} 
 /*设置相对宽度80%，圆角26px，相对定位，相对父div下降29px*/

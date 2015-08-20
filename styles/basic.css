@@ -24,7 +24,8 @@ textarea:focus {
 .test{background-color: red;}
 
 /*头部*/
-#header{height: 100px;} /*头部默认高度100*/
+#header{height: 132px;} /*头部默认高度100*/
+
 #header-top{height: 30px; border-bottom: 1px solid #D3D3D3;}
 .header-top-div{height: 30px; width: 150px; float: right; position: relative; right: 70px;}
 .header-top-btn{line-height: 20px; width: 70px; float: left; position: relative; top: 5px;}
@@ -37,19 +38,13 @@ textarea:focus {
 .header-top-hide-each:hover{background-color: #F2F2F2; color: #86C349;}
 
 .headline{height: 100px; width: 600px; float: left;} /*左边标题*/
-.headline_big{line-height: 72px; width: 270px; float: left; position: relative; top:14px;  text-align: right;}
+.headline_big{line-height: 80px; width: 270px; float: left; text-align: right; position: relative; top: 10px;}
 .headline_big_a{font-size: 72px; color: #86C349} /*设置标题链接字体大小*/
-.headline_small{line-height: 13px; width: 330px; float: right; position: relative; top:60px;}
-#header p{color: #86C349;}
+.headline_small{line-height: 15px; width: 330px; float: right; position: relative; top: 70px; color: #86C349;}
 .control{height: 100px; width: 600px; float: right;} /*右边控制按钮*/
-.search{line-height: 40px; width: 410px; float: left; text-align: right;}
-input.text{width: 256px; height:25px; text-align: left; border: 1px solid #E4E4E4;} /*设置边框*/
-input.submit{position: relative; top:7px;}
-.control-block{height: 40px; width: 20px;float: left;}
-.login{line-height: 40px; width: 80px; float: left; color: #86C349; font-weight: bold; font-size: 13px; z-index: 1000 !important;}
-#login_hide {position: relative; z-index: 99999 !important;}
-#login_hide a {line-height: 25px; width: 80px; float: right; color: #86C349; font-weight: normal; position: relative; background: #F6F6F6;} /*设置粗体*/
-#login_hide a:hover{background: #86C349; color: #F6F6F6}
+.search{height: 42px; width: 410px; float: left; text-align: right; position: relative; top: 30px;}
+.search-text{height: 30px; width: 256px; text-align: left; border: 1px solid #86C349; color: rgb(153, 153, 153);}
+.search-btn{line-height: 30px; width: 80px; text-align: center; border: 1px solid #86C349; background-color: #86C349; color: white;}
 .text{color: silver}
 .text_focus{color: #333333}
 
