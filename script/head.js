@@ -17,16 +17,18 @@ var headHtml =
             '</div>'+
         '</div>'+
     '</div>'+
-    '<div class="headline">'+
-        '<div class="headline_big"><a href="./index.html" class="headline_big_a">做吃的</a></div>'+
-        '<div class="headline_small">下厨不是件容易的事，每道菜都有它的脾气。</div>'+
-    '</div>'+
-    '<div class="control">'+
-        '<div class="search">'+
-            '<form action="#" method="post">'+
-                '<input type="text" name="search" class="search-text" value="糖醋排骨"/>'+
-                '<input type="submit" class="submit search-btn" value="搜索"/>'+
-            '</form>'+
+    '<div id="header-mid">'+
+        '<div class="headline">'+
+            '<div class="headline_big"><a href="./index.html" class="headline_big_a">做吃的</a></div>'+
+            '<div class="headline_small">下厨不是件容易的事，每道菜都有它的脾气。</div>'+
+        '</div>'+
+        '<div class="control">'+
+            '<div class="search">'+
+                '<form action="#" method="post">'+
+                    '<input type="text" name="search" class="search-text" value="糖醋排骨"/>'+
+                    '<input type="submit" class="submit search-btn" value="搜索"/>'+
+                '</form>'+
+            '</div>'+
         '</div>'+
     '</div>'+
 '</div>';
