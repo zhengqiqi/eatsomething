@@ -1,7 +1,8 @@
 var headHtml = 
 '<div id="header">'+
+/*
     '<div id="header-top">'+
-        '<div class="header-top-div onlogin hide">'+
+        '<div class="header-top-div nologin hide">'+
             '<a href="javascript:;"><div class="header-top-btn header-top-btn-left">注册</div></a>'+
             '<a href="javascript:;"><div class="header-top-btn header-top-btn-right">登陆</div></a>'+
         '</div>'+
@@ -32,7 +33,7 @@ var headHtml =
         '</div>'+
     '</div>'+
 '</div>';
-
+*/
 $('html body').prepend(headHtml);
 
 $('#header .search-text').focus(function(){

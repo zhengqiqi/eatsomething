@@ -1,4 +1,4 @@
-body{width:1200px; margin: 0 auto; background: #F2F2F2; padding: 0} /*设置body总样式，宽度1200px，边距自适应*/
+body{margin: 0 auto; background: #F2F2F2; padding: 0} /*设置body总样式，宽度1200px，边距自适应*/
 a,p,div{font-family: 微软雅黑; font-size: 13px; text-align: center; text-decoration:none; color: #333333;}
 /*默认微软雅黑，浅黑色，13号字体，居中, 去掉下划线*/
 ul{list-style-type: none; width: 145px; margin: 0px; padding: 0px;}
@@ -17,6 +17,7 @@ textarea:focus {
      -moz-box-shadow: 0px 0px 5px #007eff;
      box-shadow: 0px 0px 5px #007eff;
 }
+.title-color{color: #3193DD;}
 .hide{display: none;}
 .text-left{text-align: left;}
 .font-bold{font-weight: bold;}/*设置粗体*/
@@ -53,6 +54,18 @@ textarea:focus {
 .head-menu-div{height: 40px; width: 1000px; margin-left: auto; margin-right: auto;}
 .head-menu-each{height: 40px; width: 100px; float: left;}
 .head-menu-each-p{line-height: 40px; width: 80px; font-size: 16px; font-weight: bold; color: white; text-align: left;}
+
+#head-top-2{height: 50px; border-bottom: 1px solid #D3D3D3;}
+.head-top-title-2{line-height: 50px; width: 150px; float: left; font-size: 35px;}
+.head-top-title2-2{line-height: 15px; width: 310px; float: left; position: relative; top: 28px; text-align: left;}
+.head-top-search-2{height: 50px; float: left;}
+.head-top-search-text-2{height: 30px; width: 260px; float: left; text-align: left; border: 2px solid #3193DD; color: rgb(153, 153, 153); position: relative; top: 8px;}
+.head-top-search-btn-2{line-height: 30px; width: 80px; float: left; text-align: center; border: 2px solid #3193DD; background-color: #3193DD; color: white; position: relative; top: 8px;}
+.head-top-link-2{height: 50px; float: right;}
+.head-top-link-each-break-2{line-height: 50px; width: 5px; float: left; font-size: 20px; color: #D3D3D3}
+.nologin{width: 350px; }
+.head-top-link-each-off-2{height: 50px; width: 70px; float: left;}
+.head-top-link-each-off-p-2{line-height: 50px; width: 60px; font-size: 15px;}
 
 /*心形icon*/
 .icon-heart:hover{background: red;}
