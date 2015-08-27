@@ -1,4 +1,4 @@
-#head-div{height: 200px; width: 1000px; margin-left: auto; margin-right: auto;}
+#head-div{height: 200px; width: 1000px; margin-left: auto; margin-right: auto; position: relative;top: 5px;}
 .cooker-pic{height: 120px; width: 120px; margin-left: auto; margin-right: auto; position: relative; top: 30px;}
 .cooker-pic-rel{height: 120px; width: 120px;}
 .cooker-say{line-height: 30px; width: 1000px; position: relative; top: 30px; text-align: center;}
