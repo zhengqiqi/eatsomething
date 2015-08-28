@@ -55,7 +55,7 @@ textarea:focus {
 .head-menu-each-p{line-height: 40px; width: 80px; font-size: 16px; font-weight: bold; color: white; text-align: left;}
 */
 
-#head-top-2{height: 50px; border-bottom: 1px solid #D3D3D3;}
+#head-top-2{height: 50px; width: 1286px; border-bottom: 1px solid #D3D3D3; background-color: #F2F2F2; position:relative; z-index:99999;}
 .head-top-title-2{line-height: 50px; width: 150px; float: left; font-size: 35px;}
 .head-top-title2-2{line-height: 15px; width: 310px; float: left; position: relative; top: 28px; text-align: left;}
 .head-top-search-2{height: 50px; float: left;}

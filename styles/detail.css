@@ -1,3 +1,5 @@
+#content-detail{width: 1200px; margin-left: auto; margin-right: auto;}
+
 #pic_comment{height: 730px; width: 480px; float: left;}
 .pic{height: 260px; width: 450px;}
 .pic_rel{height: 250px; width: 400px;  position: relative; top: 9px; left: 25px; }
@@ -6,7 +8,7 @@
 .comment_rel_frame{height: 400px; width: 380px; position: relative; top: 27px;}
 .comment_rel_sub{line-height: 25px; width: 50px; position: absolute; top: 16px; left: 50px; 
     background-color: #F6F6F6; color: #8CD2ED; font-size: 15px;}
-.comment_rel_input{position: absolute; top: 40px; left: 10px; color: silver; outline-color: invert; border: 1px solid #DDDDDD;}
+.comment_rel_input{height: 50px; width: 360px; position: absolute; top: 40px; left: 10px; color: silver; outline-color: invert; border: 1px solid #DDDDDD;}
 .comment_rel_input:focus {
      border: 1px solid #fafafa;
     -webkit-box-shadow: 0px 0px 6px #007eff;

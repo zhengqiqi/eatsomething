@@ -9,7 +9,7 @@ var headHtml =
                 '<input type="submit" class="submit head-top-search-btn-2" value="搜索"/>'+
             '</form>'+
         '</div>'+
-        '<div class="head-top-link-2 nologin hide">'+
+        '<div class="head-top-link-2 nologin">'+
                 '<div class="head-top-link-each-2">'+
                     '<a href="./index.html"><div class="head-top-link-each-p-2 title-color">首页</div></a>'+
                 '</div>'+
@@ -24,7 +24,7 @@ var headHtml =
                     '<a href="javascript:;"><div class="head-top-link-each-p-2 title-color">登陆</div></a>'+
                 '</div>'+
         '</div>'+
-        '<div class="head-top-link-2 logined">'+
+        '<div class="head-top-link-2 logined hide">'+
                 '<div class="head-top-link-each-2">'+
                     '<a href="./index.html"><div class="head-top-link-each-p-2 title-color">首页</div></a>'+
                 '</div>'+
@@ -114,3 +114,15 @@ $('#header-top .logined').mouseleave(function(){
     $(this).children('.header-top-name-hide').addClass('hide')
 })
 */
+
+$(function(){
+    var topHeight = $('#head-top-2').offset().top;      //获取头部对于页面顶部的距离
+    $(window).scroll(function(){
+        var topScro = $(this).scrollTop();      //获取滚动条距顶部的距离
+        if(topScro >= topHeight){
+            $('#head-top-2').css({"position":"fixed","top":0});
+        }else if(topScro < topHeight){
+            $('#head-top-2').css({"position":"static"});
+        }
+    })
+})
