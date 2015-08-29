@@ -25,7 +25,7 @@ textarea:focus {
 .test{background-color: red;}
 
 /*头部*/
-#header{height: 52px;} /*头部默认高度100*/
+#header{height: 52px; margin-left: auto; margin-right: auto;} /*头部默认高度100*/
 
 /*#header-top{height: 30px; border-bottom: 1px solid #D3D3D3;}
 .header-top-div{height: 30px; width: 150px; float: right; position: relative; right: 95px;}

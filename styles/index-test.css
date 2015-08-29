@@ -1,5 +1,3 @@
-.test-1000px{height: 10px; width: 1000px; background-color: red; margin-left: auto; margin-right: auto;}
-
 #content{height: 1000px; width: 1000px; margin-left: auto; margin-right: auto; position: relative; top: 10px;}
 #index-left{height: 1000px; width: 200px; float: left;}
 .list-div{height: 200px; width: 200px; float: left;}
@@ -17,7 +15,42 @@
 #index-center{height: 1000px; width: 570px; float: left;}
 .top5{height: 350px; width: 560px;}
 
-#index-right{height: 1000px; width: 230px; float: left;}
+.subject{height: 415px; width: 570px; float: left;}
+.subject-div{height: 415px; width: 556px; float: left; }
+.subject-sub{line-height: 25px; width: 220px; position: relative; top: -13px; left: 50px; background-color: #F2F2F2; font-size: 15px;}
+.subject-sub:hover{color: white; background-color: #8CD2ED}
+.subject-con-div{height: 400px; width: 556px; position: relative; top: -13px;}
+.subject-each-div{height: 100px; width: 530px; position: relative; left: 12px;}
+.subject-each-rel-blue{height: 96px; width: 530px; position: relative; top: 2px; background-color: #C4DFF8;}
+.subject-each-rel-blue:hover{background-color: #98F1A1;}
+.subject-each-rel-white{height: 96px; width: 530px; position: relative; top: 2px; background-color: #F2F2F2;}
+.subject-each-rel-white:hover{background-color: #98F1A1;}
+.subject-each-pic{height: 80px; width: 128px; }
+.subject-each-pic-left{position: relative; top: 8px; left: 10px; float: left;}
+.subject-each-pic-right{position: relative; top: 8px; left: 10px; float: left;}
+.subject-each-con{height: 80px; width: 380px; }
+.subject-each-con-left{position: relative; top: 8px; left: 20px; float: left;}
+.subject-each-con-right{position: relative; top: 8px; left: 10px; float: left;}
+.subject-each-name{line-height: 15px; width: 360px; float: left; text-align: left;}
+.subject-each-auther{line-height: 25px;}
+.subject-each-between{line-height: 25px; width: 10px;}
+.subject-each-date{line-height: 25px; width: 100px;}
+.subjact-each-mid{ float: left; text-align: left; font-size: 12px; color: #7D7D7D}
+.subjact-each-text{height: 40px; width: 380px; float: left; text-align: left;}
+
+#index-right-nologin{height: 1000px; width: 230px; float: left;}
+#login-div{height: 226px; width: 226px; float: left;}
+.login-top{height: 40px; width: 226px;}
+.login-top-login{line-height: 38px; width: 80px; float: left; position: relative; left: 25px; font-weight: bold; border-bottom: 2px solid #8CD2ED;}
+.login-top-login:hover{border-bottom: 2px solid #8CD2ED;}
+.login-top-register{line-height: 38px; width: 80px; float: left; position: relative; left: 40px;}
+.login-top-register:hover{border-bottom: 2px solid #8CD2ED;}
+
+.login-top-input{height: 30px; width: 200px; float: left; border: 1px solid #C5C4C4;}
+.input-address{position: relative; left: 12px; top: 10px; color: rgb(153, 153, 153);}
+.input-password{position: relative; left: 12px; top: 15px; color: rgb(153, 153, 153);}
+.text_focus{color: #333333}
+.login-top-submit{line-height: 30px; width: 200px; position: relative; top: 20px; border: 1px solid #8CD2ED; background-color: #8CD2ED; text-align: center;}
 
 /*
 #content{height: 350px; width:1200px; margin-left: auto; margin-right: auto; position: relative; top: 10px;}
