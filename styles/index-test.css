@@ -22,9 +22,9 @@
 .subject-con-div{height: 400px; width: 556px; position: relative; top: -13px;}
 .subject-each-div{height: 100px; width: 530px; position: relative; left: 12px;}
 .subject-each-rel-blue{height: 96px; width: 530px; position: relative; top: 2px; background-color: #C4DFF8;}
-.subject-each-rel-blue:hover{background-color: #98F1A1;}
+.subject-each-rel-blue:hover{background-color: #C9C9C9;}
 .subject-each-rel-white{height: 96px; width: 530px; position: relative; top: 2px; background-color: #F2F2F2;}
-.subject-each-rel-white:hover{background-color: #98F1A1;}
+.subject-each-rel-white:hover{background-color: #C9C9C9;}
 .subject-each-pic{height: 80px; width: 128px; }
 .subject-each-pic-left{position: relative; top: 8px; left: 10px; float: left;}
 .subject-each-pic-right{position: relative; top: 8px; left: 10px; float: left;}
@@ -39,18 +39,31 @@
 .subjact-each-text{height: 40px; width: 380px; float: left; text-align: left;}
 
 #index-right-nologin{height: 1000px; width: 230px; float: left;}
-#login-div{height: 226px; width: 226px; float: left;}
 .login-top{height: 40px; width: 226px;}
-.login-top-login{line-height: 38px; width: 80px; float: left; position: relative; left: 25px; font-weight: bold; border-bottom: 2px solid #8CD2ED;}
+.login-top-login{line-height: 38px; width: 80px; float: left; position: relative; left: 25px;}
 .login-top-login:hover{border-bottom: 2px solid #8CD2ED;}
 .login-top-register{line-height: 38px; width: 80px; float: left; position: relative; left: 40px;}
 .login-top-register:hover{border-bottom: 2px solid #8CD2ED;}
+.login-top-on{font-weight: bold; border-bottom: 2px solid #8CD2ED;}
 
+#login-div{height: 226px; width: 226px; float: left; background-color: #EBEBEB}
 .login-top-input{height: 30px; width: 200px; float: left; border: 1px solid #C5C4C4;}
-.input-address{position: relative; left: 12px; top: 10px; color: rgb(153, 153, 153);}
-.input-password{position: relative; left: 12px; top: 15px; color: rgb(153, 153, 153);}
+.login-top-input-p{line-height: 34px; width: 202px; float: left; position: relative; top: -34px; text-align: left; color: rgb(153, 153, 153);}
 .text_focus{color: #333333}
-.login-top-submit{line-height: 30px; width: 200px; position: relative; top: 20px; border: 1px solid #8CD2ED; background-color: #8CD2ED; text-align: center;}
+.login-top-check{height: 17px; width: 100px; float: left; position: relative; top: 35px; left: 12px;}
+.login-top-cookiepassword{height: 13px; width: 13px; float: left;}
+.login-top-checkbox-p{line-height: 17px; width: 60px; float: left; color: #737373;}
+.login-top-forget{line-height: 17px; width: 80px; float: right; position: relative; top: 35px;}
+.login-top-forget a{color: #737373;}
+.login-top-submit{line-height: 30px; width: 200px; position: relative; top: 45px; border: 1px solid #8CD2ED; background-color: #8CD2ED; text-align: center;}
+
+#register-div{height: 226px; width: 226px; float: left; background-color: #EBEBEB}
+
+.login-top-input-address{height: 34px; width: 360px; float: left; position: relative; left: 12px; top: 15px;}
+.login-top-input-password{height: 34px; width: 360px; float: left; position: relative; left: 12px; top: 25px;}
+.login-top-input-repassword{height: 34px; width: 360px; float: left; position: relative; left: 12px; top: 35px;}
+
+.login-top-input-tip{line-height: 34px; width: 155px; float: left; position: relative; left: 0px; color: red; text-align: left;}
 
 /*
 #content{height: 350px; width:1200px; margin-left: auto; margin-right: auto; position: relative; top: 10px;}

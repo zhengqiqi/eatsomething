@@ -14,7 +14,7 @@
     <div id="content">
         <div id="index-left">
             <div class="list-div">
-                <div class="list-each backyellow">
+                <div class="list-each backblue">
                     <div class="list-each-subp">食材种类</div>
                     <div class="list-each-line">
                         <div class="list-each-line-point"></div>
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="list-div">
-                <div class="list-each backpink">
+                <div class="list-each backblue">
                     <div class="list-each-subp">食材种类</div>
                     <div class="list-each-line">
                         <div class="list-each-line-point"></div>
@@ -101,7 +101,7 @@
                 </div>
             </div>
             <div class="list-div">
-                <div class="list-each backyellow">
+                <div class="list-each backblue">
                     <div class="list-each-subp">食材种类</div>
                     <div class="list-each-line">
                         <div class="list-each-line-point"></div>
@@ -230,17 +230,49 @@
         </div>
 <!--中间开始-->
 
-<!--右边结束-->
+<!--右边结束 class="blue-frame"-->
         <div id="index-right-nologin">
-            <div id="login-div" class="blue-frame">
+            <div id="login-div">
                 <div class="login-top">
-                    <a href="javascript:;"><div class="login-top-login">登陆</div></a>
+                    <a href="javascript:;"><div class="login-top-login login-top-on">登陆</div></a>
                     <a href="javascript:;"><div class="login-top-register">注册</div></a>
                 </div>
                 <form action="#" method="post">
-                    <input type="text" name="search" class="login-top-input input-address" value="请输入您的邮箱地址"/>
-                    <input type="text" name="search" class="login-top-input input-password" value="请输入您的密码"/>
+                    <div class="login-top-input-address">
+                        <input type="text" name="login" class="login-top-input" value=""/>
+                        <span class="login-top-input-p">请输入您的邮箱地址</span>
+                    </div>
+                    <div class="login-top-input-password">
+                        <input type="password" name="login" class="login-top-input" value=""/>
+                        <span class="login-top-input-p">请输入您的密码</span>
+                    </div>
+                    <div class="login-top-check">
+                        <input type="checkbox" name="cookiepassword" class="login-top-cookiepassword" value="cookiepassword" checked="checked"/>
+                        <div class="login-top-checkbox-p">记住密码</div>
+                    </div>
+                    <div class="login-top-forget"><a href="javascript:;">忘记密码</a></div>
                     <input type="submit" class="submit login-top-submit" value="登陆"/>
+                </form>
+            </div>
+            <div id="register-div" class="hide">
+                <div class="login-top">
+                    <a href="javascript:;"><div class="login-top-login">登陆</div></a>
+                    <a href="javascript:;"><div class="login-top-register login-top-on">注册</div></a>
+                </div>
+                <form action="#" method="post">
+                    <div class="login-top-input-address">
+                        <input type="text" name="login" class="login-top-input" value=""/>
+                        <span class="login-top-input-p">请输入您的邮箱地址</span>
+                    </div>
+                    <div class="login-top-input-password">
+                        <input type="password" name="login" class="login-top-input" value=""/>
+                        <span class="login-top-input-p">请输入您的密码</span>
+                    </div>
+                    <div class="login-top-input-repassword">
+                        <input type="password" name="register" class="login-top-input" value=""/>
+                        <span class="login-top-input-p">请再次输入您的密码</span>
+                    </div>
+                    <input type="submit" class="submit login-top-submit" value="注册"/>
                 </form>
             </div>
         </div>
