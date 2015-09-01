@@ -212,3 +212,10 @@ $('#register-div form').submit(function(){
     isValid = checkPasswordEqualRepass($('#register-div .login-top-input-repassword .login-top-input')) && isValid;
     return isValid;
 });
+
+
+$('#index-right-logined .logined-detail-each').mouseover(function(){
+    $(this).children('.logined-detail-each-num').addClass('logined-detail-each-num-hover')
+}).mouseleave(function(){
+    $(this).children('.logined-detail-each-num').removeClass('logined-detail-each-num-hover')
+})

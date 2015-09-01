@@ -9,7 +9,7 @@ var headHtml =
                 '<input type="submit" class="submit head-top-search-btn-2" value="搜索"/>'+
             '</form>'+
         '</div>'+
-        '<div class="head-top-link-2 nologin">'+
+        '<div class="head-top-link-2 nologin hide">'+
                 '<div class="head-top-link-each-2">'+
                     '<a href="./index.html"><div class="head-top-link-each-p-2 title-color">首页</div></a>'+
                 '</div>'+
@@ -24,7 +24,7 @@ var headHtml =
                     '<a href="javascript:;"><div class="head-top-link-each-p-2 title-color">登陆</div></a>'+
                 '</div>'+
         '</div>'+
-        '<div class="head-top-link-2 logined hide">'+
+        '<div class="head-top-link-2 logined">'+
                 '<div class="head-top-link-each-2">'+
                     '<a href="./index.html"><div class="head-top-link-each-p-2 title-color">首页</div></a>'+
                 '</div>'+
