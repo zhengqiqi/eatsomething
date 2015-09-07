@@ -44,7 +44,20 @@ var headHtml =
                 '<div class="head-top-link-each-2">'+
                     '<a href="javascript:;"><div class="head-top-link-each-p-2 title-color">退出</div></a>'+
                 '</div>'+
-            '</div>'+
+        '</div>'+
+    '</div>'+
+'</div>';
+
+var footerHtml = 
+    '<div id="footer">'+
+        '<div class="footer-first">'+
+            '<div class="footer-first-each"><a href="javascript:;">关于我们</a></div>'+
+            '<div class="footer-first-each"><a href="javascript:;">意见反馈</a></div>'+
+            '<div class="footer-first-each"><a href="javascript:;">服务条款</a></div>'+
+        '</div>'+
+        '<div class="footer-secend">'+
+            '<div class="footer-secend-each">友情链接：下厨房  美食杰  美食天下  豆果美食</div>'+
+        '</div>'+
     '</div>';
 /*
     '<div id="header-top">'+
@@ -81,6 +94,8 @@ var headHtml =
 '</div>';
 */
 $('html body').prepend(headHtml);
+
+$('html body').append(footerHtml);
 
 $('#header .head-top-search-text-2').focus(function(){
     if ($(this).val() == "糖醋排骨"){

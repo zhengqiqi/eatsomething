@@ -1,5 +1,5 @@
-#content{height: 1000px; width: 1000px; margin-left: auto; margin-right: auto; position: relative; top: 10px;}
-#index-left{height: 1000px; width: 200px; float: left;}
+#content{height: 800px; width: 1000px; margin-left: auto; margin-right: auto; position: relative; top: 10px;}
+#index-left{height: 800px; width: 200px; float: left;}
 .list-div{height: 200px; width: 200px; float: left;}
 .list-each{height: 190px; width: 190px;}
 .backyellow{background-color: #FFDC2C;}
@@ -13,7 +13,7 @@
 .list-each-line-p a{}
 .list-each-line-p a:hover{color: red;}
 
-#index-center{height: 1000px; width: 570px; float: left;}
+#index-center{height: 800px; width: 570px; float: left;}
 .top5{height: 350px; width: 560px;}
 
 .subject{height: 415px; width: 570px; float: left;}
@@ -39,7 +39,7 @@
 .subjact-each-mid{ float: left; text-align: left; font-size: 12px; color: #7D7D7D}
 .subjact-each-text{height: 40px; width: 380px; float: left; text-align: left;}
 
-#index-right-nologin{height: 1000px; width: 230px; float: left;}
+#index-right-nologin{height: 800px; width: 230px; float: left;}
 .login-top{height: 40px; width: 226px;}
 .login-top-login{line-height: 38px; width: 80px; float: left; position: relative; left: 25px;}
 .login-top-login:hover{border-bottom: 2px solid #8CD2ED;}
@@ -64,7 +64,7 @@
 .login-top-input-repassword{height: 34px; width: 360px; float: left; position: relative; left: 12px; top: 35px;}
 .login-top-input-tip{line-height: 34px; width: 155px; float: left; position: relative; left: 0px; color: red; text-align: left;}
 
-#index-right-logined{height: 1000px; width: 230px; float: left;}
+#index-right-logined{height: 800px; width: 230px; float: left;}
 .logined-div{height: 226px; width: 226px; float: left; background-color: #EBEBEB;}
 .logined-photo-div{height: 135px; width: 226px; float: left; }
 .logined-photo{height: 120px; width: 120px; position: relative; top: 10px;}
