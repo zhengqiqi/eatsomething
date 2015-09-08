@@ -56,7 +56,11 @@ var footerHtml =
             '<div class="footer-first-each"><a href="javascript:;">服务条款</a></div>'+
         '</div>'+
         '<div class="footer-secend">'+
-            '<div class="footer-secend-each">友情链接：下厨房  美食杰  美食天下  豆果美食</div>'+
+            '<div class="footer-secend-title">友情链接：</div>'+
+            '<div class="footer-secend-each"><a href="http://www.xiachufang.com/">下厨房</a></div>'+
+            '<div class="footer-secend-each"><a href="http://www.meishij.net/">美食杰</a></div>'+
+            '<div class="footer-secend-each"><a href="http://www.meishichina.com/">美食天下</a></div>'+
+            '<div class="footer-secend-each"><a href="http://www.douguo.com/">豆果美食</a></div>'+
         '</div>'+
     '</div>';
 /*

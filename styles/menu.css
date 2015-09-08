@@ -1,0 +1,8 @@
+#menu{height: 500px; width: 1000px; margin-left: auto; margin-right: auto;}
+.menu-div{height: 480px; width: 990px; margin-left: auto; margin-right: auto; position: relative; top: 10px; float: left;}
+.menu-each{height: 230px; width: 330px; float: left;}
+.menu-each-div{height: 220px; width: 320px; position: relative; top: 5px; left: 5px; background-color: white;}
+.menu-each-left{height: 220px; width: 100px; float: left;}
+.menu-each-left-img{height: 90px; width: 90px; position: relative; top: 5px; left: 5px;}
+.menu-each-right{height: 210px; width: 205px; float: left; position: relative; top: 5px; left: 5px;}
+.menu-each-title{line-height: 20px; width: 100px; float: left; text-align: left; font-size: 18px; color: #16509C}

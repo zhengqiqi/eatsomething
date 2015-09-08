@@ -55,7 +55,7 @@ textarea:focus {
 .head-menu-each-p{line-height: 40px; width: 80px; font-size: 16px; font-weight: bold; color: white; text-align: left;}
 */
 
-#head-top-2{height: 50px; width: 1286px; margin-left: auto; margin-right: auto; border-bottom: 1px solid #D3D3D3; background-color: #F2F2F2; position:relative; z-index:99999;}
+#head-top-2{height: 50px; width: 1286px; margin-left: auto; margin-right: auto; border-bottom: 1px solid #D3D3D3; background-color: white; position:relative; z-index:99999;}
 .head-top-title-2{line-height: 50px; width: 150px; float: left; font-size: 35px;}
 .head-top-title2-2{line-height: 15px; width: 310px; float: left; position: relative; top: 28px; text-align: left;}
 .head-top-search-2{height: 50px; float: left;}
@@ -72,11 +72,14 @@ textarea:focus {
 
 #footer{height: 100px; width: 1268px; margin-left: auto; margin-right: auto;}
 .footer-first{height: 30px; width: 240px; margin-left: auto; margin-right: auto; position: relative; top: 40px; }
-.footer-first-each{line-height: 30px; width: 80px; float: left; font-size: 12px; color: #7D7D7D;}
-.footer-first-each a{font-size: 12px; color: #7D7D7D;}
+.footer-first-each{line-height: 30px; width: 80px; float: left;}
+.footer-first-each a{font-size: 13px; color: #7D7D7D;}
 .footer-first-each a:hover{color: red;}
-.footer-secend{height: 20px; width: 500px; margin-left: auto; margin-right: auto; position: relative; top: 40px; }
-.footer-secend-each{line-height: 20px; width: 500px; float: left; text-align: center; font-size: 12px; color: #7D7D7D;}
+.footer-secend{height: 20px; width: 340px; margin-left: auto; margin-right: auto; position: relative; top: 40px; }
+.footer-secend-title{line-height: 20px; width: 70px; float: left; text-align: center; font-size: 12px; color: #7D7D7D;}
+.footer-secend-each{line-height: 20px; width: 60px; float: left; text-align: center;}
+.footer-secend-each a{font-size: 12px; color: #7D7D7D;}
+.footer-secend-each a:hover{color: red;}
 
 /*心形icon*/
 .icon-heart:hover{background: red;}
