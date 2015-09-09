@@ -1,8 +1,33 @@
 #menu{height: 500px; width: 1000px; margin-left: auto; margin-right: auto;}
+#menu a:hover{color: red;}
 .menu-div{height: 480px; width: 990px; margin-left: auto; margin-right: auto; position: relative; top: 10px; float: left;}
-.menu-each{height: 230px; width: 330px; float: left;}
-.menu-each-div{height: 220px; width: 320px; position: relative; top: 5px; left: 5px; background-color: white;}
-.menu-each-left{height: 220px; width: 100px; float: left;}
+.menu-each{height: 250px; width: 330px; float: left;}
+.menu-each-div{height: 240px; width: 320px; position: relative; top: 5px; left: 5px; background-color: white;}
+.menu-each-left{height: 240px; width: 100px; float: left;}
 .menu-each-left-img{height: 90px; width: 90px; position: relative; top: 5px; left: 5px;}
-.menu-each-right{height: 210px; width: 205px; float: left; position: relative; top: 5px; left: 5px;}
-.menu-each-title{line-height: 20px; width: 100px; float: left; text-align: left; font-size: 18px; color: #16509C}
+.menu-each-left-title{line-height: 20px; width: 90px; float: left; font-size: 18px; color: #16509C; position: relative; top: 10px; left: 10px;}
+.menu-each-right{height: 210px; width: 205px; float: left; position: relative; left: 5px;}
+.menu-each-right-big{height: 70px; width: 205px; float: left; border-bottom: 1px solid #E4E4E4; position: relative; top: 5px;}
+.menu-each-right-point-big{height: 70px; width: 20px; float: left; position: relative; top: 3px;}
+.menu-each-right-point-big-div{height: 5px; width: 5px; float: left; border-radius: 5px; position: relative; top: 8px; left: 5px; background-color: #C9C9C9;}
+.menu-each-right-big-title{line-height: 20px; width: 180px; float: left; text-align: left; position: relative; top: 3px;}
+.menu-each-right-big-title a{font-size: 15px;}
+.menu-each-right-big-detail{height: 34px; width: 180px; float: left; position: relative; top: 6px;}
+.menu-each-right-big-each{line-height: 17px; width: 60px; float: left; text-align: left;}
+.menu-each-right-small{height: 30px; width: 205px; float: left; border-bottom: 1px solid #E4E4E4; position: relative; top: 5px;}
+.menu-each-right-point-small{height: 30px; width: 20px; float: left;}
+.menu-each-right-point-small-div{height: 5px; width: 5px; float: left; border-radius: 5px; position: relative; top: 12px; left: 5px; background-color: #C9C9C9;}
+.menu-each-right-small-title{line-height: 20px; width: 180px; float: left; text-align: left; position: relative; top: 5px;}
+.menu-each-right-small-title a{font-size: 15px;}
+.menu-each-right-small-bottom{height: 30px; width: 205px; float: left; position: relative; top: 5px;}
+.menu-each-right-button{line-height: 15px; width: 205px; float: left; position: relative; top: 10px; text-align: right;}
+.menu-each-right-button a{font-size: 10px; color: #16509C;}
+.menu-each-left-button{line-height: 15px; width: 100px; float: left; position: relative; top: 80px;}
+.menu-each-left-button a{font-size: 10px; color: #16509C;}
+
+#menu-open{height: 500px; width: 700px; margin-left: auto; margin-right: auto;}
+#menu-open a:hover{color: red;}
+.menu-open-div{height: 500px; width: 700px; margin-left: auto; margin-right: auto; position: relative; float: left; background-color: white;}
+.menu-open-left{height: 500px; width: 200px; float: left;}
+.menu-open-left-img{height: 180px; width: 180px; position: relative; top: 5px;}
+.menu-open-left-title{line-height: 20px; width: 180px; float: left; font-size: 18px; color: #16509C; position: relative; top: 10px; left: 10px;}
