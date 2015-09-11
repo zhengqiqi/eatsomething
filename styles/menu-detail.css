@@ -1,0 +1,8 @@
+#centent{height: 500px; width: 1000px; margin-left: auto; margin-right: auto;}
+.centent-left{height: 500px; width: 200px; float: left;}
+.centent-left-top{height: 100px; width: 200px; float: left;}
+.center-left-top-pic{height: 90px; width: 90px; float: left; position: relative; top: 5px; left: 5px;}
+.centent-left-top-title{line-height: 30px; width: 100px; float: left; position: relative; top: 65px; left: 10px; text-align: left; font-size: 20px;}
+.centent-left-top-menu{height: 400px; width: 200px; float: left; background-color: red;}
+
+.centent-right{height: 500px; width: 800px; float: left; background-color: yellow;}
