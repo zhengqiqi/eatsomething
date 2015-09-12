@@ -1,8 +1,44 @@
 #centent{height: 500px; width: 1000px; margin-left: auto; margin-right: auto;}
 .centent-left{height: 500px; width: 200px; float: left;}
 .centent-left-top{height: 100px; width: 200px; float: left;}
-.center-left-top-pic{height: 90px; width: 90px; float: left; position: relative; top: 5px; left: 5px;}
+.centent-left-top-pic{height: 90px; width: 90px; float: left; position: relative; top: 5px; left: 5px;}
 .centent-left-top-title{line-height: 30px; width: 100px; float: left; position: relative; top: 65px; left: 10px; text-align: left; font-size: 20px;}
-.centent-left-top-menu{height: 400px; width: 200px; float: left; background-color: red;}
+.centent-left-menu{height: 400px; width: 200px; float: left;}
+.centent-left-menu-ul{width: 150px; float: left; position: relative; top: 10px;}
+.centent-left-menu-li{width: 150px; float: left; border-bottom: 1px solid #E4E4E4;}
+.centent-left-menu-li-first{border-top: 1px solid #E4E4E4;}
+.centent-left-menu-li-div{height: 30px; width: 160px; float: left;}
+.centent-left-menu-li-div:hover{background-color: #E4E4E4;}
+.centent-left-menu-point{height: 6px; width: 6px; float: left; position: relative; top: 12px; left: 12px; border: 1px solid black; border-radius: 6px;}
+.centent-left-menu-point-on{background-color: #16509C; border: 1px solid #16509C;}
+.centent-left-menu-p{line-height: 30px; width: 130px; float: right; text-align: left;}
+.centent-left-menu-p-on{color: #16509C}
+.centent-left-menu-li-ul{width: 150px; float: left;}
+.centent-left-menu-li-li{height: 30px; width: 150px; float: left;}
+.centent-left-menu-li-li:hover{background-color: #16509C;}
+.centent-left-menu-li-li-on{background-color: #E4E4E4 !important;}
+.centent-left-menu-li-li-p{line-height: 30px; width: 120px; float: right; text-align: left;}
+.centent-left-menu-li-li-p:hover{color: white;}
+.centent-left-menu-li-li-p-on{color: #16509C !important;}
 
-.centent-right{height: 500px; width: 800px; float: left; background-color: yellow;}
+.centent-right{height: 500px; width: 800px; float: left;}
+.centent-right-top{height: 45px; width: 800px; float: left; position: relative; top: 5px;}
+.centent-right-top-each{line-height: 40px; width: 140px; float: left;}
+.centent-right-top-show{border-top: 1px solid #E4E4E4; border-left: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}
+.centent-right-top-unshow{border-bottom: 1px solid #E4E4E4; color: #737373;}
+.centent-right-top-unshow:hover{background-color: #E4E4E4;}
+.centent-right-top-empty{height: 40px; width: 510px; float: left; border-bottom: 1px solid #E4E4E4;}
+.centent-right-div{height: 450px; width: 820px; position: relative; left: -10px; float: left;}
+.centent-right-div-each-div{height: 130px; width: 400px; float: left;}
+.centent-right-div-each{height: 120px; width: 390px; float: left; position: relative; top: 10px; left: 10px; background-color: white;}
+.centent-right-div-each-pic{height: 100px; width: 160px; float: left; position: relative; top: 10px; left: 10px;}
+.centent-right-div-title{line-height: 25px; width: 200px; float: left; position: relative; left: 20px; top: 10px; text-align: left;}
+.centent-right-div-title a{font-size: 18px;}
+.centent-right-div-title a:hover{color: red;}
+.centent-right-div-div{height: 55px; width: 200px; float: left; position: relative; left: 20px; top: 10px;}
+.centent-right-div-div-each{height: 18px; width: 200px; float: left; position: relative; top: 5px;}
+.centent-right-div-div-each-p{line-height: 18px; float: left; color: #737373;}
+.centent-right-div-div-each-div{line-height: 18px; width: 160px; float: left; color: #737373; text-align: left;}
+.centent-right-div-date{height: 20px; width: 200px; float: left; position: relative; top: 10px; left: 20px;}
+.centent-right-div-date-p{line-height: 20px; float: left; text-align: right;}
+.centent-right-div-date-date{line-height: 20px; float: left; text-align: left;}
