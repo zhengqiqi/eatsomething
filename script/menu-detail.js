@@ -1,7 +1,7 @@
 $('#centent .centent-left-menu-p').click(function(){
     var $this = $(this)
-    var $menuLiul = $(this).parent().parent().siblings('.centent-left-menu-li-ul')
-    var $menuPoint = $(this).siblings('.centent-left-menu-point')
+        $menuLiul = $this.parent().parent().siblings('.centent-left-menu-li-ul')
+        $menuPoint = $this.siblings('.centent-left-menu-point')
     if($menuLiul.hasClass('hide')){
         $menuLiul.removeClass('hide');
         $menuPoint.addClass('centent-left-menu-point-on');
