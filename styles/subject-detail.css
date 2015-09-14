@@ -21,7 +21,18 @@
 .centent-each-btn-icon{height: 25px; width: 25px; float: left;}
 .centent-each-btn-num{line-height: 25px; width: 20px; float: left;}
 .centent-each-btn-col{height: 25px; width: 30px; float: left;}
-.centent-each-secend{width: 600px; float: left; text-align: left; position: relative; top: 10px; color: #7D7D7D;}
+.centent-each-secend{width: 700px; float: left; text-align: left; position: relative; top: 10px; color: #7D7D7D;}
+.centent-each-thrid{width: 600px; float: left; position: relative; top: 20px;}
+.centent-each-thrid-each{width: 600px; float: left;}
+.centent-each-thrid-each-p{line-height: 18px; float: left; font-size: 14px;}
+.centent-each-thrid-each-div{line-height: 18px; width: 500px; float: left; text-align: left; font-size: 14px;}
+.centent-each-fourth{float: left; position: relative; top: 30px;}
+.centent-each-fourth-p{line-height: 18px; float: left; color: #7D7D7D;}
+
+#detail-list{width: 1000px; margin-left: auto; margin-right: auto; position: relative; top: 30px;}
+.datail-list-p{line-height: 20px; width: 90px; float: left; position: relative; top: 10px; left: 100px; background-color: #F2F2F2;}
+.datail-list-p a{font-size: 18px; }
+.detail-list-div{width: 998px; float: left; border: 1px solid #8CD2ED;}
 
 #topic{height: 100px;}
 .topic_name{line-height: 28px; width: 400px; font-size: 28px; font-weight: bold; position: relative; top: 36px; left: 400px;}
