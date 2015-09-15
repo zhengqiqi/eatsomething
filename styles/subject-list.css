@@ -1,0 +1,20 @@
+a:hover{color: red;}
+#content{width: 1000px; margin-left: auto; margin-right: auto;}
+.content-title{height: 40px; width: 1000px; float: left; position: relative; top: 5px; }
+.content-title-div{line-height: 40px; width: 1000px; float: left; font-size: 25px; text-align: center; margin-left: auto; margin-right: auto;}
+.content-div{height: 210px;width: 1000px; float: left;}
+.content-each{height: 200px; width: 1000px; float: left; position: relative; top: 10px;}
+.content-each-left{height: 200px; width: 300px; float: left;}
+.content-each-pic{height: 180px; width: 287px; float: left; position: relative; top: 10px; left: 10px;}
+.content-each-right{height: 180px; width: 690px; float: left; position: relative; top: 10px; left: 10px;}
+.content-each-title{line-height: 20px; width: 690px; text-align: left;}
+.content-each-title a{font-size: 17px;}
+.content-each-list{height: 100px; width: 690px; position: relative; top: 10px;}
+.content-each-list li{height: 20px; width: 690px;}
+.content-each-point{height: 7px; width: 7px; float: left; border-radius: 7px; position: relative; top: 6px; background-color: #7D7D7D;}
+.content-each-p{line-height: 20px; float: left; position: relative; left: 10px; text-align: left;}
+.content-each-intro{line-height: 20px; width: 300px; float: left; position: relative; left: 30px; color: #7D7D7D; text-align: left;}
+.content-each-author{line-height: 20px; width: 100px; float: left; position: relative; left: 30px; text-align: left;}
+.content-each-listdate{line-height: 20px; width: 100px; float: left; position: relative; left: 30px; color: #7D7D7D;text-align: left;}
+.content-each-date{float: left; position: relative; top: 30px;}
+.content-each-date-p{line-height: 18px; float: left; color: #7D7D7D;}
