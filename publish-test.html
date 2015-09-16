@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitinal.dtd">
+<html xmlns="http://www.w3.org/1991/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/publish-test.css" />
+    <link rel="stylesheet" type="text/css" href="styles/basic.css" />
+    <title>Publish</title>
+</head>
+<body>
+    <div id="publish">
+        <div class="publish-left"></div>
+        <div class="publish-right">
+            <div class="publish-basic">
+                <div class="publish-title">
+                    <div class="publish-point-on"></div>
+                    <div class="publish-p">基本信息</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="empty"></div>
+        <div class="subject">
+            <div class="title">标题</div>
+            <input class="subject_input" type="text" />
+        </div>
+        <div class="intro">
+            <div class="title">简介</div>
+            <input class="intro_input" type="text" />
+        </div>
+        <div class="mat">
+            <div class="mat_title">
+                <div class="title">用料</div>
+            </div>
+            <div class="mat_con">
+                <div class="mat_each">
+                    <p class="mat_p">添加主料</p>
+                    <input class="mat_name" type="text" />
+                    <input class="mat_num" type="text" />
+                    <select class="mat_unit">
+                        <option>个</option>
+                        <option>克</option>
+                        <option>少许</option>
+                        <option>适量</option>
+                    </select>
+                    <button class="mat_add">添加</button>
+                </div>
+                <div class="mat_each">
+                    <p class="mat_p">添加辅料</p>
+                    <input class="mat_name" type="text" />
+                    <input class="mat_num" type="text" />
+                    <select class="mat_unit">
+                        <option>个</option>
+                        <option>克</option>
+                        <option>少许</option>
+                        <option>适量</option>
+                    </select>
+                    <button class="mat_add">添加</button>
+                </div>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step_title">
+                <div class="title">步骤</div>
+            </div>
+            <div class="step_con">
+                <div class="step_each">
+                    <p class="step_p">步骤1</p>
+                    <input class="step_info" type="text" />
+                    <div class="step_pic">
+                        <button class="step_pic_but">添加相片</button>
+                        <div class="step_pic_pic"></div>
+                    </div>
+                </div>
+                <div class="step_btn">
+                    <button class="step_add">添加步骤</button>
+                    <button class="step_add">删除步骤</button>
+                </div>
+            </div>
+        </div>
+        <button class="pub_submit">预览</button>
+    </div>
+    <script src="./script/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="script/head.js"></script>
+</body>
+</html>
