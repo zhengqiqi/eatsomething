@@ -59,7 +59,7 @@ textarea:focus {
 .head-top-title-2{line-height: 50px; width: 150px; float: left; font-size: 35px;}
 .head-top-title2-2{line-height: 15px; width: 310px; float: left; position: relative; top: 28px; text-align: left;}
 .head-top-search-2{height: 50px; float: left;}
-.head-top-search-text-2{height: 30px; width: 260px; float: left; text-align: left; border: 2px solid #3193DD; color: rgb(153, 153, 153); position: relative; top: 8px;}
+.head-top-search-text-2{height: 30px; width: 260px; float: left; text-align: left; border: 2px solid #3193DD; color: #999999; position: relative; top: 8px;}
 .head-top-search-btn-2{line-height: 30px; width: 80px; float: left; text-align: center; border: 2px solid #3193DD; background-color: #3193DD; color: white; position: relative; top: 8px;}
 .text_focus{color: #333333}
 .head-top-link-2{height: 50px; float: right;}

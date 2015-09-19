@@ -1,9 +1,10 @@
 input, textarea{text-align: left; color: #5C5C5C;}
+.text-unfocus{color:#999999;}
 
 #publish{width: 1000px; margin-left: auto; margin-right: auto;}
 .publish-left{height: 1000px; width: 30px; border-right: 2px solid #8CD2ED; position: relative; top: 20px;}
 .publish-right{height: 1000px; width: 960px; position: relative; top: -980px; left: 30px;}
-.publish-basic{width: 960px; position: relative;}
+.publish-basic{width: 960px;}
 .publish-title{height: 30px; width: 960px; position: relative; right: 5px;}
 .publish-point{height: 12px; width: 12px; position: relative; top: 9px;}
 .publish-point-on{height: 12px; width: 12px; background-color: #8CD2ED; border-radius: 6px;}
@@ -12,9 +13,19 @@ input, textarea{text-align: left; color: #5C5C5C;}
 .publish-div{width: 960px; position: relative; top: 15px; left: 15px;}
 .publish-input{width: 950px;}
 .publish-input-p{line-height: 20px; text-align: left; font-size: 15px; color: #787878;}
-.publish-input-text{line-height: 30px; width: 700px; position: relative; top: -27px; right: 90px;}
-.publish-input-textarea{line-height: 20px; height: 60px; width: 750px; position: relative; top: -23px; right: 63px;}
-.publish-pic{}
+.publish-input-text{line-height: 30px; width: 700px; position: relative; top: -27px; right: 75px;}
+.publish-input-textarea{line-height: 20px; height: 60px; width: 700px; position: relative; top: -23px; right: 75px;}
+.publish-input-pic{line-height: 50px; width: 700px; position: relative; right: 80px;}
+.publish-pic-div{height: 250px; width: 400px; position: relative; top: 5px; right: 85px;}
+.publish-input-content{width: 710px; position: relative; top: -37px; left: 45px;}
+.publish-input-div,.publish-input-div-add{width: 710px;}
+.publish-input-div input{line-height: 30px; position: relative; right: 157px;}
+.publish-input-div-add input{line-height: 30px; position: relative; right: 140px;}
+.publish-input-stuff-name{width: 250px;}
+.publish-input-stuff-num{width: 100px;}
+.publish-input-stuff-btn-add, .publish-input-stuff-btn-sub{width: 30px; position: relative; top: 10px;}
+.publish-input-stuff-p{line-height: 30px;}
+.publish-input-stuff-p-name{position: relative; top: -30px;}
 
 .empty{height: 40px; width: 1200px;}
 .title{line-height: 40px; width: 150px; float: left; text-align: right; font-size: 16px; font-weight: bold;}
