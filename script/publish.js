@@ -6,18 +6,12 @@ var publishInputAdd =
     '<input class="publish-input-stuff-btn-sub" type="button" name="button-sub" />'+
 '</div>';
 
-/*$('#publish .publish-input-stuff-btn-add').click(function(){
-    var $this = $(this)
-    $this.parent().after(publishInputAdd);
-})*/
-
 $('#publish .publish-input-content').delegate(".publish-input-stuff-btn-add","click",function(){
     var $this = $(this)
     $this.parent().after(publishInputAdd);
 })
 
-
-$('#publish .publish-input-stuff-btn-sub').click(function(){
+$('#publish .publish-input-content').delegate(".publish-input-stuff-btn-sub","click",function(){
     var $this = $(this)
-    $this.parent().remove()
+    $this.parent().remove();
 })
