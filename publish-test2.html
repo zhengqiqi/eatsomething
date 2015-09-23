@@ -11,6 +11,7 @@
     <div id="publish">
         <div class="publish-left"></div>
         <div class="publish-right">
+
             <div class="publish-basic">
                 <div class="publish-title">
                     <div class="publish-point-on"></div>
@@ -30,8 +31,8 @@
                     <p>招牌照</p>
                 </div>
                 <div>
-                    <input type="file" class="publish-input-pic" />
-                    <img src="#" class="publish-pic-div" name="pic" />
+                    <input type="file" class="picture-in" />
+                    <img src="#" class="picture-out" name="pic" />
                 </div>
             </div>
 
@@ -40,39 +41,24 @@
                     <div class="publish-point-off"></div>
                     <p>用料</p>
                 </div>
-                <div>
-                    <div class="publish-input">
-                        <div class="publish-input-p">主料</div>
-                        <div class="publish-input-content">
-                            <div class="publish-input-div">
-                                <input class="publish-input-stuff-name" type="text" name="stuff" placeholder="食材" />
-                                <input class="publish-input-stuff-num" type="text" name="number" placeholder="数量" />
-                                <input class="publish-input-stuff-btn-add" type="button" name="button-add" />
-                            </div>
-                            <div class="publish-input-div-add">
-                                <input class="publish-input-stuff-name" type="text" name="stuff" placeholder="食材" />
-                                <input class="publish-input-stuff-num" type="text" name="number" placeholder="数量" />
-                                <input class="publish-input-stuff-btn-add" type="button" name="button-add" />
-                                <input class="publish-input-stuff-btn-sub" type="button" name="button-sub" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="publish-input">
-                        <div class="publish-input-p">辅料</div>
-                        <div class="publish-input-content">
-                            <div class="publish-input-div">
-                                <input class="publish-input-stuff-name" type="text" name="stuff" placeholder="食材" />
-                                <input class="publish-input-stuff-num" type="text" name="number" placeholder="数量" />
-                                <input class="publish-input-stuff-btn-add" type="button" name="button-add" />
-                            </div>
-                            <div class="publish-input-div-add hide">
-                                <input class="publish-input-stuff-name" type="text" name="stuff" placeholder="食材" />
-                                <input class="publish-input-stuff-num" type="text" name="number" placeholder="数量" />
-                                <input class="publish-input-stuff-btn-add" type="button" name="button-add" />
-                                <input class="publish-input-stuff-btn-sub" type="button" name="button-sub" />
-                            </div>
-                        </div>
-                    </div>
+                <div class="publish-content">
+                    <p>主料</p>
+                    <table>
+                        <tr>
+                            <td class="food">
+                                <input type="text" name="food" />
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
 
