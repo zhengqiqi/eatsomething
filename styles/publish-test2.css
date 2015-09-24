@@ -18,7 +18,9 @@
 .picture-out{height: 250px; width: 400px; position: relative; top: 5px;}
 table{line-height: 30px; position: relative; top: -20px; left: 60px; border-collapse: collapse; background-color: white;}
 td{height:30px; width: 250px; border: 1px solid #ebe9e7; text-align: left;}
-.food input{line-height: 30px; width: 250px; position: relative; top: 0px;}
+.food input{line-height: 30px; width: 250px; position: relative; top: 0px; left: 0px; border-color: white;}
+.num input{line-height: 30px; width: 250px; position: relative; top: 0px; left: 0px; border-color: white;}
+.publish-content button{height: 30px; width: 30px; position: relative; top: -15px; right: 403px;}
 
 .publish-input-content{width: 710px; position: relative; top: -37px; left: 45px;}
 .publish-input-div,.publish-input-div-add{width: 710px;}

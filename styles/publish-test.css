@@ -1,58 +1,23 @@
 #publish input, textarea{text-align: left; color: #5C5C5C;}
-#publish p{line-height: 30px; color: #8CD2ED; font-size: 18px; margin: 0; text-align: left; position: relative; top: -12px; left: 18px;}
+#publish p{margin: 0; text-align: left;}
 
 #publish{width: 1000px; margin-left: auto; margin-right: auto;}
 .publish-left{height: 1000px; width: 30px; border-right: 2px solid #8CD2ED; position: relative; top: 20px;}
 .publish-right{height: 1000px; width: 960px; position: relative; top: -980px; left: 30px;}
 .publish-basic{width: 960px;}
 .publish-title{height: 30px; width: 960px; position: relative; right: 5px;}
-.publish-point{height: 12px; width: 12px; position: relative; top: 9px;}
-.publish-point-on{height: 12px; width: 12px; background-color: #8CD2ED; border-radius: 6px;}
-.publish-point-off{height: 10px; width: 10px; background-color: #F2F2F2; border: 2px solid #8CD2ED; border-radius: 10px; position: relative; top: -1px; right: 1px;}
-.publish-div{width: 960px; position: relative; top: 15px; left: 15px;}
-.publish-input{width: 950px;}
-.publish-input-p{line-height: 20px; text-align: left; font-size: 15px; color: #787878;}
-.publish-input-text{line-height: 30px; width: 700px; position: relative; top: -27px; right: 75px;}
-.publish-input-textarea{line-height: 20px; height: 60px; width: 700px; position: relative; top: -23px; right: 75px;}
-.publish-input-pic{line-height: 50px; width: 700px; position: relative; right: 80px;}
-.publish-pic-div{height: 250px; width: 400px; position: relative; top: 5px; right: 85px;}
-.publish-input-content{width: 710px; position: relative; top: -37px; left: 45px;}
-.publish-input-div,.publish-input-div-add{width: 710px;}
-.publish-input-div input{line-height: 30px; position: relative; right: 157px;}
-.publish-input-div-add input{line-height: 30px; position: relative; right: 140px;}
-.publish-input-stuff-name{width: 250px;}
-.publish-input-stuff-num{width: 100px;}
-.publish-input-stuff-btn-add, .publish-input-stuff-btn-sub{width: 30px; position: relative; top: 10px;}
-.publish-input-stuff-p{line-height: 30px;}
-.publish-input-stuff-p-name{position: relative; top: -30px;}
-
-.empty{height: 40px; width: 1200px;}
-.title{line-height: 40px; width: 150px; float: left; text-align: right; font-size: 16px; font-weight: bold;}
-.subject{height: 40px;}
-.subject_input{line-height: 25px; width: 450px; float: left; position: relative; top: 6px; left: 10px;}
-.intro{height: 110px;}
-.intro_input{height: 100px; width: 900px; float: left; position: relative; left: 10px;}
-
-.mat{height: 80px;}
-.mat_title{height: 85px; width: 150px; float: left;}
-.mat_con{height: 85px; width: 1050px; float: left;}
-.mat_each{height: 40px; width: 1000px;}
-.mat_p{line-height: 40px; width: 55px; float: left; margin: 0 auto; position: relative; left: 10px;}
-.mat_name{height: 25px; width: 150px; float: left; position: relative; left: 25px;}
-.mat_num{height: 25px; width: 50px; float: left; position: relative; left: 30px;}
-.mat_unit{height: 28px; width: 60px; float: left; position: relative; left: 40px;}
-.mat_add{height: 28px; width: 60px; float: left; position: relative; left: 50px;}
-
-.step{height: 320px;}
-.step_title{height: 320px; width: 150px; float: left;}
-.step_con{height: 320px; width: 1050px; float: left;}
-.step.each{height: 290px; width: 1050px; float: left;}
-.step_p{line-height: 40px; width: 55px; float: left; margin: 0 auto; position: relative; left: 10px;}
-.step_info{height: 90px; width: 850px; float: left; position: relative; left: 10px;}
-.step_pic{height: 180px; width: 850px;float: left; position: relative; left: 70px;}
-.step_pic_but{height: 28px; width: 70px; float: left; position: relative; top: 10px;}
-.step_pic_pic{height: 170px; width: 235px; float: left; position: relative; top:10px; left: 10px; background: red;}
-.step_btn{height: 30px; width: 1050px; float: left;}
-.step_add{height: 28px; width: 70px; float: left;}
-
-.pub_submit{height: 50px; width: 140px; float: right; font-size: 20px; }
+.publish-title p{line-height: 30px; color: #8CD2ED; font-size: 18px; position: relative; top: -12px; left: 18px;}
+.publish-point-on{height: 12px; width: 12px; background-color: #8CD2ED; border-radius: 6px; position: relative; top: 9px;}
+.publish-point-off{height: 10px; width: 10px; background-color: #F2F2F2; border: 2px solid #8CD2ED; border-radius: 10px; position: relative; top: 10px; right: 1px;}
+.publish-content p{line-height: 20px; width: 50px; font-size: 15px; color: #787878; position: relative; top: 7px; left: 15px;}
+.publish-content input{line-height: 30px; position: relative; top: -20px; right: 60px;}
+.publish-content textarea{line-height: 20px; height: 60px; position: relative; top: -30px; right: 60px;}
+.subject{width: 700px;}
+.intro{width: 700px;}
+.picture-in{line-height: 50px; width: 700px; position: relative; position: relative; right: 60px;}
+.picture-out{height: 250px; width: 400px; position: relative; top: 5px;}
+table{line-height: 30px; position: relative; top: -20px; left: 60px; border-collapse: collapse; background-color: white;}
+td{height:30px; width: 250px; border: 1px solid #ebe9e7; text-align: left;}
+.food input{line-height: 30px; width: 250px; position: relative; top: 0px; left: 0px; border-color: white;}
+.num input{line-height: 30px; width: 250px; position: relative; top: 0px; left: 0px; border-color: white;}
+.publish-content button{height: 30px; width: 30px; position: relative; top: -15px; right: 403px;}
