@@ -21,7 +21,7 @@ var publishInputAdd2 =
     '<td class="food">'+
         '<input type="text" name="food" placeholder="食材"/>'+
     '</td>'+
-    '<td class="num">'+
+    '<td class="food">'+
         '<input type="text" name="num" placeholder="数量"/>'+
     '</td>'+
 '</tr>';
@@ -33,5 +33,29 @@ var publishInputAdd2 =
 
 $("#publish .publish-content button").click(function(){
     var $this = $(this)
-    $this.siblings().addClass('test')
+    $this.siblings('table').append(publishInputAdd2)
 })
+
+var publishStepAdd = 
+'<div class="publish-content">'+
+    '<p>2</p>'+
+    '<textarea class="step" type="text" name="step" placeholder="步骤描述"></textarea>'+
+    '<img src="#" class="step-pic" name="pic" />'+
+    '<div class="control">'+
+        '<button>top</button>'+
+        '<button>up</button>'+
+        '<button>down</button>'+
+        '<button>bottom</button>'+
+        '<button>edit</button>'+
+        '<button>del</button>'+
+    '</div>'+
+'</div>';
+$("#publish .publish-basic .step-add").click(function(){
+    var $this = $(this)
+    $this.before(publishStepAdd)
+})
+
+
+
+
+

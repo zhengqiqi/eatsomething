@@ -48,7 +48,7 @@
                             <td class="food">
                                 <input type="text" name="food" placeholder="食材"/>
                             </td>
-                            <td class="num">
+                            <td class="food">
                                 <input type="text" name="num" placeholder="数量"/>
                             </td>
                         </tr>
@@ -56,12 +56,12 @@
                             <td class="food">
                                 <input type="text" name="food" placeholder="食材"/>
                             </td>
-                            <td class="num">
+                            <td class="food">
                                 <input type="text" name="num" placeholder="数量"/>
                             </td>
                         </tr>
                     </table>
-                    <button></button>
+                    <button>add</button>
                 </div>
                 <div class="publish-content">
                     <p>辅料</p>
@@ -70,7 +70,7 @@
                             <td class="food">
                                 <input type="text" name="food" placeholder="食材"/>
                             </td>
-                            <td class="num">
+                            <td class="food">
                                 <input type="text" name="num" placeholder="数量"/>
                             </td>
                         </tr>
@@ -78,37 +78,53 @@
                             <td class="food">
                                 <input type="text" name="food" placeholder="食材"/>
                             </td>
-                            <td class="num">
+                            <td class="food">
                                 <input type="text" name="num" placeholder="数量"/>
                             </td>
                         </tr>
                     </table>
-                    <button></button>
+                    <button>add</button>
                 </div>
             </div>
+
 
             <div class="publish-basic">
                 <div class="publish-title">
                     <div class="publish-point-off"></div>
                     <p>步骤</p>
                 </div>
-                <div>
-                    <div class="publish-input">
-                        <div class="publish-input-p">步骤1</div>
-                        <div class="publish-input-content">
-                            <div class="publish-input-div">
-                                <input class="publish-input-stuff-name" type="text" name="stuff" value="食材" />
-                                <input class="publish-input-stuff-num" type="text" name="number" value="数量" />
-                                <input class="publish-input-stuff-btn" type="button" name="button" />
-                            </div>
-                        </div>
+                <div class="publish-content">
+                    <p>1</p>
+                    <textarea class="step" type="text" name="step" placeholder="步骤描述"></textarea>
+                    <img src="#" class="step-pic" name="pic" />
+                    <div class="control">
+                        <button>top</button>
+                        <button>up</button>
+                        <button>down</button>
+                        <button>bottom</button>
+                        <button>edit</button>
+                        <button>del</button>
                     </div>
                 </div>
+                <div class="publish-content">
+                    <p>2</p>
+                    <textarea class="step" type="text" name="step" placeholder="步骤描述"></textarea>
+                    <img src="#" class="step-pic" name="pic" />
+                    <div class="control">
+                        <button>top</button>
+                        <button>up</button>
+                        <button>down</button>
+                        <button>bottom</button>
+                        <button>edit</button>
+                        <button>del</button>
+                    </div>
+                </div>
+                <button class="step-add"></button>
             </div>
 
         </div>
     </div>
-    <script src="./script/jquery.js"></script>
+    <script src="script/jquery.js"></script>
     <script language="javascript" type="text/javascript" src="script/head.js"></script>
     <script language="javascript" type="text/javascript" src="script/publish.js"></script>
 </body>

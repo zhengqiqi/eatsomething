@@ -27,7 +27,7 @@ textarea:focus {
 /*头部*/
 #header{height: 52px; margin-left: auto; margin-right: auto;} /*头部默认高度100*/
 
-#head-top-2{height: 50px; width: 1286px; margin-left: auto; margin-right: auto; border-bottom: 1px solid #D3D3D3; background-color: white; position:relative; z-index:99999;}
+#head-top-2{height: 50px; width: 1286px; margin-left: auto; margin-right: auto; border-bottom: 1px solid #D3D3D3; background-color: white; z-index:99999;}
 .head-top-title-2{line-height: 50px; width: 150px; float: left; font-size: 35px;}
 .head-top-title2-2{line-height: 15px; width: 310px; float: left; position: relative; top: 28px; text-align: left;}
 .head-top-search-2{height: 50px; float: left;}
