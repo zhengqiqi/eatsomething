@@ -1,3 +1,6 @@
+define(function(require, exports, module) {
+
+var $ = require('jquery');
 var headHtml = 
 '<div id="header">'+
     '<div id="head-top-2">'+
@@ -63,7 +66,7 @@ var footerHtml =
             '<div class="footer-secend-each"><a href="http://www.douguo.com/">豆果美食</a></div>'+
         '</div>'+
     '</div>';
-    
+
 $('html body').prepend(headHtml);
 
 $('html body').append(footerHtml);
@@ -89,4 +92,7 @@ $(function(){
             $('#head-top-2').css({"position":"static"});
         }
     })
+})
+
+
 })

@@ -1,3 +1,6 @@
+define(function(require, exports, module){
+
+var $ = require('jquery');
 $('#centent .centent-left-menu-p').click(function(){
     var $this = $(this)
         $menuLiul = $this.parent().parent().siblings('.centent-left-menu-li-ul')
@@ -11,4 +14,6 @@ $('#centent .centent-left-menu-p').click(function(){
         $menuPoint.removeClass('centent-left-menu-point-on');
         $this.removeClass('centent-left-menu-p-on')
     }
+})
+
 })

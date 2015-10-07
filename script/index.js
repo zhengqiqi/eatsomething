@@ -1,3 +1,7 @@
+define(function(require, exports, module) {
+
+var $ = require('jquery');
+
 $('#content .dish-1, #content .dish-2, #content .dish-3, #content .subject_con_sub').mouseover(function(){
     $(this).addClass('back-change-index');
 }).mouseleave(function(){
@@ -218,4 +222,7 @@ $('#index-right-logined .logined-detail-each').mouseover(function(){
     $(this).children('.logined-detail-each-num').addClass('logined-detail-each-num-hover')
 }).mouseleave(function(){
     $(this).children('.logined-detail-each-num').removeClass('logined-detail-each-num-hover')
+})
+
+
 })

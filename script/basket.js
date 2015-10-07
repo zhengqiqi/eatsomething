@@ -1,3 +1,6 @@
+define(function(require, exports, module){
+
+var $ = require('jquery');
 $('#substance .icon-heart').prepend(function(){
     $(this).addClass('icon-heart-on')
 });
@@ -12,3 +15,5 @@ $('#substance .comment-div').mouseover(function(){
 }).mouseleave(function(){
     $(this).removeClass('comment-div-hover');
 });
+
+})

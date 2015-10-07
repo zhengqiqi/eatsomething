@@ -87,9 +87,17 @@
         </div>
     </div>
 
-    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <!--script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
     <script language="javascript" type="text/javascript" src="script/head.js"></script>
     <script language="javascript" type="text/javascript" src="script/personal-menu.js"></script>
-    <script language="javascript" type="text/javascript" src="script/comment.js"></script>
+    <script language="javascript" type="text/javascript" src="script/comment.js"></script-->
+
+    <script type="text/javascript" src="script/sea.js"></script>
+    <script>
+        seajs.config({
+
+        });
+        seajs.use(['head','personal-menu','comment']);
+    </script>
 </body>
 </html>

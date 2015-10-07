@@ -1,3 +1,7 @@
+define(function(require, exports, module){
+
+var $ = require('jquery');
+
 (function() {
 
 function checkName($input) {
@@ -113,3 +117,5 @@ $('#set-div form').submit(function(){
 });
 
 })();
+
+})

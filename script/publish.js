@@ -1,3 +1,6 @@
+define(function(require, exports, module){
+
+var $ = require('jquery');
 /*var publishInputAdd = 
 '<div class="publish-input-div-add">'+
     '<input class="publish-input-stuff-name" type="text" name="stuff" placeholder="食材" />'+
@@ -34,4 +37,6 @@ var publishInputAdd2 =
 $("#publish .publish-content button").click(function(){
     var $this = $(this)
     $this.siblings().addClass('test')
+})
+
 })

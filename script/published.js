@@ -1,3 +1,6 @@
+define(function(require, exports, module){
+
+var $ = require('jquery');
 $('#substance .dish_detail_del').click(function(){
     var r = confirm("真的要删我吗？")
     if(r == true){
@@ -21,3 +24,5 @@ $('#substance .comment-div').mouseover(function(){
 }).mouseleave(function(){
     $(this).removeClass('comment-div-hover');
 });
+
+})

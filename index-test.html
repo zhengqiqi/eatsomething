@@ -9,6 +9,9 @@
     <title>Let's Eat</title>
 </head>
 <body>
+    <div id="header2">
+        <div></div>
+    </div>
 
     <div id="content">
 <!--左边开始-->
@@ -141,7 +144,7 @@
                 <div class="slideshow_box">
                     <div class="data"></div>
                 </div>
-                <div id="slideshow_2" class="slideshow">
+                <div class="slideshow">
                     <div class="slideshow_item">
                         <a href="#"><img src="./images/top5_1.jpg" class="top5 image" /></a>
                         <div class="data">
@@ -339,27 +342,21 @@
     </div>
 
 <!--
-    <div id="footer">
-        <div class="footer-first">
-            <div class="footer-first-each"><a href="javascript:;">关于我们</a></div>
-            <div class="footer-first-each"><a href="javascript:;">意见反馈</a></div>
-            <div class="footer-first-each"><a href="javascript:;">服务条款</a></div>
-        </div>
-        <div class="footer-secend">
-            <div class="footer-secend-title"><a href="javascript:;">友情链接：</a></div>
-            <div class="footer-secend-each"><a href="javascript:;">下厨房</a></div>
-            <div class="footer-secend-each"><a href="javascript:;">美食杰</a></div>
-            <div class="footer-secend-each"><a href="javascript:;">美食天下</a></div>
-            <div class="footer-secend-each"><a href="javascript:;">豆果美食</a></div>
-        </div>
-    </div>
--->
-
     <script src="./script/jquery.js"></script>
     <script type="text/javascript" src="script/head.js"></script>
     <script src="./script/jquery.cycle.all.js"></script>
     <script src="./script/jquery.easing.1.3.js"></script>
     <script src="./script/slider.js"></script>
     <script src="./script/index.js"></script>
+-->
+    <script type="text/javascript" src="script/sea.js"></script>
+    <script>
+        seajs.config({
+
+        });
+        seajs.use(['head','main','index']);
+    </script>
+
+
 </body>
 </html>

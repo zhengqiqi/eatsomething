@@ -1,3 +1,6 @@
+define(function(require, exports, module){
+var $ = require('jquery');
+
 $('#menu-div .menu-comment').prepend(function(){
     var $this = $(this);
     $this.addClass('menu-each-click')
@@ -21,4 +24,6 @@ $('#com .comment-re').click(function(){
     $sub.siblings('.com-re').find('.com_re_input').val("回复@"+$sub.find('.comment-auther').text()+":")
     .addClass('text_focus')
     $sub.siblings('.com-re').find('.com_re_input').focus()
+})
+
 })

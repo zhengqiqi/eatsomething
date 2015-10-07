@@ -1,3 +1,6 @@
+define(function(require, exports, module){
+
+var $ = require('jquery');
 var $commentInput = $('#pic_comment .comment_rel_input');
 $commentInput.focus(function(){
     if ($commentInput.val() == "说点什么呢？"){
@@ -26,4 +29,6 @@ $('#pic_comment a.comment_ans').click(function(){
     .addClass('text_focus')
     .focus(function() {
     })
+})
+
 })

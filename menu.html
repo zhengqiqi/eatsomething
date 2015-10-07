@@ -272,8 +272,18 @@
     </div>
 
 
-    <script language="javascript" type="text/javascript" src="script/jquery.js"></script>
+    <!--script language="javascript" type="text/javascript" src="script/jquery.js"></script>
     <script language="javascript" type="text/javascript" src="script/head.js"></script>
-    <script language="javascript" type="text/javascript" src="script/menu.js"></script>
+    <script language="javascript" type="text/javascript" src="script/menu.js"></script-->
+
+
+    <script type="text/javascript" src="script/sea.js"></script>
+    <script>
+        seajs.config({
+
+        });
+        seajs.use(['head','menu']);
+    </script>
+
 </body>
 </html>

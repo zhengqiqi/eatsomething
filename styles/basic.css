@@ -6,9 +6,9 @@ li{float: left; padding-right: 10px;}
 input{font-family: 微软雅黑; font-size: 13px; text-align: left; border: 1px solid #E4E4E4; outline-color: invert;} /*设置边框*/
 input:focus {
      border: 1px solid #fafafa;
-    -webkit-box-shadow: 0px 0px 6px #007eff;
-     -moz-box-shadow: 0px 0px 5px #007eff;
-     box-shadow: 0px 0px 5px #007eff;
+    -webkit-box-shadow: 0px 0px 6px #8CD2ED;
+     -moz-box-shadow: 0px 0px 5px #8CD2ED;
+     box-shadow: 0px 0px 5px #8CD2ED;
 }
 textarea{font-family: 微软雅黑; font-size: 13px; text-align: left; border: 1px solid #E4E4E4; outline-color: invert;}
 textarea:focus {
@@ -41,6 +41,15 @@ textarea:focus {
 .head-top-link-each-2{height: 50px; width: 70px; float: left;}
 .head-top-link-each-p-2{line-height: 50px; width: 70px; font-size: 15px;}
 .head-top-link-each-p-2:hover{color: white; background-color: #3193DD;}
+
+#header2{height: 52px; margin-left: auto; margin-right: auto; position:relative; z-index:99999;
+     border-bottom: 1px solid #8CD2ED;
+    -webkit-box-shadow: 0px 0px 6px #8CD2ED;
+     -moz-box-shadow: 0px 0px 5px #8CD2ED;
+     box-shadow: 0px 0px 5px #8CD2ED;
+     }
+
+
 
 #footer{height: 100px; width: 1268px; margin-left: auto; margin-right: auto;}
 .footer-first{height: 30px; width: 240px; margin-left: auto; margin-right: auto; position: relative; top: 40px; }

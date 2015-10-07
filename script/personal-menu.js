@@ -1,3 +1,6 @@
+define(function(require, exports, module){
+
+var $ = require('jquery');
 var menuHtml = '<div class="menu">'+
       '<ul class="ul-class">'+
         '<div class="menu-each menu-published">'+
@@ -52,4 +55,6 @@ $('#substance .comment-div').mouseover(function(){
     $(this).addClass('comment-div-hover');
 }).mouseleave(function(){
     $(this).removeClass('comment-div-hover');
+})
+
 })

@@ -1,3 +1,5 @@
+define(function(require, exports, module){
+var $ = require('jquery');
 /*!
  * jQuery Cycle Plugin (with Transition Definitions)
  * Examples and documentation at: http://jquery.malsup.com/cycle/
@@ -1059,7 +1061,7 @@ $.fn.cycle.defaults = {
 	width:         null   // container width (if the 'fit' option is true, the slides will be set to this width as well)
 };
 
-})(jQuery);
+})($);
 
 
 /*!
@@ -1526,6 +1528,9 @@ $.fn.cycle.transitions.wipe = function($cont, $slides, opts) {
 	opts.animOut   = { left: 0 };
 };
 
-})(jQuery);
+})($);
 
 /*www.jq22.com*/
+
+	
+})
