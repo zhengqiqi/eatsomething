@@ -24,7 +24,7 @@ var publishInputAdd2 =
     '<td class="food">'+
         '<input type="text" name="food" placeholder="食材"/>'+
     '</td>'+
-    '<td class="num">'+
+    '<td class="food">'+
         '<input type="text" name="num" placeholder="数量"/>'+
     '</td>'+
 '</tr>';
@@ -40,3 +40,4 @@ $("#publish .publish-content button").click(function(){
 })
 
 })
+

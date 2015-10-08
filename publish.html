@@ -3,74 +3,135 @@
 <html xmlns="http://www.w3.org/1991/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="styles/publish.css" />
+    <link rel="stylesheet" type="text/css" href="styles/publish-test.css" />
     <link rel="stylesheet" type="text/css" href="styles/basic.css" />
     <title>Publish</title>
 </head>
 <body>
     <div id="publish">
-        <div class="empty"></div>
-        <div class="subject">
-            <div class="title">标题</div>
-            <input class="subject_input" type="text" />
-        </div>
-        <div class="intro">
-            <div class="title">简介</div>
-            <input class="intro_input" type="text" />
-        </div>
-        <div class="mat">
-            <div class="mat_title">
-                <div class="title">用料</div>
-            </div>
-            <div class="mat_con">
-                <div class="mat_each">
-                    <p class="mat_p">添加主料</p>
-                    <input class="mat_name" type="text" />
-                    <input class="mat_num" type="text" />
-                    <select class="mat_unit">
-                        <option>个</option>
-                        <option>克</option>
-                        <option>少许</option>
-                        <option>适量</option>
-                    </select>
-                    <button class="mat_add">添加</button>
+        <div class="publish-left"></div>
+        <div class="publish-right">
+
+            <div class="publish-basic">
+                <div class="publish-title">
+                    <div class="publish-point-on"></div>
+                    <p>基本信息</p>
                 </div>
-                <div class="mat_each">
-                    <p class="mat_p">添加辅料</p>
-                    <input class="mat_name" type="text" />
-                    <input class="mat_num" type="text" />
-                    <select class="mat_unit">
-                        <option>个</option>
-                        <option>克</option>
-                        <option>少许</option>
-                        <option>适量</option>
-                    </select>
-                    <button class="mat_add">添加</button>
+                <div class="publish-content">
+                    <p>标题</p>
+                    <input class="subject" type="text" name="subject" />
+                    <p>简介</p>
+                    <textarea class="intro" type="text" name="intro"></textarea>
                 </div>
             </div>
-        </div>
-        <div class="step">
-            <div class="step_title">
-                <div class="title">步骤</div>
+
+            <div class="publish-basic">
+                <div class="publish-title">
+                    <div class="publish-point-off"></div>
+                    <p>招牌照</p>
+                </div>
+                <div>
+                    <input type="file" class="picture-in" />
+                    <img src="#" class="picture-out" name="pic" />
+                </div>
             </div>
-            <div class="step_con">
-                <div class="step_each">
-                    <p class="step_p">步骤1</p>
-                    <input class="step_info" type="text" />
-                    <div class="step_pic">
-                        <button class="step_pic_but">添加相片</button>
-                        <div class="step_pic_pic"></div>
+
+            <div class="publish-basic">
+                <div class="publish-title">
+                    <div class="publish-point-off"></div>
+                    <p>用料</p>
+                </div>
+                <div class="publish-content">
+                    <p>主料</p>
+                    <table>
+                        <tr>
+                            <td class="food">
+                                <input type="text" name="food" placeholder="食材"/>
+                            </td>
+                            <td class="food">
+                                <input type="text" name="num" placeholder="数量"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="food">
+                                <input type="text" name="food" placeholder="食材"/>
+                            </td>
+                            <td class="food">
+                                <input type="text" name="num" placeholder="数量"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <button>add</button>
+                </div>
+                <div class="publish-content">
+                    <p>辅料</p>
+                    <table>
+                        <tr>
+                            <td class="food">
+                                <input type="text" name="food" placeholder="食材"/>
+                            </td>
+                            <td class="food">
+                                <input type="text" name="num" placeholder="数量"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="food">
+                                <input type="text" name="food" placeholder="食材"/>
+                            </td>
+                            <td class="food">
+                                <input type="text" name="num" placeholder="数量"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <button>add</button>
+                </div>
+            </div>
+
+
+            <div class="publish-basic">
+                <div class="publish-title">
+                    <div class="publish-point-off"></div>
+                    <p>步骤</p>
+                </div>
+                <div class="publish-content">
+                    <p>1</p>
+                    <textarea class="step" type="text" name="step" placeholder="步骤描述"></textarea>
+                    <img src="#" class="step-pic" name="pic" />
+                    <div class="control">
+                        <button>top</button>
+                        <button>up</button>
+                        <button>down</button>
+                        <button>bottom</button>
+                        <button>edit</button>
+                        <button>del</button>
                     </div>
                 </div>
-                <div class="step_btn">
-                    <button class="step_add">添加步骤</button>
-                    <button class="step_add">删除步骤</button>
+                <div class="publish-content">
+                    <p>2</p>
+                    <textarea class="step" type="text" name="step" placeholder="步骤描述"></textarea>
+                    <img src="#" class="step-pic" name="pic" />
+                    <div class="control">
+                        <button>top</button>
+                        <button>up</button>
+                        <button>down</button>
+                        <button>bottom</button>
+                        <button>edit</button>
+                        <button>del</button>
+                    </div>
                 </div>
+                <button class="step-add"></button>
             </div>
+
         </div>
-        <button class="pub_submit">预览</button>
     </div>
-    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
-    <script language="javascript" type="text/javascript" src="script/head.js"></script>
+
+    <script type="text/javascript" src="script/sea.js"></script>
+    <script>
+        seajs.config({
+
+        });
+        seajs.use(['head','publish']);
+    </script>
+
 </body>
 </html>

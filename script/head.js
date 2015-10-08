@@ -83,11 +83,19 @@ $('#header .head-top-search-text-2').focus(function(){
 })
 
 $(function(){
-    var topHeight = $('#head-top-2').offset().top;      //获取头部对于页面顶部的距离
+    var headTop = $('#head-top-2');
+    var topHeight = headTop.offset().top;      //获取头部对于页面顶部的距离
+    var headWidth = headTop.width();
     $(window).scroll(function(){
-        var topScro = $(this).scrollTop();      //获取滚动条距顶部的距离
+        $this = $(this);
+        var topScro = $this.scrollTop();      //获取滚动条距顶部的距离
+        var windowWidth = $this.width();
         if(topScro >= topHeight){
-            $('#head-top-2').css({"position":"fixed","top":0});
+            if(windowWidth >= headWidth){
+                $('#head-top-2').css({"position":"fixed", "top":0, "left":(windowWidth-headWidth)/2});
+            }else if (windowWidth < headWidth){
+                $('#head-top-2').css({"position":"fixed", "top":0,});
+            };
         }else if(topScro < topHeight){
             $('#head-top-2').css({"position":"static"});
         }
