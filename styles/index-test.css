@@ -88,25 +88,3 @@
 .logined-comment-content a{color: #16509C;}
 .logined-comment-content a:hover{color: red;}
 .logined-comment-date{line-height: 20px; width: 200px; float: left; text-align: right; color: #7D7D7D}
-
-/*
-#content{height: 350px; width:1200px; margin-left: auto; margin-right: auto; position: relative; top: 10px;}
-.subject{height: 350px; width: 570px; float: left;}
-.subject_con{height: 350px; width: 480px; position: relative; left:60px; }
-.subject_con_frame{height: 320px; width:480px; position: relative; top: 27px;}
-.subject_con_sub{line-height: 25px; width: 200px; position: absolute; top: 16px; left: 50px; background-color: #F2F2F2; }
-.subject_con_dish{height: 90px; width: 450px; left: 18px; }
-.dish-1{position: absolute; top: 50px; }
-.dish-2{position: absolute; top: 145px; }
-.dish-3{position: absolute; top: 240px; }
-.dish-pic{height: 80px; width: 128px; }
-.dish-detail{height: 90px; width: 266px; }
-.dish-pic-left{position: absolute; left: 10px; top: 5px;}
-.dish-pic-right{position: absolute; right: 10px; top: 5px;}
-.dish-detail-left{position: absolute; right: 20px;}
-.dish-detail-right{position: absolute; left: 20px;}
-.dish-sub{margin-top: 5px; margin-bottom: 5px;}
-.back-change-index{background-color: #DDDDDD;}
-.top5{height: 350px; width: 560px;}
-
-*/
