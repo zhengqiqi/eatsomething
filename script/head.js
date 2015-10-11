@@ -82,6 +82,11 @@ $('#header .head-top-search-text-2').focus(function(){
     }
 })
 
+$('#header .touser').hover(function(){
+    var $this = $(this);
+    $this.find('.touser-menu').removeClass('hide');
+})
+
 $(function(){
     var headTop = $('#head-top-2');
     var topHeight = headTop.offset().top;      //获取头部对于页面顶部的距离

@@ -57,11 +57,18 @@ textarea:focus {
 .control{height: 50px; width: 140px; position: relative; top: -100px; left: 700px;}
 .vertical{line-height: 50px; width: 10px; position: relative; top: -150px; left: 845px; font-size: 20px; color: #D3D3D3;}
 .nologin2, .logined2{position: relative; top: -200px; left: 855px;}
-#header2 li{line-height: 50px; width: 70px; font-size: 15px; padding-right: 0px;}
-#header2 li:hover{color: white; background-color: #3193DD;}
+.conbtn li, .touser, .topublish{line-height: 50px; width: 70px; font-size: 15px; padding-right: 0px; color: #3193DD; }
+.conbtn li:hover{color: white; background-color: #3193DD;}
+.topublish:hover{color: white; background-color: #3193DD;}
+.touser:hover{background-color: #3193DD;}
+.touser-hover{color: white;}
 .conbtn{width: 1px;}
-.user{width: 1px;}
-.aaaaa{z-index: 999;}
+.touser a{font-size: 15px;}
+.touser-menu{width: 100px; background-color: white; position: absolute; top: 50px; left: -10px;}
+.touser-menu li{line-height: 30px; width: 100px;}
+.touser-menu a{font-size: 13px;}
+.touser-menu ul{border-bottom: 1px solid #8CD2ED;}
+.topublish{position: relative; top: -50px; left: 70px;}
 
 
 #footer{height: 100px; width: 1268px; margin-left: auto; margin-right: auto;}
