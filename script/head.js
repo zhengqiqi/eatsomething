@@ -1,7 +1,7 @@
 define(function(require, exports, module) {
 
 var $ = require('jquery');
-var headHtml = 
+/*var headHtml = 
 '<div id="header">'+
     '<div id="head-top-2">'+
         '<a href="./index.html"><div class="head-top-title-2 title-color">做吃的</div></a>'+
@@ -49,7 +49,44 @@ var headHtml =
                 '</div>'+
         '</div>'+
     '</div>'+
-'</div>';
+'</div>';*/
+var headHtml = 
+    '<div id="header">'+
+        '<div class="header-row">'+
+            '<a href="./index.html" class="logo">做吃的</a>'+
+            '<div class="search">'+
+                '<form action="#" method="post">'+
+                    '<input type="text" placeholder="糖醋排骨" />'+
+                    '<button>搜索</button>'+
+                '</form>'+
+            '</div>'+
+            '<div class="conbtn">'+
+                '<ul class="control">'+
+                    '<a href="./index.html"><li>首页</li></a>'+
+                    '<a href="./menu.html"><li>分类大全</li></a>'+
+                '</ul>'+
+                '<div class="vertical">|</div>'+
+                '<ul class="control nologin2 hide">'+
+                    '<a href="./index.html"><li>注册</li></a>'+
+                    '<a href="./index.html"><li>登陆</li></a>'+
+                '</ul>'+
+                '<div class="control logined2">'+
+                    '<div class="touser">'+
+                        '<a href="./cooker-collection.html" class="user">用户名</a>'+
+                        '<div class="touser-menu hide">'+
+                            '<ul>'+
+                                '<a href="./collection.html"><li>我的收藏</li></a>'+
+                                '<a href="./basket-food.html"><li>我的菜篮子</li></a>'+
+                                '<a href="./set.html"><li>设置我的信息</li></a>'+
+                                '<a href="#"><li>退出</li></a>'+
+                            '</ul>'+
+                        '</div>'+
+                    '</div>'+
+                    '<a href="./index.html"><div class="topublish">我要发布</div></a>'+
+                '</div>'+
+            '</div>'+
+        '</div>'+
+    '</div>';
 
 var footerHtml = 
     '<div id="footer">'+
@@ -71,41 +108,41 @@ $('html body').prepend(headHtml);
 
 $('html body').append(footerHtml);
 
-$('#header .head-top-search-text-2').focus(function(){
-    if ($(this).val() == "糖醋排骨"){
-        $(this).addClass('text_focus').val('');
-    }
-}).blur(function(){
-    var $this = $(this);
-    if ($this.val() ==""){
-        $this.val('糖醋排骨').removeClass('text_focus');
-    }
+$(function(){
+    var windowWidth = $(window).width();
+    $('#header').css({"width":windowWidth})
 })
 
 $('#header .touser').hover(function(){
     var $this = $(this);
     $this.find('.touser-menu').removeClass('hide');
+    $this.find('.user').addClass('touser-hover');
+}).mouseleave(function(){
+    var $this = $(this);
+    $this.find('.touser-menu').addClass('hide');
+    $this.find('.user').removeClass('touser-hover');
 })
 
 $(function(){
-    var headTop = $('#head-top-2');
+    var headTop = $('#header');
     var topHeight = headTop.offset().top;      //获取头部对于页面顶部的距离
     var headWidth = headTop.width();
     $(window).scroll(function(){
         $this = $(this);
         var topScro = $this.scrollTop();      //获取滚动条距顶部的距离
-        var windowWidth = $this.width();
+//        var windowWidth = $this.width();
         if(topScro >= topHeight){
-            if(windowWidth >= headWidth){
-                $('#head-top-2').css({"position":"fixed", "top":0, "left":(windowWidth-headWidth)/2});
-            }else if (windowWidth < headWidth){
-                $('#head-top-2').css({"position":"fixed", "top":0,});
-            };
+            $('#header').css({"position":"fixed", "top":0,});
+            $('#content').css({"top": 52});
+//            if(windowWidth >= headWidth){
+//                $('#header').css({"position":"fixed", "top":0, "left":(windowWidth-headWidth)/2});
+//            }else if (windowWidth < headWidth){
+//                $('#header').css({"position":"fixed", "top":0,});
+//            };
         }else if(topScro < topHeight){
-            $('#head-top-2').css({"position":"static"});
+            $('#header').css({"position":"static"});
         }
     })
 })
-
 
 })
