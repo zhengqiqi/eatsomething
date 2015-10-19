@@ -1,7 +1,8 @@
 #head-div{height: 200px; width: 1000px; margin-left: auto; margin-right: auto; position: relative;top: 5px;}
-.cooker-pic{height: 120px; width: 120px; margin-left: auto; margin-right: auto; position: relative; top: 30px;}
+.cooker-pic{height: 120px; width: 120px; margin-left: auto; margin-right: auto; position: relative; top: 15px;}
 .cooker-pic-rel{height: 120px; width: 120px;}
-.cooker-say{line-height: 30px; width: 1000px; position: relative; top: 30px; text-align: center;}
+.cooker-name{line-height: 35px; width: 1000px; position: relative; top: 15px; text-align: center; font-size: 18px; font-weight: bold;}
+.cooker-say{line-height: 30px; width: 1000px; position: relative; top: 10px; text-align: center;}
 
 #head-menu{height: 50px; width: 1000px; margin-left: auto; margin-right: auto; background-color: white;}
 .head-menu-div{height: 50px; width: 600px; margin-left: auto; margin-right: auto;}

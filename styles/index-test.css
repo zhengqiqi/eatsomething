@@ -18,13 +18,13 @@
 
 .subject{height: 415px; width: 570px; float: left;}
 .subject-div{height: 415px; width: 556px; float: left; }
-.subject-sub{line-height: 25px; width: 220px; position: relative; top: -13px; left: 50px; background-color: #F2F2F2; font-size: 15px;}
+.subject-sub{line-height: 25px; width: 220px; position: relative; top: -13px; left: 50px; background-color: #FAFAFA; font-size: 15px;}
 .subject-sub:hover{color: white; background-color: #8CD2ED}
 .subject-con-div{height: 400px; width: 556px; position: relative; top: -13px;}
 .subject-each-div{height: 100px; width: 530px; position: relative; left: 12px;}
-.subject-each-rel-blue{height: 96px; width: 530px; position: relative; top: 2px; background-color: #C4DFF8;}
+.subject-each-rel-blue{height: 96px; width: 530px; position: relative; top: 2px; background-color: #EBEBEB;}
 .subject-each-rel-blue:hover{background-color: #C9C9C9;}
-.subject-each-rel-white{height: 96px; width: 530px; position: relative; top: 2px; background-color: #F2F2F2;}
+.subject-each-rel-white{height: 96px; width: 530px; position: relative; top: 2px; background-color: #FAFAFA;}
 .subject-each-rel-white:hover{background-color: #C9C9C9;}
 .subject-each-pic{height: 80px; width: 128px; }
 .subject-each-pic-left{position: relative; top: 8px; left: 10px; float: left;}
@@ -32,7 +32,7 @@
 .subject-each-con{height: 80px; width: 380px; }
 .subject-each-con-left{position: relative; top: 8px; left: 20px; float: left;}
 .subject-each-con-right{position: relative; top: 8px; left: 10px; float: left;}
-.subject-each-name{line-height: 15px; width: 360px; float: left; text-align: left;}
+.subject-each-name{line-height: 15px; width: 360px; float: left; text-align: left; color: #16509C}
 .subject-each-auther{line-height: 25px;}
 .subject-each-between{line-height: 25px; width: 10px;}
 .subject-each-date{line-height: 25px; width: 100px;}

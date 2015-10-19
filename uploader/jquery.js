@@ -11,7 +11,7 @@
  *
  * Date: 2015-04-28T16:19Z
  */
-define(function(require, exports, module) {
+
 
 (function( global, factory ) {
 
@@ -10350,5 +10350,3 @@ if ( typeof noGlobal === strundefined ) {
 return jQuery;
 
 }));
-
-});

@@ -1,14 +1,13 @@
-#content-detail{width: 1200px; margin-left: auto; margin-right: auto;}
+#content{width: 1000px; margin-left: auto; margin-right: auto; position: relative; top: 10px;}
 
-#pic_comment{height: 730px; width: 480px; float: left;}
-.pic{height: 260px; width: 450px;}
-.pic_rel{height: 250px; width: 400px;  position: relative; top: 9px; left: 25px; }
-.comment{height: 330px; width: 440px;}
-.comment_rel{height: 320px; width: 380px; position: relative; top: 30px; left: 60px;}
-.comment_rel_frame{height: 400px; width: 380px; position: relative; top: 27px;}
+#pic-comment{height: 730px; width: 350px; float: left;}
+.pic{height: 200px; width: 350px;}
+.comment{height: 330px; width: 350px;}
+.comment_rel{height: 320px; width: 350px; position: relative;}
+.comment_rel_frame{height: 400px; width: 350px; position: relative; top: 27px;}
 .comment_rel_sub{line-height: 25px; width: 50px; position: absolute; top: 16px; left: 50px; 
-    background-color: #F6F6F6; color: #8CD2ED; font-size: 15px;}
-.comment_rel_input{height: 50px; width: 360px; position: absolute; top: 40px; left: 10px; color: silver; outline-color: invert; border: 1px solid #DDDDDD;}
+    background-color: #FAFAFA; color: #8CD2ED; font-size: 15px;}
+.comment_rel_input{height: 50px; width: 330px; position: absolute; top: 40px; left: 10px; color: silver; outline-color: invert; border: 1px solid #DDDDDD;}
 .comment_rel_input:focus {
      border: 1px solid #fafafa;
     -webkit-box-shadow: 0px 0px 6px #007eff;
@@ -18,19 +17,19 @@
 .comment_rel_btn{height: 21px; width: 60px; position: absolute; top: 105px; right: 20px; 
     border: none; background-color: #8CD2ED; color: white; text-align: center; border-radius: 3px;}
 .back-change-btn{color: #333;}
-.comment_rel_div{height: 280px; width: 360px; position: absolute; top: 130px; left: 10px;}
+.comment_rel_div{height: 280px; width: 350px; position: absolute; top: 130px; left: 10px;}
 .comment_rel_detail{height: 100px; width: 360px;}
-.comment_content{height: 75px; width: 360px; text-align: left;}
-.comment_img{height: 20px; width: 360px;}
+.comment_content{height: 75px; width: 335px; text-align: left;}
+.comment_img{height: 20px; width: 340px;}
 .comment_auther{height: 20px; width: 100px; float: right; text-align: right;}
 .comment_date{height: 20px; width: 100px; float: right;}
 .comment_ans{height: 20px; width: 50px; float: right; color: #8CD2ED; border-radius: 3px;}
 .back-change-ans{background-color: #8CD2ED; color: white;}
-.comment_line{width: 360px; border: 1px dashed #8CD2ED;}
+.comment_line{width: 330px; border: 1px dashed #8CD2ED;}
 
-#introduce{height: 920px; width: 720px; float: right;}
-.dish_name{line-height: 50px; width: 740px; text-align: left; font-size: 28px;}
-.dish_detail{height: 30px; width: 740px;}
+#introduce{height: 920px; width: 630px; float: right;}
+.dish_name{line-height: 50px; width: 600px; text-align: left; font-size: 28px;}
+.dish_detail{height: 30px; width: 600px;}
 .dish_detail_data{line-height: 30px; width: 90px; float: left; color: #990000;}
 .dish_detail_writer{line-height: 30px; width: 90px; float: left; color: #990000;}
 .dish_detail_good{height: 30px; width: 60px; float: left;}
@@ -40,32 +39,29 @@
 .dish_detail_com_num{line-height: 30px; width: 10px; float: right; color: #990000;}
 .dish_detail_col{height: 30px; width: 50px; float: left;}
 .dish_detail_col_icon{height: 30px; width: 30px; float: right;}
-.dish_intro{height: 140px; width: 740px;}
-.dish_intro_p{height: 120px; width: 690px; text-align: left; font-size: 14px; position: relative; top: 5px;}
-.dish-mat{height: 150px; width: 690px; position: relative;}
-.dish-mat-frame{height: 130px; width: 690px; position: relative; top: 10px; border-radius: 10px;}
-.dish-mat-sub{line-height: 25px; width: 50px; position: absolute; top: 0px; left: 50px; background-color: #F6F6F6;
+.dish_intro{height: 140px; width: 630px;}
+.dish_intro_p{height: 120px; width: 630px; text-align: left; font-size: 14px; position: relative;}
+.dish-mat{height: 150px; width: 630px; position: relative;}
+.dish-mat-frame{height: 130px; width: 630px; position: relative; top: 10px; border-radius: 10px;}
+.dish-mat-sub{line-height: 25px; width: 50px; position: absolute; top: 0px; left: 50px; background-color: #FAFAFA;
     color: #8CD2ED; font-size: 15px;}
-.dish-mat-div{height: 110px; width: 670px; position: absolute; top: 23px; left: 10px;}
-.dish-mat-btn-div{height: 30px; width: 650px;}
+.dish-mat-div{height: 110px; width: 630px; position: absolute; top: 23px;}
+.dish-mat-btn-div{height: 30px; width: 620px;}
 .dish-mat-btn{line-height: 30px; width: 100px; float: right; background-color: #8CD2ED; border-radius: 5px;}
-.dish-mat-main, .dish-mat-less{height: 40px; width: 650px; }
-.dish-mat-info-p{margin: 0; width: 100px; font-weight: bold; float: left;}
+.dish-mat-main, .dish-mat-less{height: 40px; width: 620px; }
+.dish-mat-info-p{margin: 0; width: 50px; font-weight: bold; float: left;}
 .dish-mat-each{height:40px; width: 120px; float: left; }
 .dish-mat-name{height: 40px; width: 60px; float: left; text-align: right;}
 .dish-mat-num{height: 40px; width: 45px; float: right; text-align: left;}
 
-.dish_step{height: 200px; width: 690px;}
+.dish_step{height: 160px; width: 630px;}
 .dish_step_num{height: 50px; width: 30px; float: left; text-align: left; font-size: 18px; color: #990000;}
-.dish_step_pic{height: 170px; width: 272px; position: relative; top: 15px; left: 5px; float: left;}
-.dish_step_con{height: 170px; width: 350px; position: relative; top: 15px; left: 25px; float: left; text-align: left; font-size: 13px; color: #99000;}
+.dish_step_pic{height: 125px; width: 200px; position: relative; top: 15px; left: 5px; float: left;}
+.dish_step_con{height: 125px; width: 390px; position: relative; top: 15px; left: 25px; float: left; text-align: left; font-size: 13px; color: #99000;}
 .dish-tips{height: 140px; width: 690px; position: relative;}
 .dish-tips-frame{height: 100px; width: 690px; position: relative; top: 10px; border-radius: 10px;}
-.dish-tips-sub{line-height: 25px; width: 50px; position: absolute; top: 0px; left: 50px; background-color: #F6F6F6;
+.dish-tips-sub{line-height: 25px; width: 50px; position: absolute; top: 0px; left: 50px; background-color: #FAFAFA;
     color: #8CD2ED; font-size: 15px;}
 .dish-tips-div{height: 80px; width: 660px; position: absolute; top: 25px; left: 15px; vertical-align: middle;}
 .dish-tips-p{width: 670px; text-align: left;}
-.dish_show{height: 500px; width: 690px;}
-.dish_show_name{height: 40px; width: 80px; float: left; color: #990000; font-size: 18px; font-weight: bold;}
-.dish_show_pic{height: 350px; width: 560px; position: relative; top: 50px;}
 
